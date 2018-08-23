@@ -1,0 +1,50 @@
+This is pBibTeX, Version 0.99d-j0.33 (utf8.euc) (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: SOP.aux
+The style file: junsrt.bst
+Database file #1: SOP.bib
+Warning--I didn't find a database entry for "Fausti"
+Warning--empty chapter and pages in Barklow
+You've used 5 entries,
+            2270 wiz_defined-function locations,
+            579 strings with 5009 characters,
+and the built_in function-call counts, 1746 in all, are:
+= -- 131
+> -- 62
+< -- 7
++ -- 24
+- -- 19
+* -- 94
+:= -- 217
+add.period$ -- 15
+call.type$ -- 5
+change.case$ -- 4
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 111
+empty$ -- 157
+format.name$ -- 38
+if$ -- 429
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 7
+newline$ -- 28
+num.names$ -- 5
+pop$ -- 35
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 86
+stack$ -- 0
+substring$ -- 78
+swap$ -- 36
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 12
+width$ -- 6
+write$ -- 56
+is.kanji.str$ -- 64
+(There were 2 warnings)
