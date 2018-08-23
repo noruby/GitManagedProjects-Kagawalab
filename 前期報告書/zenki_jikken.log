@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  20 AUG 2018 09:31
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  23 AUG 2018 15:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -203,27 +203,27 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 30.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 30.
+(Font)              scaled to size 9.60999pt on input line 25.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 30.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 30.
+(Font)              scaled to size 9.60999pt on input line 25.
 
 
-LaTeX Warning: Citation `Fausti' on page 2 undefined on input line 30.
+LaTeX Warning: Citation `Fausti' on page 2 undefined on input line 25.
 
 File: sample.eps Graphic file (type eps)
 <sample.eps>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 41.
+(Font)              scaled to size 8.64899pt on input line 37.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 41.
+(Font)              scaled to size 8.64899pt on input line 37.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 45.
+(Font)              scaled to size 11.53198pt on input line 41.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 45.
+(Font)              scaled to size 11.53198pt on input line 41.
 File: microscope.eps Graphic file (type eps)
 <microscope.eps>
 [2] [3]
@@ -232,12 +232,12 @@ File: resistance250-300.eps Graphic file (type eps)
 File: xy.eps Graphic file (type eps)
 <xy.eps>
 
-Overfull \hbox (1.98634pt too wide) in paragraph at lines 99--100
+Overfull \hbox (1.98634pt too wide) in paragraph at lines 95--96
  [] 
  []
 
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 90--104
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 86--100
 [][]$[]$[] []$[]$[] 
  []
 
@@ -266,22 +266,22 @@ File: hv250.eps Graphic file (type eps)
 File: vh250_subtractedby_hv250.eps Graphic file (type eps)
 <vh250_subtractedby_hv250.eps>
 
-Overfull \hbox (3.96637pt too wide) in paragraph at lines 107--191
+Overfull \hbox (3.96637pt too wide) in paragraph at lines 103--187
 [][]$[]$[] []$[]$[] []$[]$[]
  []
 
 
-Overfull \hbox (3.96637pt too wide) in paragraph at lines 107--191
+Overfull \hbox (3.96637pt too wide) in paragraph at lines 103--187
 []$[]$[] []$[]$[] []$[]$[]
  []
 
 
-Overfull \hbox (3.96637pt too wide) in paragraph at lines 107--191
+Overfull \hbox (3.96637pt too wide) in paragraph at lines 103--187
 []$[]$[] []$[]$[] []$[]$[]
  []
 
 
-Overfull \hbox (3.96637pt too wide) in paragraph at lines 107--191
+Overfull \hbox (3.96637pt too wide) in paragraph at lines 103--187
 []$[]$[] []$[]$[] []$[]$[] 
  []
 
@@ -305,25 +305,25 @@ File: nonpol250_2.eps Graphic file (type eps)
 File: nonpol300_2.eps Graphic file (type eps)
 <nonpol300_2.eps>
 
-Overfull \hbox (3.96637pt too wide) in paragraph at lines 228--277
+Overfull \hbox (3.96637pt too wide) in paragraph at lines 224--273
 [][]$[]$[] []$[]$[] []$[]$[]
  []
 
 
-Overfull \hbox (3.96637pt too wide) in paragraph at lines 228--277
+Overfull \hbox (3.96637pt too wide) in paragraph at lines 224--273
 []$[]$[] []$[]$[] []$[]$[]
  []
 
 [5]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 326.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 322.
 
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 326.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 322.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 326.
+(Font)              scaled to size 6.72699pt on input line 322.
 File: PPMS.eps Graphic file (type eps)
 <PPMS.eps>
 File: microscope2.eps Graphic file (type eps)
@@ -334,7 +334,7 @@ File: without_diffuser.eps Graphic file (type eps)
 File: with_diffuser.eps Graphic file (type eps)
 <with_diffuser.eps>
 
-Overfull \hbox (7.22221pt too wide) in paragraph at lines 389--404
+Overfull \hbox (7.22221pt too wide) in paragraph at lines 385--400
 []\OT1/cmr/m/n/10 ] []$[]$[] []$[]$[] 
  []
 
@@ -351,7 +351,7 @@ File: BS_R.eps Graphic file (type eps)
 File: BS_T2R.eps Graphic file (type eps)
 <BS_T2R.eps>
 
-LaTeX Warning: Float too large for page by 4.53296pt on input line 478.
+LaTeX Warning: Float too large for page by 4.53296pt on input line 474.
 
 [8]
 File: objective_2.eps Graphic file (type eps)
@@ -359,14 +359,14 @@ File: objective_2.eps Graphic file (type eps)
 File: microscope3.eps Graphic file (type eps)
 <microscope3.eps>
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 518.
+(Font)              scaled to size 6.72699pt on input line 514.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 4.805pt on input line 518.
+(Font)              scaled to size 4.805pt on input line 514.
  [9] [10]
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 612.
+(Font)              scaled to size 7.68799pt on input line 608.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 612.
+(Font)              scaled to size 5.76599pt on input line 608.
  [11] [12] [13] [14] Excluding 'comment' comment.
 (./zenki_jikken.bbl
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
@@ -392,4 +392,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  25i,12n,23p,1301b,364s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on zenki_jikken.dvi (25 pages, 95172 bytes).
+Output written on zenki_jikken.dvi (25 pages, 95908 bytes).
