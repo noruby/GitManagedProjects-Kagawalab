@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  23 AUG 2018 13:37
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  23 AUG 2018 11:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -149,7 +149,7 @@ LaTeX Info: Redefining \cite on input line 15.
 LaTeX Warning: Unused global option(s):
     [a4,10truept].
 
-(./OPJ_draft.aux)
+No file OPJ_draft.aux.
 \openout1 = `OPJ_draft.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -168,7 +168,6 @@ LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
@@ -286,44 +285,51 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <12.5> not available
 
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 42.
-File: schematic.eps Graphic file (type eps)
-<schematic.eps> [1
-
-]
-File: propagation_length.eps Graphic file (type eps)
- <propagation_length.eps>
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 67.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 67.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 67.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 67.
-File: morphology.eps Graphic file (type eps)
- <morphology.eps>
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 93.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <7> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 93.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 93.
+(Font)              scaled to size 6.72699pt on input line 42.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <7> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 93.
- [2]
-(./OPJ_draft.aux)
+(Font)              scaled to size 6.72699pt on input line 42.
 
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.5pt have occurred.
+LaTeX Warning: Citation `McMullen' on page 1 undefined on input line 42.
 
- ) 
+
+LaTeX Warning: Citation `Schlesinger1' on page 1 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Schlesinger2' on page 1 undefined on input line 42.
+
+
+LaTeX Warning: File `schematic.eps' not found on input line 51.
+
+
+./OPJ_draft.tex:51: LaTeX Error: File `schematic.eps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ...ludegraphics[width=\hsize]{schematic.eps}}
+                                                  
+? 
+./OPJ_draft.tex:51: Emergency stop.
+ ...                                              
+                                                  
+l.51 ...ludegraphics[width=\hsize]{schematic.eps}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
 Here is how much of TeX's memory you used:
- 1942 strings out of 493281
- 25243 string characters out of 6145041
- 101791 words of memory out of 5000000
- 5872 multiletter control sequences out of 15000+600000
- 19150 words of font info for 88 fonts, out of 8000000 for 9000
+ 1899 strings out of 493281
+ 24804 string characters out of 6145041
+ 100746 words of memory out of 5000000
+ 5845 multiletter control sequences out of 15000+600000
+ 15904 words of font info for 76 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 25i,7n,31p,594b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-Output written on OPJ_draft.dvi (2 pages, 12116 bytes).
+ 25i,7n,31p,581b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.

@@ -11,21 +11,39 @@ M.~H. Anderson, J.~R. Ensher, M.~R. Matthews, C.~E. Wieman, and E.~A. Cornell.
 \newblock Observation of bose-einstein condensation in a dilute atomic vapor.
 \newblock {\em Science}, Vol. 269, No. 5221, pp. 198--201, 1995.
 
+\bibitem{ketterle}
+W.~Ketterle, D.~S. Durfee, and D.~M. Stamper-Kurn.
+\newblock Making, probing and understanding bose-einstein condensates.
+\newblock Proceedings of the international school of physics ”Enrico Fermi”,
+  1999.
+
 \bibitem{Yoshioka}
-Kosuke Yoshioka, Eunmi Chae, and Makoto Kuwata-Gonokami.
+K.~Yoshioka, E.~Chae, and M.~Kuwata-Gonokami.
 \newblock Transition to a bose--einstein condensate and relaxation explosion of
   excitons at sub-kelvin temperatures.
 \newblock {\em Nature communications}, Vol.~2, p. 328, 2011.
 
-\bibitem{Als-Nielsen}
-J.~Als-Nielsen and D.~McMorrow.
-\newblock {\em Elements of Modern X-ray Physics}.
-\newblock John Wiley \& Sons, Ltd, 2nd edition, 2011.
+\bibitem{Blatt}
+John~M. Blatt, K.~W. B\"oer, and Werner Brandt.
+\newblock Bose-einstein condensation of excitons.
+\newblock {\em Phys. Rev.}, Vol. 126, pp. 1691--1692, Jun 1962.
 
-\bibitem{Barklow}
-T.~Barklow, et~al.
-\newblock {\em Electroweak Symmetry Breaking and New Physics at the {T}e{V}
-  Scale}.
-\newblock World Scientific, 1996.
+\bibitem{David}
+David S. and G.~M. Kavoulakis.
+\newblock Bose-einstein condensation of excitons in $\mathrm{Cu_2O}$: progress
+  over 30 years.
+\newblock {\em Reports on Progress in Physics}, Vol.~77, No.~11, p. 116501,
+  2014.
+
+\bibitem{Hiramatsu}
+N.~Hiramatsu, F.~Kusa, K.~Imasaka, I.~Morichika, A.~Takegami, and S.~Ashihara.
+\newblock Propagation length of mid-infrared surface plasmon polaritons on
+  gold: Impact of morphology change by thermal annealing.
+\newblock {\em Journal of Applied Physics}, Vol. 120, No.~17, p. 173103, 2016.
+
+\bibitem{Etschmaier}
+H.~Etschmaier, N.~Hiramatsu, and O.~Synooka.
+\newblock Integrated smoke detection device.
+\newblock {\em European Patent: EP3319057A1}, 5 2018.
 
 \end{thebibliography}

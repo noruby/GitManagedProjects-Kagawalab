@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  23 AUG 2018 14:39
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  24 AUG 2018 09:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -201,52 +201,37 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 26.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 26.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 39.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 39.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 39.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 39.
-
-LaTeX Warning: Citation `Fausti' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Citation `2D_SC' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Citation `Valla1914' on page 1 undefined on input line 39.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 41.
+(Font)              <7> on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 41.
+(Font)              <5> on input line 28.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 41.
+(Font)              scaled to size 6.72699pt on input line 28.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 41.
-
-LaTeX Warning: Citation `IrTe2Pd_SC' on page 1 undefined on input line 42.
-
-
-LaTeX Warning: Citation `SC_IrTe2' on page 1 undefined on input line 42.
-
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 44.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 44.
+(Font)              scaled to size 4.805pt on input line 28.
 [1
 
 ]
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 56.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 56.
+File: poster_submitted.pdf Graphic file (type pdf)
+<poster_submitted.pdf>
 
-LaTeX Warning: Reference `fig:brilliance' on page 2 undefined on input line 61.
+Overfull \hbox (23.37202pt too wide) in paragraph at lines 65--66
+ [] 
+ []
 
-
-
-LaTeX Warning: Citation `Fausti' on page 2 undefined on input line 71.
-
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 67.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 67.
 (./SOP.bbl
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 7.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 7.
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
@@ -257,21 +242,14 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 7.
 ) 
 AED: lastpage setting LastPage
-[2] (./SOP.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[2] [3] (./SOP.aux) ) 
 Here is how much of TeX's memory you used:
- 1555 strings out of 493281
- 20373 string characters out of 6145041
- 96954 words of memory out of 5000000
- 5504 multiletter control sequences out of 15000+600000
- 14636 words of font info for 65 fonts, out of 8000000 for 9000
+ 1566 strings out of 493281
+ 20526 string characters out of 6145041
+ 98978 words of memory out of 5000000
+ 5511 multiletter control sequences out of 15000+600000
+ 14698 words of font info for 66 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 25i,11n,43p,591b,289s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 26i,10n,43p,601b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on SOP.dvi (2 pages, 9224 bytes).
+Output written on SOP.dvi (3 pages, 12260 bytes).
