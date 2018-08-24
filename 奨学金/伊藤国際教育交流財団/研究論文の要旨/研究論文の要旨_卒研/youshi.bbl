@@ -1,28 +1,29 @@
 \begin{thebibliography}{1}
 
+\bibitem{IrTe_TT3}
+C.~Chen, J.~Kim, Y.~Yang, G.~Cao, R.~Jin, and E.~W. Plummer.
+\newblock Surface phases of the transition-metal dichalcogenide
+  $\mathrm{IrT}{\mathrm{e}}_{2}$.
+\newblock {\em Physical Review B}, 95:094118, Mar 2017.
+
 \bibitem{Fausti}
 D.~Fausti, R.~I. Tobey, N.~Dean, S.~Kaiser, A.~Dienst, M.~C. Hoffmann, S.~Pyon,
   T.~Takayama, H.~Takagi, and A.~Cavalleri.
 \newblock Light-induced superconductivity in a stripe-ordered cuprate.
-\newblock {\em Science}, Vol. 331, No. 6014, pp. 189--191, 2011.
+\newblock {\em Science}, 331(6014):189--191, 2011.
+
+\bibitem{IrTe_TT4}
+P.-J. Hsu, T.~Mauerer, M.~Vogt, J.~J. Yang, Y.~S. Oh, S.-W. Cheong, M.~Bode,
+  and W.~Wu.
+\newblock Hysteretic melting transition of a soliton lattice in a commensurate
+  charge modulation.
+\newblock {\em Physical Review Letters}, 111:266401, Dec 2013.
 
 \bibitem{2D_SC}
 Q.~Li, M.~H\"ucker, G.~D. Gu, A.~M. Tsvelik, and J.~M. Tranquada.
 \newblock Two-dimensional superconducting fluctuations in stripe-ordered ${{\rm
   La}_{1.875}{\rm Ba}_{0.125}{\rm CuO}_{4}}$.
-\newblock {\em Phys. Rev. Lett.}, Vol.~99, p. 067001, Aug 2007.
-
-\bibitem{Valla1914}
-T.~Valla, A.~V. Fedorov, Jinho Lee, J.~C. Davis, and G.~D. Gu.
-\newblock The ground state of the pseudogap in cuprate superconductors.
-\newblock {\em Science}, Vol. 314, No. 5807, pp. 1914--1916, 2006.
-
-\bibitem{IrTe2Pd_SC}
-J.~J. Yang, Y.~J. Choi, Y.~S. Oh, A.~Hogan, Y.~Horibe, K.~Kim, B.~I. Min, and
-  S-W. Cheong.
-\newblock Charge-orbital density wave and superconductivity in the strong
-  spin-orbit coupled ${\mathrm{irte}}_{2}\ensuremath{\mathbin:}\mathrm{Pd}$.
-\newblock {\em Phys. Rev. Lett.}, Vol. 108, p. 116402, Mar 2012.
+\newblock {\em Physical Review Letters}, 99:067001, Aug 2007.
 
 \bibitem{SC_IrTe2}
 H.~Oike, M.~Kamitani, Y.~Tokura, and F.~Kagawa.
@@ -30,17 +31,16 @@ H.~Oike, M.~Kamitani, Y.~Tokura, and F.~Kagawa.
   order.
 \newblock {\em Sciece Advances (accepted)}, 2018.
 
-\bibitem{IrTe_TT3}
-C.~Chen, J.~Kim, Y.~Yang, G.~Cao, R.~Jin, and E.~W. Plummer.
-\newblock Surface phases of the transition-metal dichalcogenide
-  $\mathrm{IrT}{\mathrm{e}}_{2}$.
-\newblock {\em Phys. Rev. B}, Vol.~95, p. 094118, Mar 2017.
+\bibitem{Valla1914}
+T.~Valla, A.~V. Fedorov, J.~Lee, J.~C. Davis, and G.~D. Gu.
+\newblock The ground state of the pseudogap in cuprate superconductors.
+\newblock {\em Science}, 314(5807):1914--1916, 2006.
 
-\bibitem{IrTe_TT4}
-P.-J. Hsu, T.~Mauerer, M.~Vogt, J.~J. Yang, Y.~S. Oh, S.-W. Cheong, M.~Bode,
-  and W.~Wu.
-\newblock Hysteretic melting transition of a soliton lattice in a commensurate
-  charge modulation.
-\newblock {\em Phys. Rev. Lett.}, Vol. 111, p. 266401, Dec 2013.
+\bibitem{IrTe2Pd_SC}
+J.~J. Yang, Y.~J. Choi, Y.~S. Oh, A.~Hogan, Y.~Horibe, K.~Kim, B.~I. Min, and
+  S.-W. Cheong.
+\newblock Charge-orbital density wave and superconductivity in the strong
+  spin-orbit coupled ${\mathrm{irte}}_{2}\ensuremath{\mathbin:}\mathrm{Pd}$.
+\newblock {\em Physical Review Letters}, 108:116402, Mar 2012.
 
 \end{thebibliography}

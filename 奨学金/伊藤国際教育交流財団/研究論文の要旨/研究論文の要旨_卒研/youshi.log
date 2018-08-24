@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  24 AUG 2018 01:37
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  24 AUG 2018 14:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -295,10 +295,10 @@ AED: lastpage setting LastPage
 Here is how much of TeX's memory you used:
  2708 strings out of 493281
  41135 string characters out of 6145041
- 122021 words of memory out of 5000000
+ 121021 words of memory out of 5000000
  6642 multiletter control sequences out of 15000+600000
  16137 words of font info for 71 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  36i,10n,43p,591b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on youshi.dvi (3 pages, 14924 bytes).
+Output written on youshi.dvi (3 pages, 14860 bytes).
