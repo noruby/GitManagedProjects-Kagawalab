@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  23 AUG 2018 19:35
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  24 AUG 2018 21:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -349,10 +349,10 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  2161 strings out of 493281
  28272 string characters out of 6145041
- 107569 words of memory out of 5000000
+ 107589 words of memory out of 5000000
  6069 multiletter control sequences out of 15000+600000
  23364 words of font info for 100 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  28i,11n,43p,595b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on OPJ_draft2.dvi (2 pages, 12212 bytes).
+Output written on OPJ_draft2.dvi (2 pages, 12268 bytes).
