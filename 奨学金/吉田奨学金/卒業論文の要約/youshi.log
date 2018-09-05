@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  24 AUG 2018 21:45
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  6 SEP 2018 03:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -105,19 +105,27 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \CommentStream=\write3
 
 Excluding comment 'comment')
+(/usr/local/texlive/2018/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen134
+\WF@size=\dimen135
+\c@WF@wrappedlines=\count95
+\WF@box=\box43
+\WF@everypar=\toks17
+Package: wrapfig 2003/01/31  v 3.6
+)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen134
-\captionmargin@=\dimen135
-\captionwidth=\dimen136
-\caption@tempdima=\dimen137
-\caption@indent=\dimen138
-\caption@parindent=\dimen139
-\caption@hangindent=\dimen140
+\captionmargin=\dimen136
+\captionmargin@=\dimen137
+\captionwidth=\dimen138
+\caption@tempdima=\dimen139
+\caption@indent=\dimen140
+\caption@parindent=\dimen141
+\caption@hangindent=\dimen142
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 )
@@ -130,11 +138,12 @@ Package caption Info: \@makecaption = \long macro:#1#2->{\small \advance \lefts
 kip .0628\linewidth \advance \rightskip .0628\linewidth \vskip \abovecaptionski
 p \sbox \@tempboxa {#1\hskip 1zw\relax #2}\ifdim \wd \@tempboxa <\hsize \center
 ing \fi #1\hskip 1zw\relax #2\par \vskip \belowcaptionskip }.
-\c@ContinuedFloat=\count95
+\c@ContinuedFloat=\count96
+Package caption Info: wrapfig package is loaded.
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
-\c@subfigure=\count96
-\c@subtable=\count97
+\c@subfigure=\count97
+\c@subtable=\count98
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
@@ -155,22 +164,22 @@ Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 (./youshi.aux)
 \openout1 = `youshi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
@@ -210,95 +219,98 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 27.
+(lastpage)             ! on input line 28.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 28.
+(Font)              scaled to size 16.60605pt on input line 29.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 28.
+(Font)              scaled to size 16.60605pt on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 28.
+(Font)              <17.28> on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 28.
+(Font)              <12> on input line 29.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 28.
+(Font)              scaled to size 11.53198pt on input line 29.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 28.
+(Font)              scaled to size 11.53198pt on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 28.
+(Font)              <8> on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 28.
+(Font)              <6> on input line 29.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 28.
+(Font)              scaled to size 5.76599pt on input line 29.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 32.
+(Font)              scaled to size 13.83836pt on input line 33.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 32.
+(Font)              scaled to size 13.83836pt on input line 33.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 32.
+(Font)              scaled to size 13.83836pt on input line 33.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 32.
+(Font)              scaled to size 13.83836pt on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 38.
+(Font)              <14.4> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 38.
+(Font)              <7> on input line 33.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 38.
+(Font)              scaled to size 6.72699pt on input line 33.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 35.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 38.
-[1
-
-]
+(Font)              scaled to size 4.805pt on input line 35.
 File: resistance50-300.eps Graphic file (type eps)
 <resistance50-300.eps>
+
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 49--51
+ [] 
+ []
+
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 61.
+(Font)              scaled to size 8.64899pt on input line 52.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 61.
+(Font)              scaled to size 8.64899pt on input line 52.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 61.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 61.
+(Font)              scaled to size 8.64899pt on input line 52.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 61.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 61.
+(Font)              scaled to size 8.64899pt on input line 52.
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+60.
+
 File: nonpolv250.eps Graphic file (type eps)
 <nonpolv250.eps>
 File: nonpolv100.eps Graphic file (type eps)
 <nonpolv100.eps>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 65--79
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 61--75
 [][]$[]$[] []$[]$[] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 79.
+(Font)              <9> on input line 75.
+[1
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2] (./youshi.bbl
+]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 7.
+(Font)              scaled to size 9.60999pt on input line 93.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 7.
-LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 7.
-LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 7.
-) 
+(Font)              scaled to size 9.60999pt on input line 93.
+ 
 AED: lastpage setting LastPage
-[3] (./youshi.aux) ) 
+[2] (./youshi.aux) ) 
 Here is how much of TeX's memory you used:
- 2708 strings out of 493281
- 41135 string characters out of 6145041
- 122021 words of memory out of 5000000
- 6642 multiletter control sequences out of 15000+600000
- 16137 words of font info for 71 fonts, out of 8000000 for 9000
+ 2756 strings out of 493281
+ 41843 string characters out of 6145041
+ 121667 words of memory out of 5000000
+ 6689 multiletter control sequences out of 15000+600000
+ 16714 words of font info for 73 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 36i,10n,43p,591b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,10n,43p,587b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on youshi.dvi (3 pages, 14960 bytes).
+Output written on youshi.dvi (2 pages, 11576 bytes).
