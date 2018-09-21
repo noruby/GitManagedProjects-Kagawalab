@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  12 SEP 2018 03:50
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  12 SEP 2018 05:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -192,36 +192,36 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 32.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 35.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 35.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 36.
+(Font)              <7> on input line 37.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 36.
+(Font)              <5> on input line 37.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 41.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 41.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 41.
+(Font)              <14.4> on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 43.
+(Font)              <10.95> on input line 44.
 File: resistance50-300.eps Graphic file (type eps)
 <resistance50-300.eps>
 
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 55--57
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 56--58
  [] 
  []
 
 
-Underfull \hbox (badness 3019) in paragraph at lines 58--58
+Underfull \hbox (badness 3019) in paragraph at lines 59--59
 [][]|\OT1/cmr/m/n/10 Tem-per-a-ture de-pen-dent re-sis-tance of
  []
 
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-66.
+67.
 
 File: nonpolv250.eps Graphic file (type eps)
 <nonpolv250.eps>
@@ -237,9 +237,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 104.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 105.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 104.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 105.
  
 AED: lastpage setting LastPage
 [2] (./youshi.aux) ) 
@@ -252,4 +252,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  36i,10n,43p,587b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on youshi.dvi (2 pages, 12376 bytes).
+Output written on youshi.dvi (2 pages, 12396 bytes).
