@@ -1,7 +1,7 @@
 png("plot.png", width = 600, height = 500)  # 描画デバイスを開く
 
-XLIM<-c(130.0,400.0)
-YLIM<-c(0,0.13)
+XLIM<-c(300.0,380.0)
+YLIM<-c(0,0.04)
 data1 <- read.csv("181120_heating_sample2ch2_001.csv",header=F)
 plot(data.frame(data1[2],data1[5]),xlim=XLIM,ylim=YLIM,xlab="Temperature(K)",ylab="Resistance (Ohm)",type="p",col="red",cex=0.1)
 par(new=TRUE) #
@@ -15,3 +15,4 @@ data4 <- read.csv("test_ch2_009.csv",header=F)
 plot(data.frame(data4[2],data4[5]*2),xlim=XLIM,ylim=YLIM,xlab="",ylab="",type="p",col="red",cex=0.1)
 
 dev.off()  
+#cd Documents/GitManagedProjects-Kagawalab/研究/抵抗測定/
