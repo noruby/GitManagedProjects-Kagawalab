@@ -4,6 +4,7 @@ XLIM<-c(-1,9)
 YLIM<-c(0,1)
 TT<-3/(6.03899E-05-2.52597E-05)
 data2 <- read.csv("181213_SnGe6_1-2.csv",skip=9)
+data2[2]*TT
 plot(data.frame((data2[1]-1.52832E-05)*TT,data2[2]/(data2[3]/5.4)),xlim=XLIM,ylim=YLIM,xlab="",ylab="",type="l",col="blue",cex=0.1)
 par(new=TRUE) #
 data5 <- read.csv("181213_SnGe6_1-5.csv",skip=9)
@@ -24,4 +25,4 @@ legend("topleft", col=c("blue","green","gold","violet","red","black"), legend=c(
 
 dev.off()  
 
-#cd Documents/GitManagedProjects-Kagawalab/研究/抵抗測定/,xlim=XLIM,ylim=YLIM
+#cd Documents/GitManagedProjects-Kagawalab/研究/抵抗測定/
