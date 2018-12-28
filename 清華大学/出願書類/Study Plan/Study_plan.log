@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  19 DEC 2018 09:08
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  19 DEC 2018 09:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -186,10 +186,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  2657 strings out of 493281
  34092 string characters out of 6145041
- 134407 words of memory out of 5000000
+ 135447 words of memory out of 5000000
  6618 multiletter control sequences out of 15000+600000
  9994 words of font info for 40 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 26i,4n,25p,565b,223s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 26i,4n,25p,559b,223s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Study_plan.dvi (1 page, 6240 bytes).
+Output written on Study_plan.dvi (1 page, 6244 bytes).
