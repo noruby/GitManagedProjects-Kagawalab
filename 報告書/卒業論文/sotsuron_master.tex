@@ -1,0 +1,45 @@
+\documentclass[11pt,a4paper]{jsarticle}
+
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{graphicx}
+\usepackage[top=20truemm,bottom=20truemm,left=25truemm,right=25truemm]{geometry}
+\usepackage{comment}
+
+\title{パルス加熱・急冷を用いた半導体スズと超伝導スズの不揮発変換}
+\author{東京大学工学部物理工学科　賀川研究室 平松信義}
+\date{\today}
+\begin{document}
+\maketitle
+
+\tableofcontents
+\newpage
+
+\input introduction.tex
+\input experiment.tex
+\input result_discussion_Sn.tex
+\input optics.tex
+\input conclusion.tex
+
+\input acknowledgements.tex
+
+\newpage
+\appendix
+\input microscopy_appendix.tex
+\input reflectance_appendix.tex
+\input terminals_appendix.tex
+
+%\section{Optimization of the sputtering condition}
+%\subsection{Substrate temperature and the density of Argon gas}
+%Thornton 
+%\subsection{Thickness of tin films}
+%\subsection{InSb}
+%\subsection{Voltage to }
+
+\bibliography{sotsuron.bib}
+\bibliographystyle{junsrt}
+
+\end{document}
+%コンパイルの仕方
+%1. texファイルを一回コンパイル
+%2. bibファイルを一回コンパイル
+%3. texファイルを三回コンパイル
