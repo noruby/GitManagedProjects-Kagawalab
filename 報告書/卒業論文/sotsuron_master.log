@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  7 JAN 2019 03:04
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  10 JAN 2019 23:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -195,241 +195,56 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 2.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 4.805pt on input line 2.
- [1
-
-])
+)
 \tf@toc=\write4
 \openout4 = `sotsuron_master.toc'.
 
- [2] (./introduction.tex
+ [1
+
+] (./introduction/introduction.tex
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 7.
+(Font)              scaled to size 11.53198pt on input line 2.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 7.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 14.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 14.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 14.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 14.
-
-
-LaTeX Warning: Citation `Fausti' on page 3 undefined on input line 14.
-
-
-LaTeX Warning: Citation `SC_IrTe2' on page 3 undefined on input line 15.
-
-) (./experiment.tex
-File: sample.eps Graphic file (type eps)
-<sample.eps>
+(Font)              scaled to size 11.53198pt on input line 2.
+File: Introduction/phase_diagram.eps Graphic file (type eps)
+<Introduction/phase_diagram.eps>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 9.
+(Font)              scaled to size 8.64899pt on input line 10.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 9.
-File: microscope.eps Graphic file (type eps)
-<microscope.eps>
- [3] [4]) (./result_discussion_Sn.tex) (./optics.tex
+(Font)              scaled to size 8.64899pt on input line 10.
+File: Introduction/phase_diagram2.eps Graphic file (type eps)
+<Introduction/phase_diagram2.eps>
+ [2]
+File: experiment/group14.eps Graphic file (type eps)
+<experiment/group14.eps>
+File: experiment/bandgaps.eps Graphic file (type eps)
+<experiment/bandgaps.eps>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 1.
+(Font)              <9> on input line 49.
 
-[5]
-File: resistance250-300.eps Graphic file (type eps)
-<resistance250-300.eps>
-File: xy.eps Graphic file (type eps)
-<xy.eps>
-
-Overfull \hbox (1.98634pt too wide) in paragraph at lines 41--42
- [] 
- []
-
-
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 32--46
-[][]$[]$[] []$[]$[] 
- []
-
-File: nonpol300.eps Graphic file (type eps)
-<nonpol300.eps>
-File: hh300.eps Graphic file (type eps)
-<hh300.eps>
-File: vv300.eps Graphic file (type eps)
-<vv300.eps>
-File: vh300.eps Graphic file (type eps)
-<vh300.eps>
-File: hv300.eps Graphic file (type eps)
-<hv300.eps>
-File: vh300_subtractedby_hv300.eps Graphic file (type eps)
-<vh300_subtractedby_hv300.eps>
-File: nonpol250.eps Graphic file (type eps)
-<nonpol250.eps>
-File: hh250.eps Graphic file (type eps)
-<hh250.eps>
-File: vv250.eps Graphic file (type eps)
-<vv250.eps>
-File: vh250.eps Graphic file (type eps)
-<vh250.eps>
-File: hv250.eps Graphic file (type eps)
-<hv250.eps>
-File: vh250_subtractedby_hv250.eps Graphic file (type eps)
-<vh250_subtractedby_hv250.eps>
-
-Overfull \hbox (3.96637pt too wide) in paragraph at lines 49--133
-[][]$[]$[] []$[]$[] []$[]$[]
- []
-
-
-Overfull \hbox (3.96637pt too wide) in paragraph at lines 49--133
-[]$[]$[] []$[]$[] []$[]$[]
- []
-
-
-Overfull \hbox (3.96637pt too wide) in paragraph at lines 49--133
-[]$[]$[] []$[]$[] []$[]$[]
- []
-
-
-Overfull \hbox (3.96637pt too wide) in paragraph at lines 49--133
-[]$[]$[] []$[]$[] []$[]$[] 
- []
-
-File: nonpol250_profile.eps Graphic file (type eps)
-<nonpol250_profile.eps>
-[6] [7]
-File: resistance50-300.eps Graphic file (type eps)
-<resistance50-300.eps>
-File: nonpolv250.eps Graphic file (type eps)
-<nonpolv250.eps>
-File: nonpolv100.eps Graphic file (type eps)
-<nonpolv100.eps>
-File: nonpolv50.eps Graphic file (type eps)
-<nonpolv50.eps>
-File: nonpol50_2.eps Graphic file (type eps)
-<nonpol50_2.eps>
-File: nonpol150_2.eps Graphic file (type eps)
-<nonpol150_2.eps>
-File: nonpol250_2.eps Graphic file (type eps)
-<nonpol250_2.eps>
-File: nonpol300_2.eps Graphic file (type eps)
-<nonpol300_2.eps>
-
-Overfull \hbox (3.96637pt too wide) in paragraph at lines 170--219
-[][]$[]$[] []$[]$[] []$[]$[]
- []
-
-
-Overfull \hbox (3.96637pt too wide) in paragraph at lines 170--219
-[]$[]$[] []$[]$[] []$[]$[]
- []
-
-
-LaTeX Warning: Citation `reflectance_IrTe2' on page 8 undefined on input line 2
-57.
-
-[8]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 264.
-
- (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 264.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 264.
-
-
-LaTeX Warning: Citation `IrTe_TT3' on page 9 undefined on input line 275.
-
-
-LaTeX Warning: Citation `IrTe_TT4' on page 9 undefined on input line 275.
-
-
-LaTeX Warning: Citation `IrTe_TT1' on page 9 undefined on input line 278.
-
-
-LaTeX Warning: Citation `IrTe_TT2' on page 9 undefined on input line 278.
-
-
-LaTeX Warning: Citation `IrTe_TT3' on page 9 undefined on input line 278.
-
-
-LaTeX Warning: Citation `IrTe_TT4' on page 9 undefined on input line 278.
-
-File: PPMS.eps Graphic file (type eps)
-<PPMS.eps>
-File: microscope2.eps Graphic file (type eps)
-<microscope2.eps>
-) (./conclusion.tex [9]) (./acknowledgements.tex) [10]
-(./microscopy_appendix.tex
-File: without_diffuser.eps Graphic file (type eps)
-<without_diffuser.eps>
-File: with_diffuser.eps Graphic file (type eps)
-<with_diffuser.eps>
-
-Overfull \hbox (7.22221pt too wide) in paragraph at lines 8--23
+Overfull \hbox (7.2222pt too wide) in paragraph at lines 37--52
 []\OT1/cmr/m/n/10 ] []$[]$[] []$[]$[] 
  []
 
-File: schematics_BS_T2.eps Graphic file (type eps)
-<schematics_BS_T2.eps>
-File: schematics_BS_R.eps Graphic file (type eps)
-<schematics_BS_R.eps>
-File: schematics_BS_T2R.eps Graphic file (type eps)
-<schematics_BS_T2R.eps>
-File: BS_T2.eps Graphic file (type eps)
-<BS_T2.eps>
-File: BS_R.eps Graphic file (type eps)
-<BS_R.eps>
-File: BS_T2R.eps Graphic file (type eps)
-<BS_T2R.eps>
-
-LaTeX Warning: Float too large for page by 4.53296pt on input line 97.
-
-[11]
-File: objective_2.eps Graphic file (type eps)
-<objective_2.eps>
-File: microscope3.eps Graphic file (type eps)
-<microscope3.eps>
-) (./reflectance_appendix.tex
-
-LaTeX Warning: Citation `dielectric_tensor_triclinic' on page 12 undefined on i
-nput line 3.
-
+File: experiment/Ge_Stabilized_Sn.eps Graphic file (type eps)
+<experiment/Ge_Stabilized_Sn.eps>
+) (./sotsuron_master.bbl
+LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 7.
+LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 9.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 4.805pt on input line 9.
-[12] [13]
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 103.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 103.
-
-
-LaTeX Warning: Citation `space_group_IrTe2' on page 14 undefined on input line 
-105.
-
-
-LaTeX Warning: Citation `landau' on page 14 undefined on input line 105.
-
-
-LaTeX Warning: Citation `space_group_IrTe2' on page 14 undefined on input line 
-120.
-
-[14]) (./terminals_appendix.tex [15] [16] [17])
-No file sotsuron_master.bbl.
-[18] [19] [20] [21] [22] [23] [24] [25] [26] (./sotsuron_master.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(Font)              scaled to size 9.60999pt on input line 7.
+ [3] [4]) [5] (./sotsuron_master.aux) ) 
 Here is how much of TeX's memory you used:
- 1606 strings out of 493281
- 21993 string characters out of 6145041
- 111631 words of memory out of 5000000
- 5488 multiletter control sequences out of 15000+600000
- 17894 words of font info for 80 fonts, out of 8000000 for 9000
+ 1431 strings out of 493281
+ 19072 string characters out of 6145041
+ 93215 words of memory out of 5000000
+ 5370 multiletter control sequences out of 15000+600000
+ 15826 words of font info for 70 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 25i,12n,23p,1322b,364s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,6n,21p,1033b,368s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sotsuron_master.dvi (26 pages, 99664 bytes).
+Output written on sotsuron_master.dvi (5 pages, 17964 bytes).
