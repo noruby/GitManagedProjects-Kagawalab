@@ -49,6 +49,19 @@ par(new=TRUE) #
 legend("bottomright", col=c("green","gold","violet","red","black","blue"), legend=c("4.07mA(#2)","244mA(#5)","1007mA(#10)","1106mA(#13)","1207mA(#14)","44.4mA(after-pulse)"),pch=c(1,1))
 dev.off()  
 
+png("Resistance_pulse_selected.png", width = 600, height = 500)  # 描画デバイスを開く
+XLIM<-c(-2,10)
+YLIM<-c(0,0.5)
+TT<-3/(6.03899E-05-2.52597E-05)
+data1_13 <- read.csv("181228_SnGe6_1_1-13.csv",skip=9)
+plot(data.frame((data1_13[1]-1.88719E-05)*TT,-data1_13[2]/(data1_13[3]/5.4)),xlim=XLIM,ylim=YLIM,xlab="",ylab="",type="l",col="red",cex=0.1,tcl=0.5)
+par(new=TRUE) #
+data1_14 <- read.csv("181228_SnGe6_1_1-14.csv",skip=9)
+plot(data.frame((data1_14[1]-1.67879E-05)*TT,-data1_14[2]/(data1_14[3]/5.4)),xlim=XLIM,ylim=YLIM,xlab="Time(s)",ylab="Resistance(Ohm)",type="l",col="black",cex=0.1,tcl=0.5)
+par(new=TRUE) #
+legend("topright", col=c("red","black"), legend=c("1106mA(#13)","1207mA(#14)"),pch=c(1,1))
+dev.off()  
+
 png("current_pulse.png", width = 600, height = 500)  # 描画デバイスを開く
 XLIM<-c(-2,10)
 YLIM<-c(0.0001,1)
@@ -74,5 +87,17 @@ par(new=TRUE) #
 legend("topright", col=c("green","gold","violet","red","black","blue"), legend=c("4.07mA(#2)","244mA(#5)","1007mA(#10)","1106mA(#13)","1207mA(#14)","44.4mA(after-pulse)"),pch=c(1,1))
 dev.off()  
 
+png("current_pulse_selected.png", width = 600, height = 500)  # 描画デバイスを開く
+XLIM<-c(-2,10)
+YLIM<-c(0,1.5)
+TT<-3/(6.03899E-05-2.52597E-05)
+data1_13 <- read.csv("181228_SnGe6_1_1-13.csv",skip=9)
+plot(data.frame((data1_13[1]-1.88719E-05)*TT,abs(data1_13[3]/5.4)),xlim=XLIM,ylim=YLIM,xlab="",ylab="",type="l",col="red",cex=0.1,tcl=0.5)
+par(new=TRUE) #
+data1_14 <- read.csv("181228_SnGe6_1_1-14.csv",skip=9)
+plot(data.frame((data1_14[1]-1.67879E-05)*TT,abs(data1_14[3]/5.4)),xlim=XLIM,ylim=YLIM,xlab="Time(s)",ylab="Current(A)",type="l",col="black",cex=0.1,tcl=0.5)
+par(new=TRUE) #
+legend("topright", col=c("red","black"), legend=c("1106mA(#13)","1207mA(#14)"),pch=c(1,1))
+dev.off()  
 
 #cd Documents/GitManagedProjects-Kagawalab/研究/抵抗測定/

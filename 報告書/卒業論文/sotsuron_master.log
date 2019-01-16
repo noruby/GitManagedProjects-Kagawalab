@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  10 JAN 2019 23:27
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  16 JAN 2019 17:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -104,25 +104,53 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (/usr/local/texlive/2018/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
 
-Excluding comment 'comment') (./sotsuron_master.aux)
+Excluding comment 'comment')
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: dvips.def on input line 147.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(./sotsuron_master.aux
+
+LaTeX Warning: Label `fig:intensity_pested_samples' multiply defined.
+
+
+LaTeX Warning: Label `fig:two' multiply defined.
+
+
+LaTeX Warning: Label `fig:two' multiply defined.
+
+
+LaTeX Warning: Label `fig:two' multiply defined.
+
+)
 \openout1 = `sotsuron_master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
@@ -159,33 +187,33 @@ LaTeX Font Info:    ... okay on input line 11.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 12.
+(Font)              scaled to size 16.60605pt on input line 13.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 12.
+(Font)              scaled to size 16.60605pt on input line 13.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 12.
+(Font)              scaled to size 11.53198pt on input line 13.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 12.
+(Font)              scaled to size 11.53198pt on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 12.
+(Font)              <12> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 12.
+(Font)              <8> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 12.
+(Font)              <6> on input line 13.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 12.
+(Font)              scaled to size 5.76599pt on input line 13.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 14.
+(Font)              scaled to size 9.60999pt on input line 15.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 14.
+(Font)              scaled to size 9.60999pt on input line 15.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 14.
+(Font)              scaled to size 13.83836pt on input line 15.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 14.
+(Font)              scaled to size 13.83836pt on input line 15.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 14.
+(Font)              scaled to size 13.83836pt on input line 15.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 14.
+(Font)              scaled to size 13.83836pt on input line 15.
 (./sotsuron_master.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
@@ -207,28 +235,194 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 2.
 File: Introduction/phase_diagram.eps Graphic file (type eps)
+
 <Introduction/phase_diagram.eps>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 10.
+(Font)              scaled to size 8.64899pt on input line 16.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 10.
+(Font)              scaled to size 8.64899pt on input line 16.
 File: Introduction/phase_diagram2.eps Graphic file (type eps)
-<Introduction/phase_diagram2.eps>
- [2]
-File: experiment/group14.eps Graphic file (type eps)
-<experiment/group14.eps>
-File: experiment/bandgaps.eps Graphic file (type eps)
-<experiment/bandgaps.eps>
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 49.
+ <Introduction/phase_diagram2.eps> [2] [3]
+File: Introduction/group14.eps Graphic file (type eps)
 
-Overfull \hbox (7.2222pt too wide) in paragraph at lines 37--52
+<Introduction/group14.eps>
+File: Introduction/bandgaps.eps Graphic file (type eps)
+ <Introduction/bandgaps.eps>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 52.
+
+Overfull \hbox (7.2222pt too wide) in paragraph at lines 40--55
 []\OT1/cmr/m/n/10 ] []$[]$[] []$[]$[] 
  []
 
-File: experiment/Ge_Stabilized_Sn.eps Graphic file (type eps)
-<experiment/Ge_Stabilized_Sn.eps>
-) (./sotsuron_master.bbl
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 58.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 58.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 58.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 58.
+
+LaTeX Warning: Citation `Cornelius' on page 4 undefined on input line 58.
+
+
+LaTeX Warning: Citation `Nogita' on page 4 undefined on input line 59.
+
+File: Introduction/beta-to-alpha.eps Graphic file (type eps)
+<Introduction/beta-to-alpha.eps>
+File: Introduction/alpha-to-beta.eps Graphic file (type eps)
+ <Introduction/alpha-to-beta.eps>
+Overfull \hbox (7.22221pt too wide) in paragraph at lines 60--75
+[]\OT1/cmr/m/n/10 ] []$[]$[] []$[]$[] 
+ []
+
+File: Introduction/TTT.eps Graphic file (type eps)
+<Introduction/TTT.eps>
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 81.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 81.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 81.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 81.
+
+
+LaTeX Warning: Citation `Nogita' on page 4 undefined on input line 81.
+
+
+LaTeX Warning: Citation `Nogita' on page 4 undefined on input line 81.
+
+
+LaTeX Warning: Citation `Olesinski1984' on page 4 undefined on input line 88.
+
+File: Introduction/GeSn_phase.eps Graphic file (type eps)
+<Introduction/GeSn_phase.eps>
+
+LaTeX Warning: Citation `Olesinski1984' on page 4 undefined on input line 93.
+
+
+LaTeX Warning: Citation `Olesinski1984' on page 4 undefined on input line 93.
+
+File: Introduction/GeSn_phase2.eps Graphic file (type eps)
+<Introduction/GeSn_phase2.eps>
+
+LaTeX Warning: Citation `Olesinski1984' on page 4 undefined on input line 100.
+
+
+LaTeX Warning: Citation `Olesinski1984' on page 4 undefined on input line 100.
+
+File: Introduction/Ge_Stabilized_Sn.eps Graphic file (type eps)
+<Introduction/Ge_Stabilized_Sn.eps>
+File: Introduction/Ge_content.eps Graphic file (type eps)
+ <Introduction/Ge_content.eps> [4])
+(./experiment/experiment.tex [5] [6] [7]
+
+LaTeX Warning: Citation `Ogino' on page 8 undefined on input line 70.
+
+
+LaTeX Warning: Citation `Cornelius' on page 8 undefined on input line 70.
+
+[8]
+
+LaTeX Warning: Citation `Cornelius' on page 9 undefined on input line 72.
+
+
+LaTeX Warning: Citation `Cornelius' on page 9 undefined on input line 72.
+
+[9]
+File: experiment/schematics_pulse.eps Graphic file (type eps)
+ <experiment/schematics_pulse.eps>
+File: experiment/schematics_lockin.eps Graphic file (type eps)
+ <experiment/schematics_lockin.eps>
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 93--107
+[][]$[]$[] []$[]$[] 
+ []
+
+File: experiment/schematics_sample.eps Graphic file (type eps)
+<experiment/schematics_sample.eps>
+File: experiment/picture_sample.eps Graphic file (type eps)
+ <experiment/picture_sample.eps>
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 112--126
+[][]$[]$[] []$[]$[] 
+ []
+
+[10]) (./results_discussions/results_discussions.tex
+Overfull \hbox (13.50534pt too wide) in paragraph at lines 13--19
+ [][][] 
+ []
+
+File: results_discussions/intensity_asgrown_samples.eps Graphic file (type eps)
+
+<results_discussions/intensity_asgrown_samples.eps>
+
+LaTeX Warning: Float too large for page by 3.44621pt on input line 37.
+
+File: results_discussions/intensity_pested_samples.eps Graphic file (type eps)
+<results_discussions/intensity_pested_samples.eps>
+File: results_discussions/TransitionT.eps Graphic file (type eps)
+
+<results_discussions/TransitionT.eps>
+File: results_discussions/181228_before_after_pulse_log.eps Graphic file (type 
+eps)
+
+<results_discussions/181228_before_after_pulse_log.eps>
+File: results_discussions/181228_after_pulse.eps Graphic file (type eps)
+
+<results_discussions/181228_after_pulse.eps>
+File: results_discussions/181228_after_pulse2.eps Graphic file (type eps)
+
+<results_discussions/181228_after_pulse2.eps>
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 99--113
+[][]$[]$[] []$[]$[] 
+ []
+
+File: results_discussions/181228_Resistance_pulse_selected.eps Graphic file (ty
+pe eps)
+<results_discussions/181228_Resistance_pulse_selected.eps>
+File: results_discussions/181228_current_pulse_selected.eps Graphic file (type 
+eps)
+
+<results_discussions/181228_current_pulse_selected.eps>
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 117--131
+[][]$[]$[] []$[]$[] 
+ []
+
+File: results_discussions/190112_Resistance_pulse.eps Graphic file (type eps)
+<results_discussions/190112_Resistance_pulse.eps>
+File: results_discussions/190112_Current_pulse.eps Graphic file (type eps)
+
+<results_discussions/190112_Current_pulse.eps>
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 136--150
+[][]$[]$[] []$[]$[] 
+ []
+
+[11]
+File: results_discussions/190112_before_pulse17.eps Graphic file (type eps)
+ <results_discussions/190112_before_pulse17.eps>
+File: results_discussions/190112_after_pulse17.eps Graphic file (type eps)
+
+<results_discussions/190112_after_pulse17.eps>
+File: results_discussions/190112_after_pulse19_1.eps Graphic file (type eps)
+
+<results_discussions/190112_after_pulse19_1.eps>
+File: results_discussions/190112_after_pulse19_2.eps Graphic file (type eps)
+
+<results_discussions/190112_after_pulse19_2.eps>
+File: results_discussions/190112_after_pulse20.eps Graphic file (type eps)
+
+<results_discussions/190112_after_pulse20.eps>
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 153--188
+[][]$[]$[] []$[]$[]
+ []
+
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 153--188
+[]$[]$[] []$[]$[]
+ []
+
+[12]) (./sotsuron_master.bbl
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
@@ -237,14 +431,22 @@ LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 7.
- [3] [4]) [5] (./sotsuron_master.aux) ) 
-Here is how much of TeX's memory you used:
- 1431 strings out of 493281
- 19072 string characters out of 6145041
- 93215 words of memory out of 5000000
- 5370 multiletter control sequences out of 15000+600000
- 15826 words of font info for 70 fonts, out of 8000000 for 9000
- 934 hyphenation exceptions out of 8191
- 25i,6n,21p,1033b,368s stack positions out of 5000i,500n,10000p,200000b,80000s
+) [13] [14] [15] [16] [17] [18]
+(./sotsuron_master.aux)
 
-Output written on sotsuron_master.dvi (5 pages, 17964 bytes).
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1683 strings out of 493281
+ 24809 string characters out of 6145041
+ 100945 words of memory out of 5000000
+ 5577 multiletter control sequences out of 15000+600000
+ 16723 words of font info for 74 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 27i,10n,30p,1033b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on sotsuron_master.dvi (18 pages, 54896 bytes).
