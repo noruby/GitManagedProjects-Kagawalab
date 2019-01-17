@@ -1,5 +1,5 @@
 \section{実験手法}
-\subsection{スズ-Ge合金試料(β相)の作成と準備}
+\subsection{スズ-Ge合金試料(β相)の作成}
 試料作成は理化学研究所吉川氏の指導のもと、理化学研究所の設備を用いて行った。まず、高純度の粒状のスズと粒状のGe(\textcolor{red}{??\%})をエタノールで超音波洗浄にかけた。その後Geを、同じく洗浄したすり鉢ですりつぶし粉状にした。
 
 試料は以下に記述するように、混合し、電気炉(\textcolor{red}{??})やアーク炉(\textcolor{red}{??})またはヒートガンを用いて溶かし、常温まで冷却した。
@@ -64,8 +64,10 @@
 \end{table}
 
 
-\subsection{α相試料への変換}
-溶融したままの試料(as grown試料)は全て金属的な光沢を持っており、柔らかく展性をもっていることから、金属的(βスズ)である。これらをダイアモンドカッターを用いてスライスし、測定に適した形状に加工した。序論で述べたようにαスズをβスズに変換する方が時間が短く簡便であるので、As grownのβスズをαスズに変換しておくと今後の測定が簡便である。
+\subsection{αスズ試料への変換}
+溶融したままの試料(as grown試料)は全て金属的な光沢を持っており、柔らかく展性をもっていることから、金属的(βスズ)である。実際、\ref{sec:Xray_experiment}章と\ref{sec:Xray_results}章に記述するX線回折実験により、As grown試料には全てβスズに特徴的なピークが見られ、αスズに由来するピークはノイズレベル以下だった。
+
+序論で述べたようにαスズをβスズに変換する方が逆の過程に比べ、時間が短く簡便である。したがってまず一部のAs grownのβスズをαスズに変換しておくと今後の測定が簡便である。これらのβスズ試料をダイアモンドカッターを用いてスライスし、測定に適した形状に加工した。
 
 図\ref{fig:Ge_content}や図\ref{fig:TTT}からわかるように、βスズからαスズに変換するのに適した温度は230Kから260Kである\cite{Matvienko,Ogino,Cornelius}。一方、家庭用冷蔵庫の冷凍室はその温度がJIS規格により定められており、-18℃(255K)以下である。筆者は簡便に、いくつかのβスズ試料を同時に条件を揃えてα相に転移させるため、試料を家庭用冷蔵庫の冷凍室に保持し、αスズに変換した。
 
@@ -74,32 +76,38 @@
 試料1に関してはαスズへの変換に長い時間がかかったので、核生成を促進するために、傷をカッターナイフで傷をつけたり、ニッパーで切り込みを入れる、試料2のαスズを押し付けるなどの工夫を行った。
 
 \subsection{試料のX線回折による評価}
+\label{sec:Xray_experiment}
 As grownのβスズ試料と、家庭用冷凍庫に保持しαスズに転移した試料に関してX線回折実験を行った。理化学研究所のX線回折装置(Rigaku\textcolor{red}{??\%})を用いた。
+
 試料の$2\theta$配置でX線回折測定を行った。実験条件は
+
+表面が傾かず、高さを揃っていることが、正確にするために必要である。
 
 %\subsection{スズ-Ge合金試料(β相とα相)のEdX}
 
 \subsection{α-β転移温度の測定}
-溶融したあと家庭用冷蔵庫の冷凍室に保持し、α相に変換した試料に関して、Ge濃度がマクロに見て一様な試料は試料2、3、6、7だった。それらについて加熱しながら抵抗測定を行い、抵抗が大きく相転移温度を比較した。
-
-試料は横磁場クライオスタット(Oxford \textcolor{red}{??})を用いて、通常の4端子方を用いた。
+溶融したあと家庭用冷蔵庫の冷凍室に保持し、α相に変換した試料に関して、Ge濃度がマクロに見て一様な試料は試料2、3、6、7だった。それらについて加熱しながら抵抗測定を行い、抵抗が大きく変化する相転移温度を見積もった。なお、試料は横磁場クライオスタット(Oxford \textcolor{red}{??})を用いて、通常の4端子法を用いて抵抗測定を行い、抵抗が急激に変化した温度を相転移温度とした。
 
 \subsection{電流パルスを用いたα相からβ相への変換}
-まず試料を通常の四端子測定と同様に端子付け・準備し、電流パルスを印加したところ、1.3A程度以上の電流が温度上昇に必要だった。またそれ以上の電流を流すと$25\rm \mu m$の金線が焼き切れた。したがって
+まず、試料に電流パルスを印加してオーム発熱により加熱し、α相からβ相に相転移を起こすことを目標とした。またパルス印加中の抵抗測定も行い、抵抗変化から相転移を確認した。その際用いた電気回路の模式図を図\ref{fig:schematics_pulse}に示す。ソースメータ(Keithley 2400)から出力されたパルス電圧は、パワーアンプ(NF Corp. 4502)で100倍に増幅されたあと、光学クライオスタット中の試料とロード抵抗の直列接続に印加される。回路に流れる電流の時間変化は、$\rm 5.4\Omega$のロード抵抗の電圧降下をデータロガー(MC DT8824)で読み取り計算した(Ch2)。また試料の電圧降下もデータロガー(MC DT8824)で読み取り計算した(Ch1)
 
-ソースメータ(Keithley 2400)を用いてとした。
+電流パルスにより相転移温度まで試料の温度を上げて、相転移前後で端子がくっついた状態を維持するためには、いくつかの技術的な工夫が欠かせない。まず筆者は試料を通常の四端子測定と同様に銀ペーストで端子付けして25Kに保持し、電流パルスを印加したところ、相転移温度までの温度上昇に少なくとも1.3A程度以上の電流が必要だった。したがって銀ペーストによる試料への端子づけではオーム発熱が十分でない。またそれ以上の電流を流すと直径$\rm 25 \mu m$の金線が焼き切れた。したがって電流端子に繋ぐ金線は$\rm 25 \mu m$では細いので、取り替える必要がある。また銀ペーストやカーボンペースト、金線を用いた端子付けに関する注意事項に関しては付録\ref{sec:4terminal}に詳述する。
+
+筆者は試行錯誤の結果、図\ref{fig:schematics_sample}のような構成をとって電流パルスを印加するセットアップを見出した。前述したように、カーボンペーストは発熱に十分に高い抵抗が実現できる一方で機械的な強度が低く、銀ペーストは強度が高い一方で抵抗が小さい。そこでカーボンペーストで金線をコーティングした後、銀ペーストでサンプルにしっかりと接続した。この手法は十分に高い抵抗を実現しながら、機械的な強度も確保できると筆者は考える。さらに導線を高抵抗率のカーボンペーストを低抵抗率の銀ペーストで覆うことで、試料と金線の間に電流のパスが集中せず、比較的一様な加熱が可能となった。また電流端子につなぐ金線は1A程度以下の電流で焼き切れないように直径$\rm 50 \mu m$のものとした。一方、電圧端子をつなぐ線には大電流が流れないため、柔らかく熱伝導の高すぎないものとしたかった。そこで直径$\rm 25 \mu m$の金線とした。
+
+また試料にパルス印加するのに前後して、抵抗の温度依存性を測定した。抵抗の温度依存性を測定するときの電気回路の模式図を図\ref{fig:schematics_lockin}に示す。ロックインアンプ(Stanford Research SR830)から出力した105Hzの交流電圧は、光学クライオスタット中の試料とロード抵抗の直列接続に印加される。回路に流れる電流は$\rm 150\Omega$のロード抵抗の電圧降下をマルチメータ(Keithley 2001)で読み取り算出した。試料の電圧端子間の電圧効果はトランス増幅器(Stanford Research SR554)で100倍に増幅したあと、ロックインアンプの入力端子に入力した。回路に流す電流値は、パルス電流で温度上昇しなかった値より十分小さくとった。また試料の複素インピーダンスの虚部(位相進み/遅れ)成分は実部の1/100程度以下だったので無視して、実部のみを抵抗とした。
 
 \begin{figure}[htb]
- \begin{minipage}{0.5\hsize}
+ \begin{minipage}{\hsize}
     \begin{center}
-   \includegraphics[width=\hsize]{experiment/schematics_pulse.eps}
+   \includegraphics[width=0.7\hsize]{experiment/schematics_pulse.eps}
   \end{center}
   \caption{}
   \label{fig:schematics_pulse}
  \end{minipage}
- \begin{minipage}{0.5\hsize}
+ \begin{minipage}{\hsize}
      \begin{center}
-   \includegraphics[width=\hsize]{experiment/schematics_lockin.eps}
+   \includegraphics[width=0.7\hsize]{experiment/schematics_lockin.eps}
   \end{center}
   \caption{}
   \label{fig:schematics_lockin}
@@ -109,16 +117,16 @@ As grownのβスズ試料と、家庭用冷凍庫に保持しαスズに転移�
 \subsection{電流パルスによるα相とβ相の共存状態の生成}
 
 \begin{figure}[htb]
- \begin{minipage}{0.4\hsize}
+ \begin{minipage}{\hsize}
     \begin{center}
-   \includegraphics[width=\hsize]{experiment/schematics_sample.eps}
+   \includegraphics[width=0.7\hsize]{experiment/schematics_sample.eps}
   \end{center}
   \caption{}
   \label{fig:schematics_sample}
  \end{minipage}
- \begin{minipage}{0.6\hsize}
+ \begin{minipage}{\hsize}
      \begin{center}
-   \includegraphics[width=\hsize]{experiment/picture_sample.eps}
+   \includegraphics[width=0.9\hsize]{experiment/picture_sample.eps}
   \end{center}
   \caption{}
   \label{fig:picture_sample}

@@ -54,23 +54,28 @@
  \end{minipage}
 \end{figure}
 
-構造相転移は異なる性質を持つ。
-α相からβ相に転移する際に27\%程度の体積変化を伴うため、試料の核生成は試料の内部より表面から始まりやすい\cite{Cornelius}
-αスズからβスズに\cite{Nogita}
+αスズとβスズの構造転移には27\%程度の大きな体積変化が伴う。したがって、核生成は試料の内部より表面から始まりやすい\cite{Cornelius}。
+
+モル体積を比較すると27\%程度異なるため、
+
+図\ref{fig:alpha-to-beta}と図\ref{fig:beta-to-alpha}にそれぞれ、αスズからβスズへの転移にかかる時間と、βスズからαスズへの転移にかかる時間を示す\cite{Nogita}。
+図\ref{fig:alpha-to-beta}から、αスズからβスズへの転移は温度が転移温度よりも十分に高ければ3分未満で進行する。一方、図\ref{fig:beta-to-alpha}から、
+最速でもβスズからαスズへの転移は、それ以上の時間がかかる可能性が示唆される。
+
 \begin{figure}[htb]]
- \begin{minipage}{0.5\hsize}
-  \begin{center}
-   \includegraphics[width=\hsize]{Introduction/beta-to-alpha.eps}
-  \end{center}
-  \caption{}
-  \label{fig:beta-to-alpha}
- \end{minipage}
  \begin{minipage}{0.5\hsize}
   \begin{center}
    \includegraphics[width=\hsize]{Introduction/alpha-to-beta.eps}
   \end{center}
-  \caption{}
+  \caption{αスズからβスズへの転移にかかる時間}
   \label{fig:alpha-to-beta}
+ \end{minipage}
+ \begin{minipage}{0.5\hsize}
+    \begin{center}
+   \includegraphics[width=\hsize]{Introduction/beta-to-alpha.eps}
+  \end{center}
+  \caption{βスズからαスズへの転移にかかる時間}
+  \label{fig:beta-to-alpha}
  \end{minipage}
 \end{figure}
 
@@ -82,23 +87,27 @@
   \label{fig:TTT}
 \end{figure}
 
-αスズは半導体(バンドギャップエネルギー$\rm E_G=0.018eV$)であり低温になればなるほど抵抗が大きい。一方、βスズは金属であり低温になればなるほど抵抗が小さくなる。また室温付近でαスズとβスズの抵抗を比較してもβスズの方が2桁程度小さい。\cite{}
+αスズは半導体(バンドギャップエネルギー$\rm E_G=0.018eV$)であり低温になればなるほど抵抗が大きい。一方、βスズは金属であり低温になればなるほど抵抗が小さくなる。また室温付近でαスズとβスズの抵抗を比較してもβスズの方が2桁程度小さい。\cite{} したがって、抵抗測定を行うと相転移が起こったかどうかもわかる。
+
+また、βスズは金属光沢があり、可視域を吸収するαスズに比べ反射率が大きいので、空間的なα相とβ相を測定することができる。さらに、αスズは立方晶であり、βスズは正方晶である。これらの対称性を比較すると、付録に示すようにとできる。実際このような性質を用いて等方的な相と非等方的な相の対称性の変化を検出できる\cite{Matvienko}。
 
 \subsection{スズ-Geコンポジット試料の特性}
-図\ref{fig:GeSn_phase}にGe-Snコンポジット(合金)の相図を示す\cite{Olesinski1984}。スズ-Ge共晶点に置けるGe固溶の限界は0.3\%程度と言われている\cite{Thurmond1960}。
+図\ref{fig:GeSn_phase}にGe-Snコンポジット(合金)の相図を示す\cite{Olesinski1984}。共晶型の相図であり、スズ-Ge共晶点に置けるGe固溶の限界は0.3\%程度と言われている\cite{Thurmond1960}。
 \begin{figure}[htb]
+ \begin{minipage}{\hsize}
     \begin{center}
    \includegraphics[width=150mm]{Introduction/GeSn_phase.eps}
   \end{center}
-  \caption{Ge-Snコンポジット試料の相図\cite{Olesinski1984}}
+  \caption{Ge-Sn合金の相図\cite{Olesinski1984}}
   \label{fig:GeSn_phase}
-\end{figure}
-\begin{figure}[htb]
+ \end{minipage}
+ \begin{minipage}{\hsize}
     \begin{center}
    \includegraphics[width=130mm]{Introduction/GeSn_phase2.eps}
   \end{center}
-  \caption{Ge-Snコンポジット試料の相図\cite{Olesinski1984}}
+  \caption{Ge-Sn合金の相図(Geリッチ領域を拡大したもの)\cite{Olesinski1984}}
   \label{fig:GeSn_phase2}
+   \end{minipage}
 \end{figure}
 
 SiとGeと半導体スズはすべて同一のダイアモンド構造をとることから、半導体スズにSiやGeを少量添加すると安定化することが示唆されている\cite{Ewald1954,Gallerneault1983}。
@@ -112,8 +121,7 @@ SiとGeと半導体スズはすべて同一のダイアモンド構造をとる�
   \label{fig:Ge_Stabilized_Sn}
 \end{figure}
 
-
-一方、Matvienkoらの研究\cite{Matvienko}によると、β相からα相への変換はα-β相界面でのβ相の塑性変形が重要な役割を果たしており、Geを添加するとβ相中の欠陥の拡散が遅くなり、α-β変換が阻害される。その結果、図\ref{fig:Ge_content}に示したように、Ge添加量とα-β相界面の移動速度の関係を示した\cite{Matvienko}。Ge添加量が0 at. \%から0.3 at. \%(2 wt. \%)程度までは、添加量を多くすると転移速度が遅くなってゆくことが見て取れる。
+一方、Matvienkoらの研究\cite{Matvienko}によると、β相からα相への変換はα-β相界面でのβ相の塑性変形が重要な役割を果たしており、Geを添加するとβ相中の欠陥の拡散が遅くなりα-β変換が阻害される。その結果、図\ref{fig:Ge_content}に示したように、Ge添加量とα-β相界面の移動速度の関係を示した\cite{Matvienko}。Ge添加量が0 at. \%から0.3 at. \%(2 wt. \%)程度までは、添加量を多くすると転移速度が遅くなってゆくことが見て取れる。
 %0.3mol\%= 0.003*32/(0.997*50+0.003*32)質量\%
 \begin{figure}[htb]
     \begin{center}

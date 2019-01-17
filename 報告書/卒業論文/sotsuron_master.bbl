@@ -48,6 +48,37 @@ Hiroshi Oike, Manabu Kamitani, Yoshinori Tokura, and Fumitaka Kagawa.
 \newblock 金属-非金属転移の物理.
 \newblock 朝倉書店.
 
+\bibitem{Cornelius}
+Ben Cornelius, Shay Treivish, Yair Rosenthal, and Michael Pecht.
+\newblock The phenomenon of tin pest: A review.
+\newblock {\em Microelectronics Reliability}, Vol.~79, pp. 175 -- 192, 2017.
+
+\bibitem{Nogita}
+K.~Nogita, C.M. Gourlay, S.D. McDonald, S.~Suenaga, J.~Read, G.~Zeng, and Q.F.
+  Gu.
+\newblock Xrd study of the kinetics of β$leftrightarrow$α transformations in
+  tin.
+\newblock {\em Philosophical Magazine}, Vol.~93, No.~27, pp. 3627--3647, 2013.
+
+\bibitem{Matvienko}
+A.A. Matvienko and A.A. Sidelnikov.
+\newblock The influence of relaxation of stresses occurring during the β→α
+  transformation of tin on the kinetics of the transformation.
+\newblock {\em Journal of Alloys and Compounds}, Vol. 252, No.~1, pp. 172 --
+  178, 1997.
+
+\bibitem{Olesinski1984}
+RW~Olesinski and GJ~Abbaschian.
+\newblock The ge- sn (germanium- tin) system.
+\newblock {\em Bulletin of Alloy Phase Diagrams}, Vol.~5, No.~3, pp. 265--271,
+  1984.
+
+\bibitem{Thurmond1960}
+C.~D. Thurmond and M.~Kowalchik.
+\newblock Germanium and silicon liquidus curves.
+\newblock {\em The Bell System Technical Journal}, Vol.~39, No.~1, pp.
+  169--204, Jan 1960.
+
 \bibitem{Ewald1954}
 A.~W. Ewald.
 \newblock Germanium‐stabilized gray tin.
@@ -67,19 +98,6 @@ F.~Vnuk, A.~De~Monte, and R.~W. Smith.
 \newblock {\em Journal of Applied Physics}, Vol.~55, No.~12, pp. 4171--4176,
   1984.
 
-\bibitem{Thurmond1960}
-C.~D. Thurmond and M.~Kowalchik.
-\newblock Germanium and silicon liquidus curves.
-\newblock {\em The Bell System Technical Journal}, Vol.~39, No.~1, pp.
-  169--204, Jan 1960.
-
-\bibitem{Matvienko}
-A.A. Matvienko and A.A. Sidelnikov.
-\newblock The influence of relaxation of stresses occurring during the β→α
-  transformation of tin on the kinetics of the transformation.
-\newblock {\em Journal of Alloys and Compounds}, Vol. 252, No.~1, pp. 172 --
-  178, 1997.
-
 \bibitem{Mayr}
 Matthias Mayr, Adriana Moreo, Jose~A. Verg\'es, Jeanette Arispe, Adrian
   Feiguin, and Elbio Dagotto.
@@ -90,6 +108,25 @@ Matthias Mayr, Adriana Moreo, Jose~A. Verg\'es, Jeanette Arispe, Adrian
 David~S. McLachlan, Michael Blaszkiewicz, and Robert~E. Newnham.
 \newblock Electrical resistivity of composites.
 \newblock {\em Journal of the American Ceramic Society}, Vol.~73, No.~8, pp.
-  2187--2203.
+  2187--2203, 1990.
+
+\bibitem{dielectric_tensor_triclinic}
+A.~G. Emslie and J.~R. Aronson.
+\newblock Determination of the complex dielectric tensor of triclinic crystals:
+  theory.
+\newblock {\em J. Opt. Soc. Am.}, Vol.~73, No.~7, pp. 916--919, Jul 1983.
+
+\bibitem{space_group_IrTe2}
+Tatsuya Toriyama, Masao Kobori, Takehisa Konishi, Yukinori Ohta, Kunihisa
+  Sugimoto, Jungeun Kim, Akihiko Fujiwara, Sunseng Pyon, Kazutaka Kudo, and
+  Minoru Nohara.
+\newblock Switching of conducting planes by partial dimer formation in irte2.
+\newblock {\em Journal of the Physical Society of Japan}, Vol.~83, No.~3, p.
+  033701, 2014.
+
+\bibitem{landau}
+L.D. Landau, E.M. Lifshitz, and L.P. Pitaevski.
+\newblock {\em Electrodynamics of continuous media:}.
+\newblock Course of Theoretical Physics. Pergamon, 1984.
 
 \end{thebibliography}
