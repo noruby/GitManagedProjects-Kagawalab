@@ -1,11 +1,24 @@
 \documentclass[a4paper]{jsarticle}
 
+\usepackage{lscape}
 \usepackage[dvipdfmx]{graphicx}
 \usepackage{here}
 \usepackage{graphicx}
-\usepackage[top=25truemm,bottom=25truemm,left=25truemm,right=25truemm]{geometry}
+\usepackage[top=25truemm,bottom=25truemm,left=30truemm,right=30truemm]{geometry}
 \usepackage{comment}
 \usepackage{color}
+
+%http://hamada.hatenablog.jp/entry/2018/09/09/183945
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{} % clear all header fields
+%\renewcommand{\chaptermark}[1]{\markboth{第\ \thechapter\ 章\,\, #1}{}}
+\fancyhead[RO]{{\rightmark}}
+\fancyhead[LE]{{\leftmark}}
+%\renewcommand{\headrulewidth}{0pt} %ヘッダの罫線を消す 
+\fancyfoot{} % clear all footer fields
+\fancyfoot[LE,RO]{{\thepage}}%頁番号の表示を偶数頁と奇数頁に分けて指定．
+\cfoot{}
 
 %\title{パルス加熱・急冷を用いた半導体スズと超伝導スズの不揮発変換}
 %\author{東京大学工学部物理工学科　賀川研究室 平松信義}
@@ -13,20 +26,19 @@
 \begin{document}
 %\maketitle
 
-
 \tableofcontents
 \newpage
 
-\input introduction/introduction.tex
+%\input introduction/introduction.tex
 \input experiment/experiment.tex
 \input results_discussions/results_discussions.tex
 %\input optics_microscopy/optics.tex
-\input conclusion_acknowledgements.tex
+%\input conclusion_acknowledgements.tex
 
 \appendix
-\input terminals_appendix.tex
-\input optics_microscopy/microscopy_appendix.tex
-\input reflectance_appendix.tex
+%\input terminals_appendix.tex
+%\input optics_microscopy/microscopy_appendix.tex
+%\input reflectance_appendix.tex
 %\input review_Sn_film/review_Sn_film.tex
 
 %\section{Optimization of the sputtering condition}
