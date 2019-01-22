@@ -13,7 +13,7 @@ par(new=TRUE) #
 data6 <- read.csv("181126_heating_sample6ch1_001.csv",header=F)
 plot(data.frame(data6[2],data6[5]/0.007315),xlim=XLIM,ylim=YLIM,xlab="",ylab="",type="o",col="green3",cex=0.1,tcl=0.5)
 par(new=TRUE) #
-legend("topright", col=c("red","blue","black","green3"), legend=c("sample2 (Ge0.5%-quenched)","sample3 (Ge0.1%-quenched)","sample3 (Ge0.1%-quenched)","sample6 (Ge1%-slow cooled)"),pch=c(1),lty=c(1))
+legend("topright", col=c("red","blue","black","green3"), legend=c("sample2","sample3-1","sample3-2","sample6"),pch=c(1),lty=c(1))
 dev.off()  
 
 png("plot_normalized2.png", width = 600, height = 500)  # 描画デバイスを開く
@@ -39,7 +39,7 @@ plot(data.frame(data4[2],data4[5]/0.017845),xlim=XLIM,ylim=YLIM,xlab="",ylab="",
 par(new=TRUE) #
 data5 <- read.csv("181127_heating_sample7ch2_003.csv",header=F)
 plot(data.frame(data5[2],data5[5]/0.017845),xlim=XLIM,ylim=YLIM,xlab="",ylab="",type="l",col="green3",cex=0.1,tcl=0.5)
-legend("topright", col=c("red","blue","black","green3"), legend=c("sample5 (Ge1%-arc low)","sample7 (Ge1%-arc high)","sample7 (Ge1%-arc high)","sample7 (Ge1%-arc high)"),pch=c(1,1),lty=c(1))
+legend("topright", col=c("red","blue","black","green3"), legend=c("sample5","sample7-1","sample7-2","sample7-3"),pch=c(1,1),lty=c(1))
 dev.off()  
 
 #cd Documents/GitManagedProjects-Kagawalab/研究/抵抗測定/
