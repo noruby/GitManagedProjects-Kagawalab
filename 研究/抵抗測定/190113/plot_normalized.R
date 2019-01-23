@@ -66,4 +66,42 @@ plot(data.frame((data4[1]-T4)*TT,-data4[3]/5.4),xlim=XLIM,ylim=YLIM,log="y",xlab
 par(new=TRUE) #legend("topright", col=coll, legend=legendd,pch=c(1),lty=c(1))
 dev.off()  
 
+png("190112_RI_sequence.png", width = 1000, height = 1000)
+XLIM<-c(-0.6,5.4)
+YLIM<-c(0,0.013)
+split.screen(figs=c(4, 4))
+screen(1)
+par(mar=c(2,2,2,2),oma=c(1, 1, 1, 1))
+plot(data.frame((data1[1]-T1)*TT-1,-data1[2]/(data1[3]/5.4)),xlim=XLIM,ylim=YLIM,xlab="Time(s)",ylab="Resistance(Ohm)",type="l",col="red",cex=1,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
+par(new=TRUE) #
+screen(2)
+par(mar=c(2,2,2,2),oma = c(1, 1, 1, 1))
+plot(data.frame((data2[1]-T2)*TT-1,-data2[2]/(data2[3]/5.4)),xlim=XLIM,ylim=YLIM,xlab="",ylab="",type="l",col="red",cex=1,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
+par(new=TRUE) #
+screen(3)
+par(mar=c(2,2,2,2),oma = c(1, 1, 1, 1))
+plot(data.frame((data3[1]-T3)*TT-1,-data3[2]/(data3[3]/5.4)),xlim=XLIM,ylim=YLIM,xlab="",ylab="",type="l",col="red",cex=1,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
+par(new=TRUE) #
+screen(4)
+par(mar=c(2,2,2,2),oma = c(1, 1, 1, 1))
+plot(data.frame((data4[1]-T4)*TT-1,-data4[2]/(data4[3]/5.4)),xlim=XLIM,ylim=YLIM,xlab="",ylab="",type="l",col="red",cex=1,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
+par(new=TRUE) #
+screen(5)
+par(mar=c(2,2,2,2),oma=c(1, 1, 1, 1))
+plot(data.frame((data1[1]-T1)*TT-1,-data1[2]/(data1[3]/5.4)),xlim=XLIM,ylim=YLIM,xlab="Time(s)",ylab="Resistance(Ohm)",type="l",col="blue",cex=1,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
+par(new=TRUE) #
+screen(6)
+par(mar=c(2,2,2,2),oma = c(1, 1, 1, 1))
+plot(data.frame((data2[1]-T2)*TT-1,-data2[2]/(data2[3]/5.4)),xlim=XLIM,ylim=YLIM,xlab="",ylab="",type="l",col="blue",cex=1,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
+par(new=TRUE) #
+screen(7)
+par(mar=c(2,2,2,2),oma = c(1, 1, 1, 1))
+plot(data.frame((data3[1]-T3)*TT-1,-data3[2]/(data3[3]/5.4)),xlim=XLIM,ylim=YLIM,xlab="",ylab="",type="l",col="blue",cex=1,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
+par(new=TRUE) #
+screen(8)
+par(mar=c(2,2,2,2),oma = c(1, 1, 1, 1))
+plot(data.frame((data4[1]-T4)*TT-1,-data4[2]/(data4[3]/5.4)),xlim=XLIM,ylim=YLIM,xlab="",ylab="",type="l",col="blue",cex=1,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
+par(new=TRUE) #
+dev.off()  
+
 #cd Documents/GitManagedProjects-Kagawalab/研究/抵抗測定/190109/pulse

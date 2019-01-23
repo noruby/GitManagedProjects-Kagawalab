@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  22 JAN 2019 17:05
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  23 JAN 2019 16:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -288,24 +288,24 @@ File: Introduction/phase_diagram.eps Graphic file (type eps)
 File: Introduction/phase_diagram2.eps Graphic file (type eps)
  <Introduction/phase_diagram2.eps>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 59.
+(Font)              <9> on input line 57.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 59.
+(Font)              <6> on input line 57.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 59.
+(Font)              scaled to size 5.76599pt on input line 57.
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
  []\JY1/mc/m/n/9 図 \OT1/cmr/m/n/9 4 \JY1/mc/m/n/9 銅酸化物超伝導体 
  []
 
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 48--62
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 46--60
 [][]$[]$[] []$[]$[] 
  []
 
 [3]
 
-LaTeX Warning: Citation `Oike' on page 4 undefined on input line 65.
+LaTeX Warning: Citation `Oike' on page 4 undefined on input line 63.
 
 File: Introduction/kinetic_approach.eps Graphic file (type eps)
 <Introduction/kinetic_approach.eps>
@@ -322,7 +322,7 @@ File: Introduction/group14.eps Graphic file (type eps)
  <Introduction/group14.eps>
 File: Introduction/bandgaps.eps Graphic file (type eps)
  <Introduction/bandgaps.eps>
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 94--108
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 91--105
 [][]$[]$[] []$[]$[] 
  []
 
@@ -334,7 +334,7 @@ File: Introduction/alpha-to-beta.eps Graphic file (type eps)
  <Introduction/alpha-to-beta.eps>
 File: Introduction/beta-to-alpha.eps Graphic file (type eps)
  <Introduction/beta-to-alpha.eps>
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 124--138
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 121--135
 [][]$[]$[] []$[]$[] 
  []
 
@@ -355,64 +355,74 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: Introduction/Ge_Stabilized_Sn.eps Graphic file (type eps)
 <Introduction/Ge_Stabilized_Sn.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: Introduction/Ge_content.eps Graphic file (type eps)
-<Introduction/Ge_content.eps> [6] [7]
+ <Introduction/Ge_content.eps>
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 175--189
+[][]$[]$[] []$[]$[] 
+ []
+
+[6]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8] [9] [10]) (./samples/samples.tex [11
-
-] [12
-
-] [13
+[7] [8] [9]) (./samples/samples.tex [10
 
 ]
 File: samples/sample6_asgrown.eps Graphic file (type eps)
+ <samples/sample6_asgrown.eps>
 
-<samples/sample6_asgrown.eps> [14]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: experiment/schematics_Xray.eps Graphic file (type eps)
- <experiment/schematics_Xray.eps>
+<experiment/schematics_Xray.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11]
 File: samples/intensity_asgrown_samples.eps Graphic file (type eps)
+ <samples/intensity_asgrown_samples.eps>
 
-<samples/intensity_asgrown_samples.eps>
-
-LaTeX Warning: Float too large for page by 6.48738pt on input line 107.
+LaTeX Warning: Float too large for page by 6.48738pt on input line 78.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[12]
 
-LaTeX Warning: Citation `Ogino' on page 15 undefined on input line 114.
+LaTeX Warning: Citation `Ogino' on page 13 undefined on input line 85.
 
-[15] [16]
+[13]
 File: samples/diff.eps Graphic file (type eps)
  <samples/diff.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Citation `THEWLIS' on page 17 undefined on input line 181.
+LaTeX Warning: Citation `THEWLIS' on page 14 undefined on input line 152.
 
 File: samples/intensity_pested_samples.eps Graphic file (type eps)
-<samples/intensity_pested_samples.eps>
+<samples/intensity_pested_samples.eps> [14]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17]
 File: samples/Trans.eps Graphic file (type eps)
- <samples/Trans.eps>
+<samples/Trans.eps>
 File: samples/Trans2.eps Graphic file (type eps)
  <samples/Trans2.eps>
 
-LaTeX Warning: Float too large for page by 2.79736pt on input line 228.
+LaTeX Warning: Float too large for page by 2.79736pt on input line 199.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18] [19] [20] [21] [22]) (./experiment/experiment.tex
+File: samples/TransitionT.eps Graphic file (type eps)
+<samples/TransitionT.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15] [16] [17] [18] [19] [20] [21
+
+]) (./experiment/experiment.tex
 File: experiment/schematics_pulse.eps Graphic file (type eps)
 
 <experiment/schematics_pulse.eps>
@@ -422,7 +432,8 @@ File: experiment/schematics_sample.eps Graphic file (type eps)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: experiment/schematics_lockin.eps Graphic file (type eps)
-<experiment/schematics_lockin.eps> [23
+<experiment/schematics_lockin.eps> [22
+
 
 ]
 File: experiment/schematics_sample2.eps Graphic file (type eps)
@@ -433,105 +444,66 @@ File: experiment/picture_sample.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[24] [25]) (./results_discussions/results_discussions.tex
-File: results_discussions/181228_before_after_pulse_log.eps Graphic file (type 
+[23] [24]) (./results_discussions/results_discussions.tex
+File: results_discussions/181213_comparison_selected.eps Graphic file (type eps
+)
+
+<results_discussions/181213_comparison_selected.eps>
+File: results_discussions/181213_before_after_pulse_log.eps Graphic file (type 
 eps)
 
+<results_discussions/181213_before_after_pulse_log.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: results_discussions/181228_current_resistance.eps Graphic file (type eps)
+
+<results_discussions/181228_current_resistance.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: results_discussions/181228_before_after_pulse_log.eps Graphic file (type 
+eps)
 <results_discussions/181228_before_after_pulse_log.eps>
 File: results_discussions/181228_after_pulse.eps Graphic file (type eps)
 
 <results_discussions/181228_after_pulse.eps>
-File: results_discussions/181228_after_pulse2.eps Graphic file (type eps)
-
-<results_discussions/181228_after_pulse2.eps>
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 11--32
-[]$[]$[] []$[]$[] 
- []
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-File: results_discussions/181228_Resistance_pulse_selected.eps Graphic file (ty
-pe eps)
-<results_discussions/181228_Resistance_pulse_selected.eps>
-File: results_discussions/181228_current_pulse_selected.eps Graphic file (type 
-eps)
+[25
 
-<results_discussions/181228_current_pulse_selected.eps>
+] [26] [27]
+File: results_discussions/190112summary.eps Graphic file (type eps)
+ <results_discussions/190112summary.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-File: results_discussions/190112_Resistance_pulse.eps Graphic file (type eps)
-<results_discussions/190112_Resistance_pulse.eps>
-File: results_discussions/190112_Current_pulse.eps Graphic file (type eps)
+[28]
 
-<results_discussions/190112_Current_pulse.eps>
-
-LaTeX Warning: Float too large for page by 2.79736pt on input line 68.
+LaTeX Warning: Reference `fig:190112_before_pulse17' on page 29 undefined on in
+put line 65.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: results_discussions/190112_before_pulse17.eps Graphic file (type eps)
-<results_discussions/190112_before_pulse17.eps>
-File: results_discussions/190112_after_pulse17.eps Graphic file (type eps)
-
-<results_discussions/190112_after_pulse17.eps>
-File: results_discussions/190112_after_pulse19_1.eps Graphic file (type eps)
-
-<results_discussions/190112_after_pulse19_1.eps>
-File: results_discussions/190112_after_pulse19_2.eps Graphic file (type eps)
-
-<results_discussions/190112_after_pulse19_2.eps>
-File: results_discussions/190112_after_pulse20.eps Graphic file (type eps)
-
-<results_discussions/190112_after_pulse20.eps>
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 72--107
-[][]$[]$[] []$[]$[]
- []
+LaTeX Warning: Reference `fig:190112_after_pulse20' on page 29 undefined on inp
+ut line 65.
 
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 72--107
-[]$[]$[] []$[]$[]
- []
-
-File: results_discussions/190113_Resistance_pulse.eps Graphic file (type eps)
-<results_discussions/190113_Resistance_pulse.eps>
-File: results_discussions/190113_Current_pulse.eps Graphic file (type eps)
-
-<results_discussions/190113_Current_pulse.eps>
-
-LaTeX Warning: Float too large for page by 2.79736pt on input line 126.
+LaTeX Warning: Reference `fig:190112_before_pulse17' on page 29 undefined on in
+put line 67.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Reference `fig:190112_after_pulse20' on page 29 undefined on inp
+ut line 67.
 
-File: results_discussions/190113_before_pulse5.eps Graphic file (type eps)
-<results_discussions/190113_before_pulse5.eps>
-File: results_discussions/190113_after_pulse5-1.eps Graphic file (type eps)
-
-<results_discussions/190113_after_pulse5-1.eps>
-File: results_discussions/190113_after_pulse5-2.eps Graphic file (type eps)
-
-<results_discussions/190113_after_pulse5-2.eps>
-File: results_discussions/190113_after_pulse5-3.eps Graphic file (type eps)
-
-<results_discussions/190113_after_pulse5-3.eps>
-File: results_discussions/190113_after_pulse6.eps Graphic file (type eps)
-
-<results_discussions/190113_after_pulse6.eps>
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 129--164
-[][]$[]$[] []$[]$[]
- []
+[29
 
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 129--164
-[]$[]$[] []$[]$[]
- []
+]
+File: results_discussions/190113summary.eps Graphic file (type eps)
+ <results_discussions/190113summary.eps> [30
 
-[26
-
-] [27] [28] [29] [30] [31] [32]) (./sotsuron_master.bbl
+]) (./sotsuron_master.bbl
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
@@ -540,13 +512,15 @@ LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 6.
- [33
+
+[31
+
 
 ]
 
 LaTeX Warning: Command \l invalid in math mode on input line 156.
 
-) [34] (./sotsuron_master.aux)
+) [32] (./sotsuron_master.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -555,12 +529,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1934 strings out of 493281
- 29062 string characters out of 6145041
- 105506 words of memory out of 5000000
- 5800 multiletter control sequences out of 15000+600000
+ 1892 strings out of 493281
+ 27295 string characters out of 6145041
+ 105395 words of memory out of 5000000
+ 5769 multiletter control sequences out of 15000+600000
  14915 words of font info for 67 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  27i,12n,43p,1161b,437s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sotsuron_master.dvi (34 pages, 101396 bytes).
+Output written on sotsuron_master.dvi (32 pages, 98716 bytes).

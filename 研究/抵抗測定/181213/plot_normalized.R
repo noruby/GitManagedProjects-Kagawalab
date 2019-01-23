@@ -24,7 +24,7 @@ dev.off()
 
 png("before_after_pulse_log.png", width = 600, height = 500)  # 描画デバイスを開く
 XLIM<-c(0.0,300.0)
-YLIM<-c(0.000001,1.2)
+YLIM<-c(0.00003,1.2)
 data <- read.csv("181213_sample6_ch1-2_001.csv",header=F)
 plot(data.frame(data[3],data[6]),xlim=XLIM,ylim=YLIM,xlab="Temperature(K)",ylab="Resistance (Ohm)",log="y",type="l",col="red",cex=0.1, tcl=0.5)
 par(new=TRUE) #

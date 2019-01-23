@@ -2,6 +2,7 @@ png("intensity_pested_samples.png", width = 1000, height = 1500)  # 描画デバ
 
 XLIM<-c(13.0,85.0)
 YLIM<-c(0,1000)
+data0 <- read.table("Sn_cubic_reflection.txt",skip=1)#data0[8]が2theta
 data1 <- read.table("Sn_cubic_data.int",skip=2)
 data2 <- read.table("181122_background.txt",skip=18)
 data3 <- read.table("181122_sample2_pested.txt",skip=18)

@@ -100,4 +100,28 @@ par(new=TRUE) #
 legend("topright", col=c("red","black"), legend=c("1106mA(#13)","1207mA(#14)"),pch=c(1,1))
 dev.off()  
 
+png("comparison_selected.png", width = 1000, height = 800)
+XLIM<-c(-0.5,8)
+TT<-3/(6.03899E-05-2.52597E-05)
+split.screen(figs=c(2,1))
+screen(1)
+YLIM<-c(0,1.5)
+par(mar=c(0,2,0,2),oma = c(1, 1, 1, 1))
+data1_13 <- read.csv("181228_SnGe6_1_1-13.csv",skip=9)
+plot(data.frame((data1_13[1]-1.88719E-05)*TT,abs(data1_13[3]/5.4)),xlim=XLIM,ylim=YLIM,xlab="",ylab="",type="l",col="red",cex=1,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
+par(new=TRUE) #
+data1_14 <- read.csv("181228_SnGe6_1_1-14.csv",skip=9)
+plot(data.frame((data1_14[1]-1.67879E-05)*TT,abs(data1_14[3]/5.4)),xlim=XLIM,ylim=YLIM,xlab="Time(s)",ylab="Current(A)",type="l",col="black",cex=1,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
+legend("topright", col=c("red","black"), legend=c("1106mA(#13)","1207mA(#14)"),pch=c(1,1),cex=2,pt.cex = 2)
+screen(2)
+YLIM<-c(0,0.6)
+par(mar=c(0,2,0,2),oma = c(1, 1, 1, 1))
+data1_13 <- read.csv("181228_SnGe6_1_1-13.csv",skip=9)
+plot(data.frame((data1_13[1]-1.88719E-05)*TT,-data1_13[2]/(data1_13[3]/5.4)),xlim=XLIM,ylim=YLIM,xlab="",ylab="",type="l",col="red",cex=1,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
+par(new=TRUE) #
+data1_14 <- read.csv("181228_SnGe6_1_1-14.csv",skip=9)
+plot(data.frame((data1_14[1]-1.67879E-05)*TT,-data1_14[2]/(data1_14[3]/5.4)),xlim=XLIM,ylim=YLIM,xlab="Time(s)",ylab="Resistance(Ohm)",type="l",col="black",cex=1,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
+legend("topright", col=c("red","black"), legend=c("1106mA(#13)","1207mA(#14)"),pch=c(1,1),cex=2,pt.cex = 2)
+dev.off()  
+
 #cd Documents/GitManagedProjects-Kagawalab/研究/抵抗測定/
