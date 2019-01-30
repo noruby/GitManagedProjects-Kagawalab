@@ -83,6 +83,11 @@ Hiroshi Oike, Manabu Kamitani, Yoshinori Tokura, and Fumitaka Kagawa.
   order.
 \newblock {\em Science Advances}, Vol.~4, No.~10, 2018.
 
+\bibitem{ashcroft1976}
+Neil~W Ashcroft, N~David Mermin, et~al.
+\newblock Solid state physics [by] neil w. ashcroft [and] n. david mermin.,
+  1976.
+
 \bibitem{Andrea2003}
 Andrea Damascelli, Zahid Hussain, and Zhi-Xun Shen.
 \newblock Angle-resolved photoemission studies of the cuprate superconductors.
@@ -92,6 +97,17 @@ Andrea Damascelli, Zahid Hussain, and Zhi-Xun Shen.
 Andrea Cavalleri.
 \newblock Photo-induced superconductivity.
 \newblock {\em Contemporary Physics}, Vol.~59, No.~1, pp. 31--46, 2018.
+
+\bibitem{wiki}
+{Tin (Jan. 17, 2019, 7:34 UTC). In Wikipedia: The Free Encyclopedia. Retrieved
+  from https://en.wikipedia.org/wiki/Tin}.
+
+\bibitem{Matvienko}
+A.A. Matvienko and A.A. Sidelnikov.
+\newblock The influence of relaxation of stresses occurring during the β→α
+  transformation of tin on the kinetics of the transformation.
+\newblock {\em Journal of Alloys and Compounds}, Vol. 252, No.~1, pp. 172 --
+  178, 1997.
 
 \bibitem{Yonezawa}
 米沢富美子.
@@ -110,16 +126,10 @@ K.~Nogita, C.M. Gourlay, S.D. McDonald, S.~Suenaga, J.~Read, G.~Zeng, and Q.F.
   tin.
 \newblock {\em Philosophical Magazine}, Vol.~93, No.~27, pp. 3627--3647, 2013.
 
-\bibitem{wiki}
-{Tin (Jan. 17, 2019, 7:34 UTC). In Wikipedia: The Free Encyclopedia. Retrieved
-  from https://en.wikipedia.org/wiki/Tin}.
-
-\bibitem{Matvienko}
-A.A. Matvienko and A.A. Sidelnikov.
-\newblock The influence of relaxation of stresses occurring during the β→α
-  transformation of tin on the kinetics of the transformation.
-\newblock {\em Journal of Alloys and Compounds}, Vol. 252, No.~1, pp. 172 --
-  178, 1997.
+\bibitem{Kohnke}
+E.~E. Kohnke and A.~W. Ewald.
+\newblock Hall effect in gray tin filaments.
+\newblock {\em Phys. Rev.}, Vol. 102, pp. 1481--1486, Jun 1956.
 
 \bibitem{Olesinski1984}
 RW~Olesinski and GJ~Abbaschian.
@@ -162,6 +172,11 @@ M.~Wo$\rm~\l$cyrz, R.~Kubiak, and S.~Maciejewski.
 Scott~A Speakman.
 \newblock Introduction to x-ray powder diffraction data analysis.
 \newblock {\em Center for Materials Science and Engineering at MIT}, 2013.
+
+\bibitem{THEWLIS}
+J.~THEWLIS and A.~R. DAVEY.
+\newblock Thermal expansion of grey tin.
+\newblock {\em Nature}, Vol. 174, pp. 1011 EP --, 11 1954.
 
 \bibitem{Mayr}
 Matthias Mayr, Adriana Moreo, Jose~A. Verg\'es, Jeanette Arispe, Adrian

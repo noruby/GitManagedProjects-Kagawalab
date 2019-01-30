@@ -22,6 +22,14 @@ plot(data.frame(data[3],data[6]),xlim=XLIM,ylim=YLIM,xlab="Temperature(K)",ylab=
 legend("topright", col=c("red"), legend=c("Before pulse"),pch=c(1,1))
 dev.off()  
 
+png("before_pulse_Tinv.png", width = 500, height = 400)  # 描画デバイスを開く
+XLIM<-c(0.004,0.02)
+YLIM<-c(3,100)
+data <- read.csv("181213_sample6_ch1-2_001.csv",header=F)
+plot(data.frame(1/data[3],1/data[6]),xlim=XLIM,ylim=YLIM,xlab="1/T (1/K)",ylab="Conductance (S)",log="y",type="l",col="red",cex=0.1, tcl=0.5)
+legend("topright", col=c("red"), legend=c("Before pulse"),pch=c(1,1))
+dev.off()  
+
 png("before_after_pulse_log.png", width = 600, height = 500)  # 描画デバイスを開く
 XLIM<-c(0.0,300.0)
 YLIM<-c(0.00003,1.2)

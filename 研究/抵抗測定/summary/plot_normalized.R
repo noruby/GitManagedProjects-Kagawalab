@@ -42,9 +42,9 @@ plot(data.frame(data5[2],data5[5]/0.017845),xlim=XLIM,ylim=YLIM,xlab="",ylab="",
 legend("topright", col=c("red","blue","black","green3"), legend=c("sample5","sample7-1","sample7-2","sample7-3"),pch=c(1,1),lty=c(1))
 dev.off()  
 
-png("plot_normalized3.png", width = 1000, height = 1000)  # 描画デバイスを開く
+png("plot_normalized3.png", width = 800, height = 1000)  # 描画デバイスを開く
 XLIM<-c(330.0,395.0)
-YLIM<-c(0,1.2)
+YLIM<-c(0,1)
 split.screen(figs=c(5,1))
 screen(1)
 par(mar=c(0,2,0,2),oma=c(1, 1, 1, 1))

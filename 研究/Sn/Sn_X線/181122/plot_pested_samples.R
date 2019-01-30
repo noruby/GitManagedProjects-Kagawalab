@@ -1,12 +1,13 @@
-png("intensity_pested_samples.png", width = 1000, height = 1500)  # 描画デバイスを開く
 
 XLIM<-c(13.0,85.0)
-YLIM<-c(0,1000)
 data0 <- read.table("Sn_cubic_reflection.txt",skip=1)#data0[8]が2theta
 data1 <- read.table("Sn_cubic_data.int",skip=2)
 data2 <- read.table("181122_background.txt",skip=18)
 data3 <- read.table("181122_sample2_pested.txt",skip=18)
 data4 <- read.table("181122_sample3_pested.txt",skip=18)
+
+png("intensity_pested_samples_log.png", width = 1000, height = 1500)  # 描画デバイスを開く
+YLIM<-c(0,1000)
 split.screen(figs = c(5, 1))
 screen(1)
 par(mar = c(0, 6, 0, 1),oma = c(1, 1, 1, 1))
@@ -35,40 +36,35 @@ legend("topright", col=c("gray"), legend=c("Ge0.1% quenched (sample3)"),pch=c(1)
 #par(mar = c(3, 3, 3, 3),oma = c(3, 3, 3, 3))
 dev.off()  
 
-png("intensity_pested_samples2.png", width = 1000, height = 1500)  # 描画デバイスを開く
-
-XLIM<-c(13.0,85.0)
+png("intensity_pested_samples.png", width = 1000, height = 1500)  # 描画デバイスを開く
 YLIM<-c(0,1000)
-data1 <- read.table("Sn_cubic_data.int",skip=2)
-data2 <- read.table("181122_background.txt",skip=18)
-data3 <- read.table("181122_sample2_pested.txt",skip=18)
-data4 <- read.table("181122_sample3_pested.txt",skip=18)
 split.screen(figs = c(5, 1))
 screen(1)
 par(mar = c(0, 6, 0, 1),oma = c(1, 1, 1, 1))
-YLIM<-c(0,100)
+YLIM<-c(0.002,100)
 plot(data.frame(data1[1],data1[2]),xlim=XLIM,ylim=YLIM,xlab="",ylab="Intensity(%)",type="l",col="red",cex=1,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
 legend("topright", col=c("red"), legend=c("Reference: alpha-Sn"),pch=c(1),cex=2,pt.cex = 2)
 par(new=TRUE) 
 screen(2)
 par(mar = c(0, 6, 0, 1),oma = c(1, 1, 1, 1))
-YLIM<-c(0,9000)
+YLIM<-c(15,11000)
 plot(data.frame(data2[1],data2[2]),xlim=XLIM,ylim=YLIM,xlab="",ylab="counts",type="l",col="orange",cex=1,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
 legend("topright", col=c("orange"), legend=c("Background (CaCO3)"),pch=c(1),cex=2,pt.cex = 2)
 par(new=TRUE)
 screen(3)
 par(mar = c(0, 6, 0, 1),oma = c(1, 1, 1, 1))
-YLIM<-c(-5000,3000)
-plot(data.frame(data3[1],data3[2]-data2[2]),xlim=XLIM,ylim=YLIM,xlab="",ylab="counts",type="l",col="green",cex=1,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
+YLIM<-c(15,8000)
+plot(data.frame(data3[1],data3[2]),xlim=XLIM,ylim=YLIM,xlab="",ylab="counts",type="l",col="green",cex=1,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
 legend("topright", col=c("green"), legend=c("Ge0.5% quenched (sample2)"),pch=c(1),cex=2,pt.cex = 2)
 par(new=TRUE)
 screen(4)
 par(mar = c(0, 6, 0, 1),oma = c(1, 1, 1, 1))
-YLIM<-c(-5000,3000)
-plot(data.frame(data4[1],data4[2]-data2[2]),xlim=XLIM,ylim=YLIM,xlab="2θ",ylab="counts",type="l",col="gray",cex=1,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
+YLIM<-c(15,5000)
+plot(data.frame(data4[1],data4[2]),xlim=XLIM,ylim=YLIM,xlab="2θ",ylab="counts",type="l",col="gray",cex=1,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
 legend("topright", col=c("gray"), legend=c("Ge0.1% quenched (sample3)"),pch=c(1),cex=2,pt.cex = 2)
 #screen(5)
 #par(mar = c(3, 3, 3, 3),oma = c(3, 3, 3, 3))
 dev.off()  
+
 
 #cd Documents/GitManagedProjects-Kagawalab/研究/抵抗測定/
