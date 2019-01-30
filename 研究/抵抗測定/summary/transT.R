@@ -28,18 +28,51 @@ T_ref <- c(354.2, 348.6, 328.3)
 T1_ref <- c(354.2, 345.2, 328) 
 T2_ref <- c(354.2, 353.2, 328.5) 
 #par(mar=c(10, 4, 4, 2) + 0.1)
-
+par(mar=c(4,6,3,2),oma=c(1, 1, 1, 1))
 XLIM <- c(0.1,1)
 YLIM <- c(320, 370)
-plot(X_q,T_q,xlab = "Ge-concentration", xlim=XLIM,ylim=YLIM, ylab="alpha-to-beta transition temperature (K)",type="o",col="black",cex=0.5)
-arrows(X_q, T1_q,X_q, T2_q, code = 3, lwd = 2, angle = 90, length = 0.1,col="black")
+plot(X_q,T_q,xlab = "Ge-concentration (mass %)", xlim=XLIM,ylim=YLIM, ylab="alpha-to-beta transition temperature (K)",type="o",col="red",cex=0.5,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
+arrows(X_q, T1_q,X_q, T2_q, code = 3, lwd = 2, angle = 90, length = 0.1,col="red")
 par(new=TRUE) #
-plot(X_sc,T_sc,xlim=XLIM,ylim=YLIM, xlab = "", ylab = "",type="o",col="blue",cex=0.5)
+plot(X_sc,T_sc,xlim=XLIM,ylim=YLIM, xlab = "", ylab = "",type="o",col="blue",cex=0.5,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
 arrows(X_sc, T1_sc, X_sc, T2_sc, code = 3, lwd = 2, angle = 90, length = 0.1,col="blue")
 par(new=TRUE) #
-plot(X_ref,T_ref,xlim=XLIM,ylim=YLIM, xlab = "", ylab = "",type="o",col="red",cex=0.5)
-arrows(X_ref, T1_ref, X_ref, T2_ref, code = 3, lwd = 2, angle = 90, length = 0.1,col="red")
+plot(X_ref,T_ref,xlim=XLIM,ylim=YLIM, xlab = "", ylab = "",type="o",col="black",cex=0.5,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
+arrows(X_ref, T1_ref, X_ref, T2_ref, code = 3, lwd = 2, angle = 90, length = 0.1,col="black")
 par(new=TRUE) #
-legend("topright", col=c("black","blue","red"), legend=c("quenched","slow-cooled","quenched (ref.)"),pch=c(1),lty=c(1))
+legend("topright", col=c("red","blue","black"), legend=c("quenched","slow-cooled","quenched (ref.)"),pch=c(1),cex=2,pt.cex = 2)
 dev.off()  
 
+png("Transtionvelocity_beta_to_alpha.png", width = 600, height = 500)  # 描画デバイスを開く
+X_q <- c(0.1,0.5,1)
+T_q <- c(10, 10, 10)
+T1_q <- c(5/168,5/168,5/2200)
+T2_q <- c(2,2,5/168)
+
+X_sc <- c(1)
+T_sc <- c(1/24)
+T1_sc <- c(0.8/24)
+T2_sc <- c(1.5/24)
+
+X_ref_at <- c(0.003,0.002,0.001,0)
+X_ref <- 32*X_ref_at/(50*(1-X_ref_at) +32*X_ref_at) *100 #mass %
+T_ref <- c(0.5,0.6,0.9,2.2)
+T1_ref <- c(0.3,0.5,0.6,1.7) 
+T2_ref <- c(0.6,0.8,1.2,2.6) 
+#par(mar=c(10, 4, 4, 2) + 0.1)
+par(mar=c(4,6,3,2),oma=c(1, 1, 1, 1))
+XLIM <- c(0,1)
+YLIM <- c(0.001, 3)
+plot(X_q,T_q,xlab = "Ge-concentration (mass %)",log="y", xlim=XLIM,ylim=YLIM, ylab="beta-to-alpha transition velocity (mm/h)",type="o",col="red",cex=0.5,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
+arrows(X_q[1:2], T1_q[1:2],X_q[1:2], T2_q[1:2], lwd = 2, angle = 45, length = 0.1,col="red")
+arrows(X_q[1:2], T2_q[1:2],X_q[1:2], T1_q[1:2], lwd = 2, angle = 90, length = 0.1,col="red")
+arrows(X_q[3], T2_q[3],X_q[3], T1_q[3],code = 3,  lwd = 2, angle = 90, length = 0.1,col="red")
+par(new=TRUE) #
+plot(X_sc,T_sc,log="y",xlim=XLIM,ylim=YLIM, xlab = "", ylab = "",type="o",col="blue",cex=0.5,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
+arrows(X_sc, T1_sc, X_sc, T2_sc, code = 3, lwd = 2, angle = 90, length = 0.1,col="blue")
+par(new=TRUE) #
+plot(X_ref,T_ref,log="y",xlim=XLIM,ylim=YLIM, xlab = "", ylab = "",type="o",col="black",cex=0.5,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
+arrows(X_ref, T1_ref, X_ref, T2_ref, code = 3, lwd = 2, angle = 90, length = 0.1,col="black")
+par(new=TRUE) #
+legend("topright", col=c("red","blue","black"), legend=c("quenched","slow-cooled","quenched (ref.)"),pch=c(1),cex=2,pt.cex = 2)
+dev.off()  
