@@ -98,16 +98,20 @@ Andrea Cavalleri.
 \newblock Photo-induced superconductivity.
 \newblock {\em Contemporary Physics}, Vol.~59, No.~1, pp. 31--46, 2018.
 
-\bibitem{wiki}
-{Tin (Jan. 17, 2019, 7:34 UTC). In Wikipedia: The Free Encyclopedia. Retrieved
-  from https://en.wikipedia.org/wiki/Tin}.
+\bibitem{IrTe2Pd_SC}
+J.~J. Yang, Y.~J. Choi, Y.~S. Oh, A.~Hogan, Y.~Horibe, K.~Kim, B.~I. Min, and
+  S-W. Cheong.
+\newblock Charge-orbital density wave and superconductivity in the strong
+  spin-orbit coupled ${\mathrm{irte}}_{2}\ensuremath{\mathbin:}\mathrm{Pd}$.
+\newblock {\em Phys. Rev. Lett.}, Vol. 108, p. 116402, Mar 2012.
 
-\bibitem{Matvienko}
-A.A. Matvienko and A.A. Sidelnikov.
-\newblock The influence of relaxation of stresses occurring during the β→α
-  transformation of tin on the kinetics of the transformation.
-\newblock {\em Journal of Alloys and Compounds}, Vol. 252, No.~1, pp. 172 --
-  178, 1997.
+\bibitem{Oike_size}
+H.~Oike, M.~Suda, M.~Kamitani, A.~Ueda, H.~Mori, Y.~Tokura, H.~M. Yamamoto, and
+  F.~Kagawa.
+\newblock Size effects on supercooling phenomena in strongly correlated
+  electron systems: ${\mathrm{irte}}_{2}$ and
+  $\ensuremath{\theta}-{(\mathrm{BEDT}-\mathrm{TTF})}_{2}\mathrm{RbZn}{(\mathrm{SCN})}_{4}$.
+\newblock {\em Phys. Rev. B}, Vol.~97, p. 085102, Feb 2018.
 
 \bibitem{Yonezawa}
 米沢富美子.
@@ -130,6 +134,17 @@ K.~Nogita, C.M. Gourlay, S.D. McDonald, S.~Suenaga, J.~Read, G.~Zeng, and Q.F.
 E.~E. Kohnke and A.~W. Ewald.
 \newblock Hall effect in gray tin filaments.
 \newblock {\em Phys. Rev.}, Vol. 102, pp. 1481--1486, Jun 1956.
+
+\bibitem{wiki}
+{Tin (Jan. 17, 2019, 7:34 UTC). In Wikipedia: The Free Encyclopedia. Retrieved
+  from https://en.wikipedia.org/wiki/Tin}.
+
+\bibitem{Matvienko}
+A.A. Matvienko and A.A. Sidelnikov.
+\newblock The influence of relaxation of stresses occurring during the β→α
+  transformation of tin on the kinetics of the transformation.
+\newblock {\em Journal of Alloys and Compounds}, Vol. 252, No.~1, pp. 172 --
+  178, 1997.
 
 \bibitem{Olesinski1984}
 RW~Olesinski and GJ~Abbaschian.
