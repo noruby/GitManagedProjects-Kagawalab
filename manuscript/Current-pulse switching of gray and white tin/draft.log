@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  1 FEB 2019 23:00
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  2 FEB 2019 00:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -131,45 +131,55 @@ LaTeX Font Info:    ... okay on input line 2.
 \openout3 = `draftNotes.bib'.
 
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 19.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 19.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 19.
+(Font)              <7> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 19.
+(Font)              <5> on input line 20.
 
 
 LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 19.
+(Font)              using `JT1/mc/m/n' instead on input line 20.
 
 
 LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 19.
+(Font)              using `JY1/mc/m/n' instead on input line 20.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 19.
+(Font)              <9> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 19.
+(Font)              <6> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 19.
+(Font)              <8> on input line 20.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 20.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 20.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <7> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 42.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <7> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 42.
+
+Package natbib Warning: Citation `oike' on page 1 undefined on input line 42.
+
 No file draft.bbl.
+
+Package natbib Warning: There were undefined citations.
+
 [1] (./draft.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 2403 strings out of 493281
- 29898 string characters out of 6145041
- 123180 words of memory out of 5000000
- 6371 multiletter control sequences out of 15000+600000
- 15473 words of font info for 60 fonts, out of 8000000 for 9000
+ 2408 strings out of 493281
+ 29955 string characters out of 6145041
+ 135180 words of memory out of 5000000
+ 6375 multiletter control sequences out of 15000+600000
+ 15783 words of font info for 61 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 29i,5n,25p,561b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,5n,29p,615b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on draft.dvi (1 page, 1816 bytes).
+Output written on draft.dvi (1 page, 4796 bytes).
