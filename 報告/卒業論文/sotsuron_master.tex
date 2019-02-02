@@ -4,12 +4,24 @@
 \usepackage[dvipdfmx]{graphicx}
 \usepackage{here}
 \usepackage{graphicx}
-%\usepackage[top=25truemm,bottom=25truemm,left=30truemm,right=30truemm]{geometry}
 \usepackage{comment}
 \usepackage{color}
 
+%\usepackage[top=25truemm,bottom=25truemm,left=30truemm,right=30truemm]{geometry}
+
 %http://hamada.hatenablog.jp/entry/2018/09/09/183945
 \usepackage{fancyhdr}
+
+%\title{パルス加熱・急冷を用いた半導体スズと超伝導スズの不揮発変換}
+%\author{東京大学工学部物理工学科　賀川研究室 平松信義}
+%\date{\today}
+\begin{document}
+%\maketitle
+
+\pagestyle{empty}
+\tableofcontents
+\newpage
+
 \pagestyle{fancy}
 \fancyhead{} % clear all header fields
 \renewcommand{\chaptermark}[1]{\markboth{第\ \thechapter\ 章\,\, #1}{}}
@@ -21,15 +33,7 @@
 %\fancyfoot[]{\thepage}
 \cfoot{}
 
-%\title{パルス加熱・急冷を用いた半導体スズと超伝導スズの不揮発変換}
-%\author{東京大学工学部物理工学科　賀川研究室 平松信義}
-%\date{\today}
-\begin{document}
-%\maketitle
-
-\tableofcontents
-\newpage
-
+\setcounter{page}{1}
 \input introduction/introduction.tex
 \input samples/samples.tex
 \input experiment/experiment.tex
