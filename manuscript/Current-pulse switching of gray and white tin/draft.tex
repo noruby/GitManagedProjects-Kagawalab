@@ -1,5 +1,8 @@
 \documentclass[aip,apl,reprint]{revtex4-1}
+\usepackage{graphicx}
+
 \begin{document}
+%グラフの解像度が荒いのでdev.copy2eps(file="ファイル名.eps")などを用いてRのグラフをepsなどで保存する
 
 \title{Current pulse switching of gray and white tin} 
 \author{Nobuyoshi Hiramatsu}
@@ -12,13 +15,21 @@
 \affiliation{RIKEN Center for Emergent Matter Science, Wako 351-0198, Japan.}
 
 \begin{abstract}
-White tin exhibits superconductivity while gray tin is semiconducting.
+White tin exhibits superconductivity with critical temperature 3.7K while gray tin is semiconducting with the band gap $E_g=0.018eV$.
 We demonstrated the reversible transformation between semiconductor-tin (gray tin) and metallic superconductor-tin (white-tin) by applying current pulses.
 \end{abstract}
 %\pacs{}% insert suggested PACS numbers in braces on next line
 
 \maketitle 
 \section{Introduction}
+
+\begin{figure}[!h]
+    \begin{center}
+   \includegraphics[width=0.9\hsize]{kinetic_approach.eps}
+  \end{center}
+  \caption{some schematics is needed}
+  \label{fig:kinetic_approach.eps}
+\end{figure}
 
 
 \section{method}
@@ -35,8 +46,21 @@ The resistivity under slow cooling was measured with the conventional four-probe
 \subsection{Pulse application}
 A rectangular voltage-pulse generated in a source meter (Keithley 2400) was amplified using a precision power amplifier (NF Corporation 4502) by A=100. A load resistor of 5.4 ohms was connected in series with the sample and used to calculate the current flowing through the circuit. The time-varying voltages at the load resistor and the sample voltage-probes were were monitored using a data logger (Measurement Computing DT8824). Thus, we obtained the time profiles of the current and sample resistivity during the pulse application. 
 
-\section{Results}
+\begin{figure}[!h]
+    \begin{center}
+   \includegraphics[width=0.9\hsize]{181228_current_resistance.eps}
+  \end{center}
+  \caption{}
+  \label{fig:181228_current_resistance.eps}
+\end{figure}
 
+\begin{figure}[!h]
+    \begin{center}
+   \includegraphics[width=\hsize]{181228_before_after_pulse_log.eps}
+  \end{center}
+  \caption{a graph that demostrates superconductivity should be inserted in the inset }
+  \label{fig:181228_before_after_pulse_log}
+\end{figure}
 
 \section{Discussions}
 slow\cite{oike}
