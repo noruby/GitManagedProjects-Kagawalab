@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  2 FEB 2019 19:19
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  3 FEB 2019 19:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -102,6 +102,12 @@ Package color Info: Driver file: dvips.def on input line 147.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks18
+\AP@partial=\box45
+\AP@footins=\box46
+)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
@@ -122,34 +128,34 @@ LaTeX Warning: Label `fig:schematics_sample' multiply defined.
 )
 \openout1 = `sotsuron_master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 22.
+(Font)              scaled to size 9.60999pt on input line 23.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 22.
+(Font)              scaled to size 9.60999pt on input line 23.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 22.
+(Font)              scaled to size 13.83836pt on input line 23.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 22.
+(Font)              scaled to size 13.83836pt on input line 23.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 22.
+(Font)              scaled to size 13.83836pt on input line 23.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 22.
+(Font)              scaled to size 13.83836pt on input line 23.
  (./sotsuron_master.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
@@ -216,12 +222,7 @@ File: Introduction/group14.eps Graphic file (type eps)
  <Introduction/group14.eps>
 File: Introduction/bandgaps.eps Graphic file (type eps)
  <Introduction/bandgaps.eps>
-Overfull \hbox (28.59944pt too wide) in paragraph at lines 126--127
- [] 
- []
-
-
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 117--131
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 114--128
 [][]$[]$[] []$[]$[] 
  []
 
@@ -230,7 +231,7 @@ File: Introduction/alpha-to-beta.eps Graphic file (type eps)
  <Introduction/alpha-to-beta.eps>
 File: Introduction/beta-to-alpha.eps Graphic file (type eps)
  <Introduction/beta-to-alpha.eps>
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 144--158
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 141--155
 [][]$[]$[] []$[]$[] 
  []
 
@@ -260,18 +261,16 @@ File: Introduction/Ge_Stabilized_Sn.eps Graphic file (type eps)
 <Introduction/Ge_Stabilized_Sn.eps>
 File: Introduction/Ge_content.eps Graphic file (type eps)
  <Introduction/Ge_content.eps>
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 219--233
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 216--230
 [][]$[]$[] []$[]$[] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10]
-Overfull \vbox (13.28557pt too high) has occurred while \output is active []
+[10] [11] [12] [13] [14
 
-
-[11] [12] [13] [14]) (./samples/samples.tex [15
+]) (./samples/samples.tex [15
 
 ] [16]
 File: samples/sample6_asgrown.eps Graphic file (type eps)
@@ -303,25 +302,20 @@ File: samples/thin_flake.eps Graphic file (type eps)
  <samples/thin_flake.eps> [20] [21]
 File: samples/diff.eps Graphic file (type eps)
  <samples/diff.eps> [22]
+File: samples/Transtionvelocity_beta_to_alpha.eps Graphic file (type eps)
+
+<samples/Transtionvelocity_beta_to_alpha.eps>
 File: samples/intensity_pested_samples.eps Graphic file (type eps)
 
-<samples/intensity_pested_samples.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+<samples/intensity_pested_samples.eps> [23]
 File: samples/intensity_pested_samples_log.eps Graphic file (type eps)
-<samples/intensity_pested_samples_log.eps>
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[23] [24] [25]
+<samples/intensity_pested_samples_log.eps> [24] [25]
 File: samples/Trans.eps Graphic file (type eps)
  <samples/Trans.eps>
 File: samples/Trans2.eps Graphic file (type eps)
- <samples/Trans2.eps>
 
-LaTeX Warning: Float too large for page by 93.20924pt on input line 217.
-
+<samples/Trans2.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -330,17 +324,18 @@ File: samples/TransitionT.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-File: samples/Transtionvelocity_beta_to_alpha.eps Graphic file (type eps)
-<samples/Transtionvelocity_beta_to_alpha.eps>
+[26]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Text page 27 contains only floats.
 
-[26] [27] [28]
-Overfull \hbox (4.30647pt too wide) in paragraph at lines 262--263
+[27] [28]
+Overfull \hbox (4.30647pt too wide) in paragraph at lines 255--256
  [] 
  []
 
 [29
+
+] [30
 
 ]) (./experiment/experiment.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
@@ -350,19 +345,18 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
- [30
+ [31
 
+] [32]
+[33] [34]
 
-] [31]
-[32] [33]
-
-LaTeX Warning: Reference `sec:4terminal' on page 34 undefined on input line 145
+LaTeX Warning: Reference `sec:4terminal' on page 35 undefined on input line 145
 .
 
 File: experiment/schematics_sample.eps Graphic file (type eps)
 <experiment/schematics_sample.eps>
 File: experiment/schematics_lockin.eps Graphic file (type eps)
- <experiment/schematics_lockin.eps> [34]
+ <experiment/schematics_lockin.eps> [35]
 File: experiment/schematics_pulse.eps Graphic file (type eps)
 
 <experiment/schematics_pulse.eps>
@@ -376,12 +370,12 @@ Overfull \hbox (2.2222pt too wide) in paragraph at lines 167--181
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `sec:4terminal' on page 35 undefined on input line 183
+LaTeX Warning: Reference `sec:4terminal' on page 36 undefined on input line 183
 .
 
-[35]
+[36]
 
-LaTeX Warning: Reference `sec:4terminal' on page 36 undefined on input line 190
+LaTeX Warning: Reference `sec:4terminal' on page 37 undefined on input line 190
 .
 
 File: experiment/schematics_sample2.eps Graphic file (type eps)
@@ -395,14 +389,14 @@ Overfull \hbox (2.2222pt too wide) in paragraph at lines 192--206
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[36] [37]) (./results_discussions/results_discussions.tex
+[37] [38]) (./results_discussions/results_discussions.tex
 File: results_discussions/181213_before_after_pulse_log.eps Graphic file (type 
 eps)
 
 <results_discussions/181213_before_after_pulse_log.eps>
 File: results_discussions/181213_before_pulse_Tinv.eps Graphic file (type eps)
 
-<results_discussions/181213_before_pulse_Tinv.eps> [38
+<results_discussions/181213_before_pulse_Tinv.eps> [39
 
 ]
 File: results_discussions/181213_comparison_selected.eps Graphic file (type eps
@@ -412,13 +406,13 @@ File: results_discussions/181213_comparison_selected.eps Graphic file (type eps
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[39]
+[40]
 File: results_discussions/181213_after_pulse2.eps Graphic file (type eps)
  <results_discussions/181213_after_pulse2.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[40]
+[41]
 File: results_discussions/181228_before_after_pulse_log.eps Graphic file (type 
 eps)
  <results_discussions/181228_before_after_pulse_log.eps>
@@ -431,22 +425,22 @@ File: results_discussions/181228_current_resistance.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[41]
+[42]
 File: results_discussions/181228_after_pulse.eps Graphic file (type eps)
  <results_discussions/181228_after_pulse.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[42] [43] [44]
+[43] [44] [45]
 File: results_discussions/190112summary.eps Graphic file (type eps)
  <results_discussions/190112summary.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[45] [46
+[46] [47
 
 
-] [47]
+] [48]
 File: results_discussions/190113summary.eps Graphic file (type eps)
  <results_discussions/190113summary.eps>
 
@@ -455,12 +449,12 @@ LaTeX Warning: Float too large for page by 3.0886pt on input line 137.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[48] [49
+[49] [50
 
 
-]) (./conclusion_acknowledgements.tex [50
+]) (./conclusion_acknowledgements.tex [51
 
-] [51
+] [52
 
 ])
 (./optics_microscopy/microscopy_appendix.tex
@@ -474,7 +468,7 @@ Overfull \hbox (2.2222pt too wide) in paragraph at lines 9--23
  []
 
 File: optics_microscopy/schematics_BS_T2.eps Graphic file (type eps)
-<optics_microscopy/schematics_BS_T2.eps> [52]
+<optics_microscopy/schematics_BS_T2.eps> [53]
 File: optics_microscopy/BS_T2.eps Graphic file (type eps)
  <optics_microscopy/BS_T2.eps>
 
@@ -491,28 +485,28 @@ File: optics_microscopy/BS_R.eps Graphic file (type eps)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: optics_microscopy/schematics_BS_T2R.eps Graphic file (type eps)
-<optics_microscopy/schematics_BS_T2R.eps> [53] [54]
+<optics_microscopy/schematics_BS_T2R.eps> [54] [55]
 File: optics_microscopy/BS_T2R.eps Graphic file (type eps)
 
-<optics_microscopy/BS_T2R.eps> [55] [56]
+<optics_microscopy/BS_T2R.eps> [56] [57]
 File: optics_microscopy/objective_2.eps Graphic file (type eps)
  <optics_microscopy/objective_2.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: optics_microscopy/microscope3.eps Graphic file (type eps)
-<optics_microscopy/microscope3.eps> [57]
+<optics_microscopy/microscope3.eps> [58]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[58] [59]) (./reflectance_appendix.tex
+[59] [60]) (./reflectance_appendix.tex
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 10.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 4.805pt on input line 10.
- [60
+ [61
 
-] [61] [62] [63])
+] [62] [63] [64])
 (./sotsuron_master.bbl
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 6.
@@ -522,11 +516,11 @@ LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 6.
- [64] [65]
+ [65] [66]
 
 LaTeX Warning: Command \l invalid in math mode on input line 181.
 
-) [66] (./sotsuron_master.aux)
+) [67] (./sotsuron_master.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -535,12 +529,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1504 strings out of 493281
- 22664 string characters out of 6145041
- 97101 words of memory out of 5000000
- 5365 multiletter control sequences out of 15000+600000
+ 1524 strings out of 493281
+ 23022 string characters out of 6145041
+ 97578 words of memory out of 5000000
+ 5381 multiletter control sequences out of 15000+600000
  15129 words of font info for 68 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 25i,12n,43p,1177b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,12n,43p,1177b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sotsuron_master.dvi (68 pages, 190280 bytes).
+Output written on sotsuron_master.dvi (69 pages, 193584 bytes).
