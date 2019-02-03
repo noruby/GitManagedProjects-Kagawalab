@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  3 FEB 2019 19:13
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  3 FEB 2019 21:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -299,37 +299,47 @@ LaTeX Warning: Citation `Ogino' on page 19 undefined on input line 88.
 
 [19]
 File: samples/thin_flake.eps Graphic file (type eps)
- <samples/thin_flake.eps> [20] [21]
-File: samples/diff.eps Graphic file (type eps)
- <samples/diff.eps> [22]
+ <samples/thin_flake.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20]
 File: samples/Transtionvelocity_beta_to_alpha.eps Graphic file (type eps)
+ <samples/Transtionvelocity_beta_to_alpha.eps>
 
-<samples/Transtionvelocity_beta_to_alpha.eps>
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21] [22]
+File: samples/diff.eps Graphic file (type eps)
+ <samples/diff.eps> [23]
 File: samples/intensity_pested_samples.eps Graphic file (type eps)
+ <samples/intensity_pested_samples.eps>
 
-<samples/intensity_pested_samples.eps> [23]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: samples/intensity_pested_samples_log.eps Graphic file (type eps)
+<samples/intensity_pested_samples_log.eps>
 
-<samples/intensity_pested_samples_log.eps> [24] [25]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: samples/Trans.eps Graphic file (type eps)
- <samples/Trans.eps>
+<samples/Trans.eps>
 File: samples/Trans2.eps Graphic file (type eps)
+ <samples/Trans2.eps>
 
-<samples/Trans2.eps>
+LaTeX Warning: Float too large for page by 30.03072pt on input line 217.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[24]
 File: samples/TransitionT.eps Graphic file (type eps)
-<samples/TransitionT.eps>
+ <samples/TransitionT.eps> [25]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[26]
-
-LaTeX Warning: Text page 27 contains only floats.
-
-[27] [28]
-Overfull \hbox (4.30647pt too wide) in paragraph at lines 255--256
+[26] [27] [28]
+Overfull \hbox (4.30647pt too wide) in paragraph at lines 259--260
  [] 
  []
 
@@ -537,4 +547,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  25i,12n,43p,1177b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sotsuron_master.dvi (69 pages, 193584 bytes).
+Output written on sotsuron_master.dvi (69 pages, 194644 bytes).

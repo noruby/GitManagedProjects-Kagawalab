@@ -18,16 +18,17 @@
 \contentsline {subsubsection}{\numberline {2.2.1}As grown試料の観察}{17}
 \contentsline {subsubsection}{\numberline {2.2.2}金属試料のX線回折測定}{17}
 \contentsline {subsection}{\numberline {2.3}金属試料から半導体試料への変換}{18}
-\contentsline {subsubsection}{\numberline {2.3.1}試料6}{20}
-\contentsline {subsubsection}{\numberline {2.3.2}試料1}{20}
-\contentsline {subsubsection}{\numberline {2.3.3}試料6と試料1の比較}{21}
-\contentsline {subsubsection}{\numberline {2.3.4}試料2、3、11、12}{22}
-\contentsline {subsubsection}{\numberline {2.3.5}試料13、14}{22}
-\contentsline {subsubsection}{\numberline {2.3.6}試料7、8}{23}
-\contentsline {subsubsection}{\numberline {2.3.7}試料5}{23}
-\contentsline {subsection}{\numberline {2.4}半導体試料の観察・評価}{23}
-\contentsline {subsubsection}{\numberline {2.4.1}半導体試料のX線回折測定}{23}
-\contentsline {subsection}{\numberline {2.5}半導体から金属へ転移する温度の評価}{26}
+\contentsline {subsubsection}{\numberline {2.3.1}試料13、14}{20}
+\contentsline {subsubsection}{\numberline {2.3.2}試料6}{20}
+\contentsline {subsubsection}{\numberline {2.3.3}試料1}{20}
+\contentsline {subsubsection}{\numberline {2.3.4}試料2、3}{21}
+\contentsline {subsubsection}{\numberline {2.3.5}試料1、2、3、6の比較}{21}
+\contentsline {subsubsection}{\numberline {2.3.6}試料2、3、11、12の比較}{23}
+\contentsline {subsubsection}{\numberline {2.3.7}試料7、8}{24}
+\contentsline {subsubsection}{\numberline {2.3.8}試料5}{24}
+\contentsline {subsection}{\numberline {2.4}半導体試料の観察・評価}{24}
+\contentsline {subsubsection}{\numberline {2.4.1}半導体試料のX線回折測定}{24}
+\contentsline {subsection}{\numberline {2.5}半導体から金属へ転移する温度の評価}{24}
 \contentsline {subsection}{\numberline {2.6}総括}{30}
 \contentsline {section}{\numberline {3}電流パルスを用いたパルス加熱・急冷実験の手法}{31}
 \contentsline {subsection}{\numberline {3.1}Sn-Ge合金への端子付け}{31}
