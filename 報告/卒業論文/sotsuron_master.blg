@@ -13,46 +13,46 @@ Warning--empty author in wiki
 Warning--empty journal in wiki
 Warning--empty year in wiki
 Warning--empty year in Wolcyrz
-You've used 37 entries,
+You've used 36 entries,
             2270 wiz_defined-function locations,
-            820 strings with 11129 characters,
-and the built_in function-call counts, 15469 in all, are:
-= -- 1257
-> -- 514
-< -- 80
-+ -- 196
-- -- 159
-* -- 909
-:= -- 1793
-add.period$ -- 110
-call.type$ -- 37
-change.case$ -- 35
+            812 strings with 10646 characters,
+and the built_in function-call counts, 14975 in all, are:
+= -- 1225
+> -- 483
+< -- 77
++ -- 185
+- -- 149
+* -- 877
+:= -- 1732
+add.period$ -- 107
+call.type$ -- 36
+change.case$ -- 34
 chr.to.int$ -- 0
-cite$ -- 42
-duplicate$ -- 955
-empty$ -- 1298
-format.name$ -- 318
-if$ -- 3862
+cite$ -- 41
+duplicate$ -- 925
+empty$ -- 1267
+format.name$ -- 298
+if$ -- 3741
 int.to.chr$ -- 0
-int.to.str$ -- 37
-missing$ -- 38
-newline$ -- 186
-num.names$ -- 36
-pop$ -- 186
+int.to.str$ -- 36
+missing$ -- 37
+newline$ -- 181
+num.names$ -- 35
+pop$ -- 181
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 878
+skip$ -- 850
 stack$ -- 0
-substring$ -- 980
-swap$ -- 439
-text.length$ -- 80
+substring$ -- 968
+swap$ -- 423
+text.length$ -- 77
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 105
-width$ -- 39
-write$ -- 398
-is.kanji.str$ -- 496
+while$ -- 103
+width$ -- 38
+write$ -- 387
+is.kanji.str$ -- 476
 (There was 1 error message)
