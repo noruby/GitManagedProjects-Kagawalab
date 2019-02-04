@@ -7,52 +7,51 @@ You're missing a field name---line 430 of file sotsuron.bib
  : abstract = {Abstract Thermal expansion and anisotropic thermal vibrations are investigated for pure tin, indium, and their intermetallic compounds : In3Sn and InSn4, below and above room temperature. Measurements are performed with spherically shaped single crystals. The dependences of the lattice parameters on temperature are measured by using the high precision Bond-type diffractometer. Sets of reflection intensities are taken and anisotropic temperature factors were calculated in the structure refinement process. An analysis of the formula concerning the bonding energy of the crystals discussed is carried out. The theoretical thermal expansion coefficients are compared with experimental ones.},
  :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Ogino"
 Warning--empty year in Yonezawa
 Warning--empty author in wiki
 Warning--empty journal in wiki
 Warning--empty year in wiki
 Warning--empty year in Wolcyrz
-You've used 36 entries,
+You've used 37 entries,
             2270 wiz_defined-function locations,
-            812 strings with 10646 characters,
-and the built_in function-call counts, 14975 in all, are:
-= -- 1225
-> -- 483
-< -- 77
-+ -- 185
-- -- 149
-* -- 877
-:= -- 1732
-add.period$ -- 107
-call.type$ -- 36
-change.case$ -- 34
+            819 strings with 10891 characters,
+and the built_in function-call counts, 15380 in all, are:
+= -- 1254
+> -- 499
+< -- 80
++ -- 191
+- -- 154
+* -- 904
+:= -- 1781
+add.period$ -- 110
+call.type$ -- 37
+change.case$ -- 35
 chr.to.int$ -- 0
-cite$ -- 41
-duplicate$ -- 925
-empty$ -- 1267
-format.name$ -- 298
-if$ -- 3741
+cite$ -- 42
+duplicate$ -- 949
+empty$ -- 1301
+format.name$ -- 308
+if$ -- 3842
 int.to.chr$ -- 0
-int.to.str$ -- 36
-missing$ -- 37
-newline$ -- 181
-num.names$ -- 35
-pop$ -- 181
+int.to.str$ -- 37
+missing$ -- 38
+newline$ -- 186
+num.names$ -- 36
+pop$ -- 186
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 850
+skip$ -- 869
 stack$ -- 0
-substring$ -- 968
-swap$ -- 423
-text.length$ -- 77
+substring$ -- 988
+swap$ -- 433
+text.length$ -- 80
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 103
-width$ -- 38
-write$ -- 387
-is.kanji.str$ -- 476
+while$ -- 106
+width$ -- 39
+write$ -- 398
+is.kanji.str$ -- 491
 (There was 1 error message)

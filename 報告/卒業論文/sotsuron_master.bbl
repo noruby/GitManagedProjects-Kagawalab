@@ -10,14 +10,14 @@ J.~G. Bednorz and K.~A. M{\"u}ller.
 P.~A. Lee, N.~Nagaosa, and X.-G. Wen.
 \newblock Doping a mott insulator: Physics of high-temperature
   superconductivity.
-\newblock {\em Rev. Mod. Phys.}, Vol.~78, pp. 17--85, Jan 2006.
+\newblock {\em Review Modern Physics}, Vol.~78, pp. 17--85, Jan 2006.
 
 \bibitem{Wu}
 M.~K. Wu, J.~R. Ashburn, C.~J. Torng, P.~H. Hor, R.~L. Meng, L.~Gao, Z.~J.
   Huang, Y.~Q. Wang, and C.~W. Chu.
 \newblock Superconductivity at 93 k in a new mixed-phase y-ba-cu-o compound
   system at ambient pressure.
-\newblock {\em Phys. Rev. Lett.}, Vol.~58, pp. 908--910, Mar 1987.
+\newblock {\em Physical Review Letters}, Vol.~58, pp. 908--910, Mar 1987.
 
 \bibitem{Kamihara}
 Y.~Kamihara, T.~Watanabe, M.~Hirano, and H.~Hosono.
@@ -30,7 +30,7 @@ Y.~Kamihara, T.~Watanabe, M.~Hirano, and H.~Hosono.
 \bibitem{Imada}
 M.~Imada, A.~Fujimori, and Y.~Tokura.
 \newblock Metal-insulator transitions.
-\newblock {\em Rev. Mod. Phys.}, Vol.~70, pp. 1039--1263, Oct 1998.
+\newblock {\em Review of Modern Physics}, Vol.~70, pp. 1039--1263, Oct 1998.
 
 \bibitem{Ueno}
 K.~Ueno, S.~Nakamura, H.~Shimotani, A.~Ohtomo, N.~Kimura, T.~Nojima, H.~Aoki,
@@ -67,7 +67,7 @@ C.~R. Hunt, D.~Nicoletti, S.~Kaiser, T.~Takayama, H.~Takagi, and A.~Cavalleri.
 \newblock Two distinct kinetic regimes for the relaxation of light-induced
   superconductivity in
   $\mathrm{L}{\mathrm{a}}_{1.675}\mathrm{E}{\mathrm{u}}_{0.2}\mathrm{S}{\mathrm{r}}_{0.125}\mathrm{Cu}{\mathrm{o}}_{4}$.
-\newblock {\em Phys. Rev. B}, Vol.~91, p. 020505, Jan 2015.
+\newblock {\em Physical Review B}, Vol.~91, p. 020505, Jan 2015.
 
 \bibitem{Mitrano2016}
 M.~Mitrano, A.~Cantaluppi, D.~Nicoletti, S.~Kaiser, A.~Perucchi, S.~Lupi,
@@ -91,7 +91,7 @@ N.~W. Ashcroft, N.~D. Mermin, et~al.
 \bibitem{Andrea2003}
 A.~Damascelli, Z.~Hussain, and Z.-X. Shen.
 \newblock Angle-resolved photoemission studies of the cuprate superconductors.
-\newblock {\em Rev. Mod. Phys.}, Vol.~75, pp. 473--541, Apr 2003.
+\newblock {\em Review of Modern Physics}, Vol.~75, pp. 473--541, Apr 2003.
 
 \bibitem{Cavalleri2018}
 Andrea C.
@@ -103,7 +103,7 @@ J.~J. Yang, Y.~J. Choi, Y.~S. Oh, A.~Hogan, Y.~Horibe, K.~Kim, B.~I. Min, and
   S-W. Cheong.
 \newblock Charge-orbital density wave and superconductivity in the strong
   spin-orbit coupled ${\mathrm{irte}}_{2}\ensuremath{\mathbin:}\mathrm{Pd}$.
-\newblock {\em Phys. Rev. Lett.}, Vol. 108, p. 116402, Mar 2012.
+\newblock {\em Physical Review Letters}, Vol. 108, p. 116402, Mar 2012.
 
 \bibitem{Oike_size}
 H.~Oike, M.~Suda, M.~Kamitani, A.~Ueda, H.~Mori, Y.~Tokura, H.~M. Yamamoto, and
@@ -111,7 +111,7 @@ H.~Oike, M.~Suda, M.~Kamitani, A.~Ueda, H.~Mori, Y.~Tokura, H.~M. Yamamoto, and
 \newblock Size effects on supercooling phenomena in strongly correlated
   electron systems: ${\mathrm{irte}}_{2}$ and
   $\ensuremath{\theta}-{(\mathrm{BEDT}-\mathrm{TTF})}_{2}\mathrm{RbZn}{(\mathrm{SCN})}_{4}$.
-\newblock {\em Phys. Rev. B}, Vol.~97, p. 085102, Feb 2018.
+\newblock {\em Physical Review B}, Vol.~97, p. 085102, Feb 2018.
 
 \bibitem{Yonezawa}
 米沢富美子.
@@ -130,11 +130,6 @@ K.~Nogita, C.M. Gourlay, S.D. McDonald, S.~Suenaga, J.~Read, G.~Zeng, and Q.F.
   tin.
 \newblock {\em Philosophical Magazine}, Vol.~93, No.~27, pp. 3627--3647, 2013.
 
-\bibitem{Kohnke}
-E.~E. Kohnke and A.~W. Ewald.
-\newblock Hall effect in gray tin filaments.
-\newblock {\em Phys. Rev.}, Vol. 102, pp. 1481--1486, Jun 1956.
-
 \bibitem{wiki}
 {Tin (Jan. 17, 2019, 7:34 UTC). In Wikipedia: The Free Encyclopedia. Retrieved
   from https://en.wikipedia.org/wiki/Tin}.
@@ -146,17 +141,10 @@ A.~A. Matvienko and A.~A. Sidelnikov.
 \newblock {\em Journal of Alloys and Compounds}, Vol. 252, No.~1, pp. 172 --
   178, 1997.
 
-\bibitem{Olesinski1984}
-R.~W. Olesinski and G.~J. Abbaschian.
-\newblock The ge- sn (germanium- tin) system.
-\newblock {\em Bulletin of Alloy Phase Diagrams}, Vol.~5, No.~3, pp. 265--271,
-  1984.
-
-\bibitem{Thurmond1960}
-C.~D. Thurmond and M.~Kowalchik.
-\newblock Germanium and silicon liquidus curves.
-\newblock {\em The Bell System Technical Journal}, Vol.~39, No.~1, pp.
-  169--204, Jan 1960.
+\bibitem{Kohnke}
+E.~E. Kohnke and A.~W. Ewald.
+\newblock Hall effect in gray tin filaments.
+\newblock {\em Physical Review}, Vol. 102, pp. 1481--1486, Jun 1956.
 
 \bibitem{Ewald1954}
 A.~W. Ewald.
@@ -177,6 +165,24 @@ F.~Vnuk, A.~De~Monte, and R.~W. Smith.
 \newblock {\em Journal of Applied Physics}, Vol.~55, No.~12, pp. 4171--4176,
   1984.
 
+\bibitem{Zeng2014}
+G.~Zeng, S.D. McDonald, Q.F. Gu, K.~Sweatman, and K.~Nogita.
+\newblock Effects of element addition on the β→α transformation in tin.
+\newblock {\em Philosophical Magazine Letters}, Vol.~94, No.~2, pp. 53--62,
+  2014.
+
+\bibitem{Olesinski1984}
+R.~W. Olesinski and G.~J. Abbaschian.
+\newblock The ge- sn (germanium- tin) system.
+\newblock {\em Bulletin of Alloy Phase Diagrams}, Vol.~5, No.~3, pp. 265--271,
+  1984.
+
+\bibitem{Thurmond1960}
+C.~D. Thurmond and M.~Kowalchik.
+\newblock Germanium and silicon liquidus curves.
+\newblock {\em The Bell System Technical Journal}, Vol.~39, No.~1, pp.
+  169--204, Jan 1960.
+
 \bibitem{Wolcyrz}
 M.~Wo$\rm~\l$cyrz, R.~Kubiak, and S.~Maciejewski.
 \newblock X-ray investigation of thermal expansion and atomic thermal
@@ -196,7 +202,7 @@ J.~Thewlis and A.~R. Davey.
 \bibitem{Mayr}
 M.~Mayr, A.~Moreo, J.A. Verg\'es, J.~Arispe, A.~Feiguin, and E.~Dagotto.
 \newblock Resistivity of mixed-phase manganites.
-\newblock {\em Phys. Rev. Lett.}, Vol.~86, pp. 135--138, Jan 2001.
+\newblock {\em Physical Review Letters}, Vol.~86, pp. 135--138, Jan 2001.
 
 \bibitem{McLachlan}
 D.~S. McLachlan, M.~Blaszkiewicz, and R.~E. Newnham.
@@ -208,7 +214,8 @@ D.~S. McLachlan, M.~Blaszkiewicz, and R.~E. Newnham.
 A.~G. Emslie and J.~R. Aronson.
 \newblock Determination of the complex dielectric tensor of triclinic crystals:
   theory.
-\newblock {\em J. Opt. Soc. Am.}, Vol.~73, No.~7, pp. 916--919, Jul 1983.
+\newblock {\em Journal of Optical Society of America}, Vol.~73, No.~7, pp.
+  916--919, Jul 1983.
 
 \bibitem{landau}
 L.~D. Landau, E.~M. Lifshitz, and L.~P. Pitaevski.

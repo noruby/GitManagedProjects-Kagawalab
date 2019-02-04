@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  4 FEB 2019 09:28
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  4 FEB 2019 11:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -128,34 +128,34 @@ LaTeX Warning: Label `fig:schematics_sample' multiply defined.
 )
 \openout1 = `sotsuron_master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 23.
+(Font)              scaled to size 9.60999pt on input line 39.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 23.
+(Font)              scaled to size 9.60999pt on input line 39.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 23.
+(Font)              scaled to size 13.83836pt on input line 39.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 23.
+(Font)              scaled to size 13.83836pt on input line 39.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 23.
+(Font)              scaled to size 13.83836pt on input line 39.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 23.
+(Font)              scaled to size 13.83836pt on input line 39.
  (./sotsuron_master.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
@@ -222,7 +222,7 @@ File: Introduction/group14.eps Graphic file (type eps)
  <Introduction/group14.eps>
 File: Introduction/bandgaps.eps Graphic file (type eps)
  <Introduction/bandgaps.eps>
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 114--128
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 116--130
 [][]$[]$[] []$[]$[] 
  []
 
@@ -234,7 +234,7 @@ File: Introduction/beta-to-alpha.eps Graphic file (type eps)
 File: Introduction/TTT.eps Graphic file (type eps)
 
 <Introduction/TTT.eps>
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 148--162
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 149--163
 [][]$[]$[] []$[]$[] 
  []
 
@@ -248,23 +248,25 @@ File: Introduction/conductivity.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10]
+[10] [11]
 File: Introduction/Ge_Stabilized_Sn.eps Graphic file (type eps)
  <Introduction/Ge_Stabilized_Sn.eps>
 File: Introduction/Ge_content.eps Graphic file (type eps)
  <Introduction/Ge_content.eps>
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 198--212
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 202--216
 [][]$[]$[] []$[]$[] 
  []
 
-[11] [12]
+[12]
 File: Introduction/GeSn_phase.eps Graphic file (type eps)
  <Introduction/GeSn_phase.eps>
 File: Introduction/GeSn_phase2.eps Graphic file (type eps)
  <Introduction/GeSn_phase2.eps> [13
 
-]
-[14]) (./samples/samples.tex [15
+] [14
+
+])
+(./samples/samples.tex [15
 
 ] [16]
 File: samples/sample6_asgrown.eps Graphic file (type eps)
@@ -340,29 +342,24 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 ] [32]
 [33]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 80.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 76.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 80.
+(Font)              scaled to size 9.60999pt on input line 76.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 80.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 76.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 80.
+(Font)              scaled to size 9.60999pt on input line 76.
 
 
-LaTeX Warning: Reference `sec:4terminal' on page 34 undefined on input line 80.
+LaTeX Warning: Reference `sec:4terminal' on page 34 undefined on input line 76.
 
 
 File: experiment/schematics_sample.eps Graphic file (type eps)
-<experiment/schematics_sample.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+<experiment/schematics_sample.eps> [34]
 File: experiment/schematics_lockin.eps Graphic file (type eps)
-<experiment/schematics_lockin.eps> [34]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+ <experiment/schematics_lockin.eps>
 File: experiment/schematics_pulse.eps Graphic file (type eps)
+
 <experiment/schematics_pulse.eps>
 File: experiment/schematics_sample.eps Graphic file (type eps)
  <experiment/schematics_sample.eps>
@@ -370,14 +367,12 @@ Overfull \hbox (2.2222pt too wide) in paragraph at lines 102--116
 [][]$[]$[] []$[]$[] 
  []
 
+[35]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `sec:4terminal' on page 35 undefined on input line 118
+LaTeX Warning: Reference `sec:4terminal' on page 36 undefined on input line 118
 .
 
-[35] [36]
+[36]
 
 LaTeX Warning: Reference `sec:4terminal' on page 37 undefined on input line 125
 .
@@ -519,7 +514,7 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 6.
  [64] [65]
 
-LaTeX Warning: Command \l invalid in math mode on input line 181.
+LaTeX Warning: Command \l invalid in math mode on input line 187.
 
 ) [66] (./sotsuron_master.aux)
 
@@ -530,12 +525,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1523 strings out of 493281
- 23003 string characters out of 6145041
+ 1524 strings out of 493281
+ 23013 string characters out of 6145041
  97578 words of memory out of 5000000
- 5380 multiletter control sequences out of 15000+600000
+ 5381 multiletter control sequences out of 15000+600000
  15129 words of font info for 68 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  25i,12n,43p,1177b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sotsuron_master.dvi (68 pages, 195592 bytes).
+Output written on sotsuron_master.dvi (68 pages, 198556 bytes).

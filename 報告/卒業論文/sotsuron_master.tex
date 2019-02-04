@@ -8,6 +8,22 @@
 \usepackage{color}
 \usepackage{afterpage}
 
+\setlength{\oddsidemargin}{\paperwidth}
+  \addtolength{\oddsidemargin}{-\fullwidth}
+  \setlength{\oddsidemargin}{.5\oddsidemargin}
+  \iftombow
+    \addtolength{\oddsidemargin}{-1in}
+  \else
+    \addtolength{\oddsidemargin}{-1truein}
+  \fi
+  \setlength{\evensidemargin}{\oddsidemargin}
+  \if@mparswitch
+    \addtolength{\evensidemargin}{\fullwidth}
+    \addtolength{\evensidemargin}{-\textwidth}
+  \fi
+  \addtolength{\oddsidemargin}{0.2cm}
+  \addtolength{\evensidemargin}{-0.2cm}
+
 %\usepackage[top=25truemm,bottom=25truemm,left=30truemm,right=30truemm]{geometry}
 
 %http://hamada.hatenablog.jp/entry/2018/09/09/183945
