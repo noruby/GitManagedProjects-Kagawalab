@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  4 FEB 2019 08:47
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  4 FEB 2019 09:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -231,56 +231,49 @@ File: Introduction/alpha-to-beta.eps Graphic file (type eps)
  <Introduction/alpha-to-beta.eps>
 File: Introduction/beta-to-alpha.eps Graphic file (type eps)
  <Introduction/beta-to-alpha.eps>
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 141--155
+File: Introduction/TTT.eps Graphic file (type eps)
+
+<Introduction/TTT.eps>
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 148--162
 [][]$[]$[] []$[]$[] 
  []
 
-File: Introduction/TTT.eps Graphic file (type eps)
-<Introduction/TTT.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: Introduction/conductivity.eps Graphic file (type eps)
-<Introduction/conductivity.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: Introduction/Sn-Alpha-Beta.eps Graphic file (type eps)
-<Introduction/Sn-Alpha-Beta.eps>
+<Introduction/Sn-Alpha-Beta.eps> [9]
+File: Introduction/conductivity.eps Graphic file (type eps)
+ <Introduction/conductivity.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-File: Introduction/GeSn_phase.eps Graphic file (type eps)
-<Introduction/GeSn_phase.eps>
-File: Introduction/GeSn_phase2.eps Graphic file (type eps)
- <Introduction/GeSn_phase2.eps> [9]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+[10]
 File: Introduction/Ge_Stabilized_Sn.eps Graphic file (type eps)
-<Introduction/Ge_Stabilized_Sn.eps>
+ <Introduction/Ge_Stabilized_Sn.eps>
 File: Introduction/Ge_content.eps Graphic file (type eps)
  <Introduction/Ge_content.eps>
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 216--230
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 198--212
 [][]$[]$[] []$[]$[] 
  []
 
+[11] [12]
+File: Introduction/GeSn_phase.eps Graphic file (type eps)
+ <Introduction/GeSn_phase.eps>
+File: Introduction/GeSn_phase2.eps Graphic file (type eps)
+ <Introduction/GeSn_phase2.eps> [13
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[10] [11] [12] [13] [14
-
-]) (./samples/samples.tex [15
+]
+[14]) (./samples/samples.tex [15
 
 ] [16]
 File: samples/sample6_asgrown.eps Graphic file (type eps)
-
-<samples/sample6_asgrown.eps>
+ <samples/sample6_asgrown.eps>
 File: experiment/schematics_Xray.eps Graphic file (type eps)
- <experiment/schematics_Xray.eps> [17]
-File: samples/intensity_asgrown_samples.eps Graphic file (type eps)
 
-<samples/intensity_asgrown_samples.eps>
+<experiment/schematics_Xray.eps> [17]
+File: samples/intensity_asgrown_samples.eps Graphic file (type eps)
+ <samples/intensity_asgrown_samples.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -545,4 +538,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  25i,12n,43p,1177b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sotsuron_master.dvi (68 pages, 194472 bytes).
+Output written on sotsuron_master.dvi (68 pages, 195592 bytes).
