@@ -105,3 +105,18 @@ plot(data.frame((data20[1]-T20)*TT-1,-data20[2]/(data20[3]/5.4)),xlim=XLIM,ylim=
 par(new=TRUE) #
 dev.off()  
 #cd Documents/GitManagedProjects-Kagawalab/研究/抵抗測定/190109/pulse
+
+if(0){
+library(animation)
+saveGIF({
+  ani.options(loop = TRUE)
+  for (i in seq(1,(div_num_t+1), by=numt)) {
+    .main = paste(t_vector[i]*10^15,"Pulse", seq="")
+    plot(ka_vector, number_electron_kt[,i], xlim=c(-pi,pi), ylim=nplim, xlab="BZ", ylab= "numbers", main=.main,col="green", type="l")
+    par(new=T)
+    plot(ka_vector, number_hole_kt[,i], xlim=c(-pi,pi), ylim=nplim, xlab="", ylab= "", main=.main, col="blue", type="l")
+    par(new=T)    
+    plot(ka_vector, Re(polarization_kt[,i]), xlim=c(-pi,pi), ylim=nplim, xlab="BZ", ylab= "polarization", main=.main,col="red" , type="l")
+  }
+}, movie.name="number_polarization.gif", interval=0.2)
+}

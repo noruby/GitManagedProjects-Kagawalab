@@ -1,17 +1,41 @@
+log10Tck <- function(side, type){
+  lim <- switch(side, 
+                x = par('usr')[1:2],
+                y = par('usr')[3:4],
+                stop("side argument must be 'x' or 'y'"))
+  at <- floor(lim[1]) : ceil(lim[2])
+  return(switch(type, 
+                minor = outer(1:9, 10^(min(at):max(at))),
+                major = 10^at,
+                stop("type argument must be 'major' or 'minor'")
+  ))
+}
 
-png("before_after_pulse_log.png", width = 600, height = 500)  # 描画デバイスを開く
+png("before_after_pulse_log.png", width = 700, height = 500)  # 描画デバイスを開く
 XLIM<-c(0.0,300.0)
 YLIM<-c(0.01,1)
+par(mar=c(4,6,3,2),oma=c(1, 1, 1, 1))
 data <- read.csv("181228_SnGe6_ch1_001.csv",header=F)
-plot(data.frame(data[3],data[7]),xlim=XLIM,ylim=YLIM,xlab="Temperature(K)",ylab="Resistance (Ohm)",log="y",type="o",col="red",cex=0.3,tcl=0.5)
-legend("topright", col=c("red","blue"), legend=c("Before pulse","After pulse"),pch=c(1,1))
+plot(data.frame(data[3],data[7]),xlim=XLIM,ylim=YLIM,xlab="Temperature(K)",ylab="Resistance (Ohm)",log="y",type="o",col="red",cex.lab=2,axes=FALSE)
+
 par(new=TRUE) #
 data <- read.csv("181228_SnGe6_ch1_afterpulse_005.csv",header=F)
-plot(data.frame(data[3],data[7]),xlim=XLIM,ylim=YLIM,xlab="",ylab="",log="y",type="o",col="blue",cex=0.5,tcl=0.5)
+plot(data.frame(data[3],data[7]),xlim=XLIM,ylim=YLIM,xlab="",ylab="",log="y",type="o",col="blue",axes=FALSE)
 par(new=TRUE) #
 data <- read.csv("181228_SnGe6_ch1_afterpulse_006.csv",header=F)
-plot(data.frame(data[3],data[7]),xlim=XLIM,ylim=YLIM,xlab="",ylab="",log="y",type="o",col="blue",cex=0.5,tcl=0.5)
-par(new=TRUE) #
+plot(data.frame(data[3],data[7]),xlim=XLIM,ylim=YLIM,xlab="",ylab="",log="y",type="o",col="blue",axes=FALSE)
+
+axis(2,c(0.01,0.1,1),tcl= 0.8,lwd = 2,cex.axis=2)
+axis(2,seq(0.2,0.9,by=0.1),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(2,seq(0.02,0.09,by=0.01),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(4,c(0.01,0.1,1),tcl= 0.8,lwd = 2,labels = FALSE)
+axis(4,seq(0.2,0.9,by=0.1),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(4,seq(0.02,0.09,by=0.01),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(1,seq(0,300,by=50),tcl= 0.8,lwd = 2,cex.axis=2)
+axis(3,seq(0,300,by=50),tcl= 0.8,lwd = 2,labels = FALSE)
+box(lwd = 2)
+
+legend("topright", col=c("red","blue"), legend=c("Before pulse","After pulse"),pch=c(1),cex=2,pt.cex = 2)
 dev.off()  
 
 
