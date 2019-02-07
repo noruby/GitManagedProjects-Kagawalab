@@ -42,6 +42,20 @@ plot(data.frame(data5[2],data5[5]/0.017845),xlim=XLIM,ylim=YLIM,xlab="",ylab="",
 legend("topright", col=c("red","blue","black","green3"), legend=c("sample5","sample7-1","sample7-2","sample7-3"),pch=c(1,1),lty=c(1))
 dev.off()  
 
+png("plot_normalized4.png", width = 600, height = 500)  # 描画デバイスを開く
+XLIM<-c(330.0,375.0)
+YLIM<-c(0,1)
+par(mar=c(6,6,0,0),oma = c(2, 2, 2, 2),mgp=c(4, 1.5, 0))
+data2 <- read.csv("181126_heating_sample5ch2_002.csv",header=F)
+plot(data.frame(data2[2],data2[5]/0.005451),xlim=XLIM,ylim=YLIM,xlab="Temperature(K)",ylab="Normalized Resistance (@300K)",type="o",cex.lab=2,col="red",lwd = 3,axes=FALSE)
+par(new=TRUE) #
+axis(1,seq(300,400,by=10),tcl= 0.8,lwd = 2,cex.axis=2)
+axis(3,seq(300,400,by=10),tcl= 0.8,lwd = 2,labels = FALSE)
+axis(2,seq(0,1,by=0.2),tcl= 0.8,lwd = 2,cex.axis=2)
+axis(4,seq(0,1,by=0.2),tcl= 0.8,lwd = 2,labels = FALSE)
+box(lwd = 2)
+dev.off()  
+
 png("plot_normalized3.png", width = 800, height = 1000)  # 描画デバイスを開く
 XLIM<-c(330.0,395.0)
 YLIM<-c(0,1)
