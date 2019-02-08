@@ -1,33 +1,3 @@
-png("comparison_selected.png", width = 1000, height = 800)
-XLIM<-c(-0.5,8)
-TT<-3/(6.03899E-05-2.52597E-05)
-split.screen(figs=c(2,1))
-screen(1)
-YLIM<-c(0,1.5)
-par(mar=c(0,2,0,2),oma = c(1, 1, 1, 1))
-data1_13 <- read.csv("181228_SnGe6_1_1-13.csv",skip=9)
-plot(data.frame((data1_13[1]-1.88719E-05)*TT,abs(data1_13[3]/5.4)),xlim=XLIM,ylim=YLIM,xlab="",ylab="",type="l",col="red",axes=FALSE)
-par(new=TRUE) #
-data1_14 <- read.csv("181228_SnGe6_1_1-14.csv",skip=9)
-plot(data.frame((data1_14[1]-1.67879E-05)*TT,abs(data1_14[3]/5.4)),xlim=XLIM,ylim=YLIM,xlab="Time(s)",ylab="Current(A)",type="l",col="black",cex.lab=2,axes=FALSE)
-legend("topright", col=c("red","black"), legend=c("1106mA(#13)","1207mA(#14)"),pch=c(1,1),cex=2,pt.cex = 2)
-axis(1,seq(0,7,by=1),tcl= 0.8,lwd = 2,cex.axis=2)
-axis(3,seq(0,7,by=1),tcl= 0.8,lwd = 2,labels = FALSE)
-axis(2,seq(0,1.5,by=0.5),tcl= 0.8,lwd = 2,cex.axis=2)
-axis(4,seq(0,1.5,by=0.5),tcl= 0.8,lwd = 2,labels = FALSE)
-box(lwd = 2)
-screen(2)
-YLIM<-c(0,0.6)
-par(mar=c(0,2,0,2),oma = c(1, 1, 1, 1))
-data1_13 <- read.csv("181228_SnGe6_1_1-13.csv",skip=9)
-plot(data.frame((data1_13[1]-1.88719E-05)*TT,-data1_13[2]/(data1_13[3]/5.4)),xlim=XLIM,ylim=YLIM,xlab="",ylab="",type="l",col="red",cex.lab=2,axes=FALSE)
-par(new=TRUE) #
-data1_14 <- read.csv("181228_SnGe6_1_1-14.csv",skip=9)
-plot(data.frame((data1_14[1]-1.67879E-05)*TT,-data1_14[2]/(data1_14[3]/5.4)),xlim=XLIM,ylim=YLIM,xlab="Time(s)",ylab="Resistance(Ohm)",type="l",col="black",cex.lab=2,axes=FALSE)
-legend("topright", col=c("red","black"), legend=c("1106mA(#13)","1207mA(#14)"),pch=c(1,1),cex=2,pt.cex = 2)
-dev.off()  
-
-
 
 png("Resistance_pulse2.png", width = 600, height = 500)  # 描画デバイスを開く
 XLIM<-c(-1,7)
