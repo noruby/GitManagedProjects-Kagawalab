@@ -3,13 +3,13 @@ XLIM<-c(0.0,300.0)
 YLIM<-c(0.01,1)
 par(mar=c(4,6,3,2),oma=c(1, 1, 1, 1))
 data <- read.csv("181228_SnGe6_ch1_001.csv",header=F)
-plot(data.frame(data[3],data[7]),xlim=XLIM,ylim=YLIM,xlab="Temperature(K)",ylab="Resistance (Ohm)",log="y",type="o",col="red",cex.lab=2,axes=FALSE)
+plot(data.frame(data[3],data[7]),xlim=XLIM,ylim=YLIM,xlab="Temperature(K)",ylab="Resistance (Ohm)",log="y",type="o",col="black",cex.lab=2,axes=FALSE)
 par(new=TRUE) #
 data <- read.csv("181228_SnGe6_ch1_afterpulse_005.csv",header=F)
-plot(data.frame(data[3],data[7]),xlim=XLIM,ylim=YLIM,xlab="",ylab="",log="y",type="o",col="blue",axes=FALSE)
+plot(data.frame(data[3],data[7]),xlim=XLIM,ylim=YLIM,xlab="",ylab="",log="y",type="o",col="red",axes=FALSE)
 par(new=TRUE) #
 data <- read.csv("181228_SnGe6_ch1_afterpulse_006.csv",header=F)
-plot(data.frame(data[3],data[7]),xlim=XLIM,ylim=YLIM,xlab="",ylab="",log="y",type="o",col="blue",axes=FALSE)
+plot(data.frame(data[3],data[7]),xlim=XLIM,ylim=YLIM,xlab="",ylab="",log="y",type="o",col="red",axes=FALSE)
 axis(2,c(0.01,0.1,1),tcl= 0.8,lwd = 2,cex.axis=2)
 axis(2,seq(0.2,0.9,by=0.1),tcl= 0.6,lwd = 1.5,labels = FALSE)
 axis(2,seq(0.02,0.09,by=0.01),tcl= 0.6,lwd = 1.5,labels = FALSE)
@@ -19,7 +19,7 @@ axis(4,seq(0.02,0.09,by=0.01),tcl= 0.6,lwd = 1.5,labels = FALSE)
 axis(1,seq(0,300,by=50),tcl= 0.8,lwd = 2,cex.axis=2)
 axis(3,seq(0,300,by=50),tcl= 0.8,lwd = 2,labels = FALSE)
 box(lwd = 2)
-legend("topright", col=c("red","blue"), legend=c("Before pulse","After pulse"),lwd = 2,pch=c(1),cex=2,pt.cex = 2)
+legend("topright", col=c("black","red"), legend=c("Before pulse","After pulse"),lwd = 2,pch=c(1),cex=2,pt.cex = 2)
 dev.off()  
 
 png("comparison2.png", width = 600, height = 500)  # 描画デバイスを開く
@@ -27,7 +27,15 @@ XLIM<-c(10,290.0)
 YLIM<-c(0.1,900)
 par(mar=c(4,6,3,2),oma=c(1, 1, 1, 1))
 data <- read.csv("181213_sample6_ch1-2_001.csv",header=F)
+<<<<<<< HEAD
+<<<<<<< HEAD
+plot(data.frame(data[3],1000*data[6]),xlim=XLIM,ylim=YLIM,xlab="Temperature(K)",ylab=expression(paste("Resistance(m",Omega,")")),log="y",type="o",col="black",cex.lab=2,axes=FALSE)
+=======
 plot(data.frame(data[3],1000*data[6]),xlim=XLIM,ylim=YLIM,xlab="Temperature(K)",ylab=expression(paste("Resistance(m",Omega,")")),,log="y",type="o",col="black",cex.lab=2,axes=FALSE)
+>>>>>>> 246dc86ab455eec850ff1686655d3501b33889ae
+=======
+plot(data.frame(data[3],1000*data[6]),xlim=XLIM,ylim=YLIM,xlab="Temperature(K)",ylab=expression(paste("Resistance(m",Omega,")")),,log="y",type="o",col="black",cex.lab=2,axes=FALSE)
+>>>>>>> 246dc86ab455eec850ff1686655d3501b33889ae
 par(new=TRUE) #
 data <- read.csv("181213_sample6_ch1-2_afterpulse2_005.csv",header=F)
 plot(data.frame(data[3],1000*data[6]),xlim=XLIM,ylim=YLIM,xlab="",ylab="",log="y",type="o",col="red",axes=FALSE)
@@ -37,6 +45,10 @@ plot(data.frame(data[3],1000*data[7]),xlim=XLIM,ylim=YLIM,xlab="",ylab="",log="y
 par(new=TRUE) #
 data <- read.csv("181228_SnGe6_ch1_001.csv",header=F)
 plot(data.frame(data[3],1000*data[7]),xlim=XLIM,ylim=YLIM,xlab="",ylab="",log="y",type="o",col="red",axes=FALSE)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
 par(new=TRUE) #
 axis(2,c(1,10,100),tcl= 0.8,lwd = 2,cex.axis=2)
 axis(2,c(0.1),tcl= 0.8,lwd = 2,cex.axis=2)
@@ -53,6 +65,114 @@ axis(1,seq(0,300,by=50),tcl= 0.8,lwd = 2,cex.axis=2)
 axis(3,seq(0,300,by=50),tcl= 0.8,lwd = 2,labels = FALSE)
 box(lwd = 2)
 legend("topright", col=c("black","red"), legend=c("Before pulse","After pulse"),lwd = 2,pch=c(1),cex=2,pt.cex = 2)
+dev.off()  
+
+png("comparison4.png", width = 600, height = 500)  # 描画デバイスを開く
+XLIM<-c(10,290.0)
+YLIM<-c(0.1,900)
+par(mar=c(4,6,3,2),oma=c(1, 1, 1, 1))
+data <- read.csv("181213_sample6_ch1-2_001.csv",header=F)
+plot(data.frame(data[3],1000*data[6]),xlim=XLIM,ylim=YLIM,xlab="Temperature(K)",ylab=expression(paste("Resistance(m",Omega,")")),,log="y",type="o",col="black",cex.lab=2,axes=FALSE)
+
+axis(2,c(1,10,100),tcl= 0.8,lwd = 2,cex.axis=2)
+axis(2,c(0.1),tcl= 0.8,lwd = 2,cex.axis=2)
+axis(2,seq(0.2,0.9,by=0.1),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(2,seq(2,9,by=1),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(2,seq(20,90,by=10),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(2,seq(200,900,by=100),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(4,c(1,10,100),tcl= 0.8,lwd = 2,labels = FALSE)
+axis(4,seq(0.2,0.9,by=0.1),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(4,seq(2,9,by=1),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(4,seq(20,90,by=10),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(4,seq(200,900,by=100),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(1,seq(0,300,by=50),tcl= 0.8,lwd = 2,cex.axis=2)
+axis(3,seq(0,300,by=50),tcl= 0.8,lwd = 2,labels = FALSE)
+box(lwd = 2)
+legend("topright", col=c("black"), legend=c("Before pulse"),lwd = 2,pch=c(1),cex=2,pt.cex = 2)
+dev.off()  
+
+png("comparison5.png", width = 600, height = 500)  # 描画デバイスを開く
+XLIM<-c(10,290.0)
+YLIM<-c(0.1,900)
+par(mar=c(4,6,3,2),oma=c(1, 1, 1, 1))
+data <- read.csv("181213_sample6_ch1-2_001.csv",header=F)
+plot(data.frame(data[3],1000*data[6]),xlim=XLIM,ylim=YLIM,xlab="Temperature(K)",ylab=expression(paste("Resistance(m",Omega,")")),,log="y",type="o",col="black",cex.lab=2,axes=FALSE)
+>>>>>>> 246dc86ab455eec850ff1686655d3501b33889ae
+par(new=TRUE) #
+data <- read.csv("181213_sample6_ch1-2_afterpulse2_005.csv",header=F)
+plot(data.frame(data[3],1000*data[6]),xlim=XLIM,ylim=YLIM,xlab="",ylab="",log="y",type="o",col="red",axes=FALSE)
+par(new=TRUE) #
+
+axis(2,c(1,10,100),tcl= 0.8,lwd = 2,cex.axis=2)
+axis(2,c(0.1),tcl= 0.8,lwd = 2,cex.axis=2)
+axis(2,seq(0.2,0.9,by=0.1),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(2,seq(2,9,by=1),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(2,seq(20,90,by=10),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(2,seq(200,900,by=100),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(4,c(1,10,100),tcl= 0.8,lwd = 2,labels = FALSE)
+axis(4,seq(0.2,0.9,by=0.1),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(4,seq(2,9,by=1),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(4,seq(20,90,by=10),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(4,seq(200,900,by=100),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(1,seq(0,300,by=50),tcl= 0.8,lwd = 2,cex.axis=2)
+axis(3,seq(0,300,by=50),tcl= 0.8,lwd = 2,labels = FALSE)
+box(lwd = 2)
+legend("topright", col=c("black","red"), legend=c("Before pulse","After pulse"),lwd = 2,pch=c(1),cex=2,pt.cex = 2)
+<<<<<<< HEAD
+dev.off()  
+
+png("comparison4.png", width = 600, height = 500)  # 描画デバイスを開く
+XLIM<-c(10,290.0)
+YLIM<-c(0.1,900)
+par(mar=c(4,6,3,2),oma=c(1, 1, 1, 1))
+data <- read.csv("181213_sample6_ch1-2_001.csv",header=F)
+plot(data.frame(data[3],1000*data[6]),xlim=XLIM,ylim=YLIM,xlab="Temperature(K)",ylab=expression(paste("Resistance(m",Omega,")")),,log="y",type="o",col="black",cex.lab=2,axes=FALSE)
+
+axis(2,c(1,10,100),tcl= 0.8,lwd = 2,cex.axis=2)
+axis(2,c(0.1),tcl= 0.8,lwd = 2,cex.axis=2)
+axis(2,seq(0.2,0.9,by=0.1),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(2,seq(2,9,by=1),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(2,seq(20,90,by=10),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(2,seq(200,900,by=100),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(4,c(1,10,100),tcl= 0.8,lwd = 2,labels = FALSE)
+axis(4,seq(0.2,0.9,by=0.1),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(4,seq(2,9,by=1),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(4,seq(20,90,by=10),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(4,seq(200,900,by=100),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(1,seq(0,300,by=50),tcl= 0.8,lwd = 2,cex.axis=2)
+axis(3,seq(0,300,by=50),tcl= 0.8,lwd = 2,labels = FALSE)
+box(lwd = 2)
+legend("topright", col=c("black"), legend=c("Before pulse"),lwd = 2,pch=c(1),cex=2,pt.cex = 2)
+dev.off()  
+
+png("comparison5.png", width = 600, height = 500)  # 描画デバイスを開く
+XLIM<-c(10,290.0)
+YLIM<-c(0.1,900)
+par(mar=c(4,6,3,2),oma=c(1, 1, 1, 1))
+data <- read.csv("181213_sample6_ch1-2_001.csv",header=F)
+plot(data.frame(data[3],1000*data[6]),xlim=XLIM,ylim=YLIM,xlab="Temperature(K)",ylab=expression(paste("Resistance(m",Omega,")")),,log="y",type="o",col="black",cex.lab=2,axes=FALSE)
+>>>>>>> 246dc86ab455eec850ff1686655d3501b33889ae
+par(new=TRUE) #
+data <- read.csv("181213_sample6_ch1-2_afterpulse2_005.csv",header=F)
+plot(data.frame(data[3],1000*data[6]),xlim=XLIM,ylim=YLIM,xlab="",ylab="",log="y",type="o",col="red",axes=FALSE)
+par(new=TRUE) #
+
+axis(2,c(1,10,100),tcl= 0.8,lwd = 2,cex.axis=2)
+axis(2,c(0.1),tcl= 0.8,lwd = 2,cex.axis=2)
+axis(2,seq(0.2,0.9,by=0.1),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(2,seq(2,9,by=1),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(2,seq(20,90,by=10),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(2,seq(200,900,by=100),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(4,c(1,10,100),tcl= 0.8,lwd = 2,labels = FALSE)
+axis(4,seq(0.2,0.9,by=0.1),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(4,seq(2,9,by=1),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(4,seq(20,90,by=10),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(4,seq(200,900,by=100),tcl= 0.6,lwd = 1.5,labels = FALSE)
+axis(1,seq(0,300,by=50),tcl= 0.8,lwd = 2,cex.axis=2)
+axis(3,seq(0,300,by=50),tcl= 0.8,lwd = 2,labels = FALSE)
+box(lwd = 2)
+legend("topright", col=c("black","red"), legend=c("Before pulse","After pulse"),lwd = 2,pch=c(1),cex=2,pt.cex = 2)
+<<<<<<< HEAD
 dev.off()  
 
 png("comparison4.png", width = 600, height = 500)  # 描画デバイスを開く
@@ -105,6 +225,10 @@ axis(1,seq(0,300,by=50),tcl= 0.8,lwd = 2,cex.axis=2)
 axis(3,seq(0,300,by=50),tcl= 0.8,lwd = 2,labels = FALSE)
 box(lwd = 2)
 legend("topright", col=c("black","red"), legend=c("Before pulse","After pulse"),lwd = 2,pch=c(1),cex=2,pt.cex = 2)
+=======
+>>>>>>> 246dc86ab455eec850ff1686655d3501b33889ae
+=======
+>>>>>>> 246dc86ab455eec850ff1686655d3501b33889ae
 dev.off()  
 
 png("comparison3.png", width = 600, height = 500)  # 描画デバイスを開く
@@ -144,29 +268,64 @@ XLIM<-c(2,7)
 split.screen(figs=c(2,1))
 screen(1)
 YLIM<-c(0,1100)
-par(mar=c(0,8,6,0),oma = c(2, 2, 2, 2),mgp=c(4, 1.5, 0))
+par(mar=c(0,8,6,0),oma = c(2, 2, 2, 2),mgp=c(4, 1, 0))
 data <- read.csv("181228_SnGe6_ch1_001.csv",header=F)
 plot(data.frame(data[3],1000*data[7]),xlim=XLIM,ylim=YLIM,xlab="Temperature(K)",ylab=expression(paste("Resistance(m",Omega,")")),type="o",lwd = 3,col="black",cex.lab=3,axes=FALSE)
+<<<<<<< HEAD
+<<<<<<< HEAD
+axis(1,seq(0,50,by=1),tcl= 1,lwd = 2,cex.axis=3)
+axis(3,seq(0,50,by=1),tcl= 1,lwd = 2,labels = FALSE)
+axis(2,seq(0,1000,by=500),tcl= 1,lwd = 2,cex.axis=3)
+axis(2,seq(0,1500,by=100),tcl= 0.6,lwd = 2,labels = FALSE)
+axis(4,seq(0,1000,by=500),tcl= 1,lwd = 2,labels = FALSE)
+axis(4,seq(0,1500,by=100),tcl= 0.6,lwd = 2,labels = FALSE)
+box(lwd = 2)
+legend("topright", col=c("black"), legend=c("Before Pulse 2"),lwd = 2,pch=c(1),cex=3,pt.cex = 3)
+=======
+=======
+>>>>>>> 246dc86ab455eec850ff1686655d3501b33889ae
 axis(1,seq(0,50,by=1),tcl= 0.8,lwd = 2,cex.axis=3)
 axis(3,seq(0,50,by=1),tcl= 0.8,lwd = 2,labels = FALSE)
 axis(2,seq(0,1000,by=500),tcl= 0.8,lwd = 2,cex.axis=3)
 axis(4,seq(0,1000,by=500),tcl= 0.8,lwd = 2,labels = FALSE)
 box(lwd = 2)
 legend("topright", col=c("black"), legend=c("Before pulse #14"),lwd = 2,pch=c(1),cex=3,pt.cex = 3)
+<<<<<<< HEAD
+>>>>>>> 246dc86ab455eec850ff1686655d3501b33889ae
+=======
+>>>>>>> 246dc86ab455eec850ff1686655d3501b33889ae
 screen(2)
 YLIM<-c(0,30)
-par(mar=c(6,8,0,0),mgp=c(4, 1.5, 0))
+par(mar=c(6,8,0,0),mgp=c(4, 1, 0))
 data <- read.csv("181228_SnGe6_ch1_afterpulse_005.csv",header=F)
 plot(data.frame(data[3],1000*data[7]),xlim=XLIM,ylim=YLIM,xlab="",ylab="",type="o",lwd = 3,col="red",cex.lab=2,axes=FALSE)
 par(new=TRUE) #
 data <- read.csv("181228_SnGe6_ch1_afterpulse_004_modified.csv",header=F)
 plot(data.frame(data[3],1000*data[7]),xlim=XLIM,ylim=YLIM,xlab="Temperature(K)",ylab=expression(paste("Resistance(m",Omega,")")),type="o",lwd = 3,col="red",cex.lab=3,axes=FALSE)
+<<<<<<< HEAD
+<<<<<<< HEAD
+axis(2,seq(0,20,by=10),tcl= 1,lwd = 2,cex.axis=3)
+axis(2,seq(0,30,by=5),tcl= 0.6,lwd = 2,labels = FALSE)
+axis(4,seq(0,20,by=10),tcl= 1,lwd = 2,labels = FALSE)
+axis(4,seq(0,30,by=5),tcl= 0.6,lwd = 2,labels = FALSE)
+par(mar=c(6,8,0,0),mgp=c(4.5, 1.5, 0))
+axis(1,seq(0,50,by=1),tcl= 1,lwd = 2,cex.axis=3)
+axis(3,seq(0,50,by=1),tcl= 1,lwd = 2,labels = FALSE)
+box(lwd = 2)
+legend("topright", col=c("red"), legend=c("After Pulse 2"),lwd = 2,pch=c(1),cex=3,pt.cex = 3)
+=======
+=======
+>>>>>>> 246dc86ab455eec850ff1686655d3501b33889ae
 axis(1,seq(0,50,by=1),tcl= 0.8,lwd = 2,cex.axis=3)
 axis(3,seq(0,50,by=1),tcl= 0.8,lwd = 2,labels = FALSE)
 axis(2,seq(0,20,by=10),tcl= 0.8,lwd = 2,cex.axis=3)
 axis(4,seq(0,20,by=10),tcl= 0.8,lwd = 2,labels = FALSE)
 box(lwd = 2)
 legend("topright", col=c("red"), legend=c("After pulse #14"),lwd = 2,pch=c(1),cex=3,pt.cex = 3)
+<<<<<<< HEAD
+>>>>>>> 246dc86ab455eec850ff1686655d3501b33889ae
+=======
+>>>>>>> 246dc86ab455eec850ff1686655d3501b33889ae
 dev.off()  
 
 png("after_pulse.png", width = 400, height = 400)  # 描画デバイスを開く
