@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  22 FEB 2019 15:46
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  1 MAR 2019 08:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -377,50 +377,35 @@ Overfull \hbox (2.2222pt too wide) in paragraph at lines 120--134
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [37] [38]) (./results_discussions/results_discussions.tex
-File: results_discussions/181213_before_after_pulse_log.eps Graphic file (type 
-eps)
+File: results_discussions/comparison2.eps Graphic file (type eps)
 
-<results_discussions/181213_before_after_pulse_log.eps>
-File: results_discussions/181213_before_pulse_Tinv.eps Graphic file (type eps)
-
-<results_discussions/181213_before_pulse_Tinv.eps> [39
+<results_discussions/comparison2.eps>
+File: results_discussions/Tinv.eps Graphic file (type eps)
+ <results_discussions/Tinv.eps> [39
 
 ]
-File: results_discussions/181213_comparison_selected.eps Graphic file (type eps
-)
+File: results_discussions/TD2.eps Graphic file (type eps)
 
-<results_discussions/181213_comparison_selected.eps>
+<results_discussions/TD2.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [40]
-File: results_discussions/181213_after_pulse2.eps Graphic file (type eps)
- <results_discussions/181213_after_pulse2.eps>
+File: results_discussions/after_pulse2.eps Graphic file (type eps)
+ <results_discussions/after_pulse2.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[41]
-File: results_discussions/181228_before_after_pulse_log.eps Graphic file (type 
-eps)
- <results_discussions/181228_before_after_pulse_log.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: results_discussions/181228_current_resistance.eps Graphic file (type eps)
-
-<results_discussions/181228_current_resistance.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[42]
-File: results_discussions/181228_after_pulse.eps Graphic file (type eps)
- <results_discussions/181228_after_pulse.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[43] [44] [45]
+File: results_discussions/comparison3.eps Graphic file (type eps)
+<results_discussions/comparison3.eps> [41]
+File: results_discussions/TD1.eps Graphic file (type eps)
+ <results_discussions/TD1.eps>
+[42] [43]
+File: results_discussions/low1.eps Graphic file (type eps)
+ <results_discussions/low1.eps> [44] [45]
 File: results_discussions/190112summary.eps Graphic file (type eps)
- <results_discussions/190112summary.eps>
+
+<results_discussions/190112summary.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -431,7 +416,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: results_discussions/190113summary.eps Graphic file (type eps)
  <results_discussions/190113summary.eps>
 
-LaTeX Warning: Float too large for page by 3.0886pt on input line 137.
+LaTeX Warning: Float too large for page by 3.0886pt on input line 138.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -513,11 +498,11 @@ LaTeX Warning: Command \l invalid in math mode on input line 124.
 ) [66] (./sotsuron_master.aux) ) 
 Here is how much of TeX's memory you used:
  1531 strings out of 493281
- 23128 string characters out of 6145041
+ 22762 string characters out of 6145041
  97641 words of memory out of 5000000
  5385 multiletter control sequences out of 15000+600000
  15933 words of font info for 72 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  25i,12n,43p,1177b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sotsuron_master.dvi (68 pages, 193256 bytes).
+Output written on sotsuron_master.dvi (68 pages, 193284 bytes).

@@ -40,7 +40,7 @@
 \contentsline {subsection}{\numberline {3.3}半導体スズと金属スズの共存状態の制御}{37}
 \contentsline {section}{\numberline {4}電流パルスを用いたパルス加熱・急冷実験の結果と考察}{39}
 \contentsline {subsection}{\numberline {4.1}半導体スズから金属スズへの変換}{39}
-\contentsline {subsection}{\numberline {4.2}半導体スズと金属スズの共存状態の制御}{44}
+\contentsline {subsection}{\numberline {4.2}半導体スズと金属スズの共存状態の制御}{45}
 \contentsline {subsection}{\numberline {4.3}総括}{50}
 \contentsline {section}{\numberline {5}結論}{51}
 \contentsline {section}{\numberline {付録A}顕微光学系に関して}{53}
