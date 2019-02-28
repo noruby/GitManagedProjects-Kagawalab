@@ -8,6 +8,8 @@
 \usepackage{color}
 \usepackage{afterpage}
 
+\bibliographystyle{h-physrev3}
+
 \setlength{\oddsidemargin}{\paperwidth}
   \addtolength{\oddsidemargin}{-\fullwidth}
   \setlength{\oddsidemargin}{.5\oddsidemargin}
@@ -34,10 +36,24 @@
 %\date{\today}
 \begin{document}
 %\maketitle
+%\bibliographystyle{prsty}
 
 \pagestyle{empty}
 \tableofcontents
 \newpage
+
+%タイトルの英小文字を大文字にする機能をOFFにする(http://miyahn.blog80.fc2.com/blog-entry-55.html)
+\makeatletter
+\def\ps@fancy{%
+\def\sectionmark##1{\markboth{\ifnum \c@secnumdepth>\z@ \thesection\hskip 1em\relax \fi ##1}{}}%
+\def\subsectionmark##1{\markright {\ifnum \c@secnumdepth >\@ne \thesubsection\hskip 1em\relax \fi ##1}}%
+\ps@@fancy
+\gdef\ps@fancy{\@fancyplainfalse\ps@@fancy}%
+\ifdim\headwidth<0sp 
+\global\advance\headwidth123456789sp\global\advance\headwidth\textwidth
+\fi
+}
+\makeatother
 
 \pagestyle{fancy}
 \fancyhead{} % clear all header fields
@@ -71,8 +87,8 @@
 %\subsection{Voltage to }
 
 \newpage
+
 \bibliography{sotsuron.bib}
-\bibliographystyle{junsrt}
 
 \end{document}
 %コンパイルの仕方

@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  2 FEB 2019 00:43
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  28 FEB 2019 04:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -155,56 +155,51 @@ LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 \openout3 = `draftNotes.bib'.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 18.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 23.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 23.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 22.
 
 
 LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 23.
+(Font)              using `JT1/mc/m/n' instead on input line 22.
 
 
 LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 23.
+(Font)              using `JY1/mc/m/n' instead on input line 22.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 23.
+(Font)              <9> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 23.
+(Font)              <6> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 23.
+(Font)              <8> on input line 22.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 24.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 24.
-File: kinetic_approach.eps Graphic file (type eps)
-<kinetic_approach.eps>
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 23.
 File: 181228_current_resistance.eps Graphic file (type eps)
- <181228_current_resistance.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+<181228_current_resistance.eps>
 File: 181228_before_after_pulse_log.eps Graphic file (type eps)
-<181228_before_after_pulse_log.eps>
+ <181228_before_after_pulse_log.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <7> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 66.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 57.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <7> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 66.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 57.
 
-Package natbib Warning: Citation `oike' on page 1 undefined on input line 66.
+Package natbib Warning: Citation `oike' on page 1 undefined on input line 57.
 
 [1]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 74.
+ on input line 59.
 
 No file draft.bbl.
 
@@ -214,14 +209,18 @@ Package natbib Warning: There were undefined citations.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
+
  ) 
 Here is how much of TeX's memory you used:
- 2767 strings out of 493281
- 35006 string characters out of 6145041
- 127180 words of memory out of 5000000
- 6710 multiletter control sequences out of 15000+600000
+ 2764 strings out of 493281
+ 34933 string characters out of 6145041
+ 126180 words of memory out of 5000000
+ 6708 multiletter control sequences out of 15000+600000
  15783 words of font info for 61 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 28i,5n,29p,615b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,5n,29p,1682b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on draft.dvi (2 pages, 5596 bytes).
+Output written on draft.dvi (2 pages, 6680 bytes).

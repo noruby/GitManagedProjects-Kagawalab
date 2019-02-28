@@ -1,0 +1,39 @@
+\documentclass[11pt,a4paper]{jsarticle}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{graphicx}
+\usepackage[top=20truemm,bottom=20truemm,left=25truemm,right=25truemm]{geometry}
+\usepackage{comment}
+
+
+%\title{電気回路上の量子電磁気学\\(ナノ科学 期末レポート)}
+%\author{東大物理工学科4年　03-153012 平松信義}
+%\date{\today}
+\begin{document}
+%\maketitle
+%本レポートでは共振器の量子電磁気学 (cavity QED)に関して述べたあと、その応用である電気回路上の量子電磁気学(circuit QED)を説明する\cite{Schoelkopf}。
+
+\begin{eqnarray}
+γ &=& \sqrt{(R+j\omega L)(G+j\omega C)}\\
+  &=& \alpha +j\beta
+\end{eqnarray}
+$R=0$のもとで、 伝搬長さ$L_{GHz}$と波長$\lambda_{ GHz}$は
+\begin{eqnarray}
+L _{GHz} &=&\frac{1}{2\alpha}\\
+&=& \frac{1}{\sqrt{2\omega L(\sqrt{G^2+\omega^2 C^2} -\omega C)}}
+\end{eqnarray}
+
+\begin{eqnarray}
+\lambda_{GHz} &=&\frac{2\pi}{\beta}\\
+&=& \frac{2\pi}{\sqrt{\frac{\omega L}{2}(\sqrt{G^2+\omega^2 C^2} +\omega C)}}
+\end{eqnarray}
+
+\begin{eqnarray}
+exp(-\frac{\lambda_{GHz}}{L _{GHz}}) &=& exp(-4\pi \frac{\sqrt{G^2+\omega^2 C^2} - \omega C}{G})\\
+&=& exp(-4\pi \frac{G^3}{2C^3\omega^3}) +o[(\frac{G}{C\omega})^8]
+\end{eqnarray}
+
+\begin{thebibliography}{9}
+\bibitem{Schoelkopf} R. J. Schoelkopf and S. M. Girvin, Wiring up quantum systems, Nature 451, 664 (2008)
+\end{thebibliography}
+
+\end{document}
