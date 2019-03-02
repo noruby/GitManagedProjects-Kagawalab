@@ -1,0 +1,28 @@
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  1 MAR 2019 08:45
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**results_discussions.tex
+(./results_discussions.tex
+pLaTeX2e <2018-04-01>+1 (based on LaTeX2e <2018-04-01> patch level 2)
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+./results_discussions.tex:1: Undefined control sequence.
+l.1 \section
+            {電流パルスを用いたパルス加熱・急冷実験の結果と考察}
+? 
+./results_discussions.tex:1: Emergency stop.
+l.1 \section
+            {電流パルスを用いたパルス加熱・急冷実験の結果と考察}
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 4 strings out of 493281
+ 90 string characters out of 6145041
+ 60763 words of memory out of 5000000
+ 4035 multiletter control sequences out of 15000+600000
+ 7511 words of font info for 31 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 5i,0n,3p,86b,8s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.

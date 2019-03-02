@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  1 MAR 2019 08:11
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  1 MAR 2019 08:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -397,12 +397,18 @@ File: results_discussions/after_pulse2.eps Graphic file (type eps)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: results_discussions/comparison3.eps Graphic file (type eps)
-<results_discussions/comparison3.eps> [41]
+<results_discussions/comparison3.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: results_discussions/TD1.eps Graphic file (type eps)
- <results_discussions/TD1.eps>
-[42] [43]
+<results_discussions/TD1.eps> [41]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[42]
 File: results_discussions/low1.eps Graphic file (type eps)
- <results_discussions/low1.eps> [44] [45]
+ <results_discussions/low1.eps> [43] [44] [45]
 File: results_discussions/190112summary.eps Graphic file (type eps)
 
 <results_discussions/190112summary.eps>
@@ -416,7 +422,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: results_discussions/190113summary.eps Graphic file (type eps)
  <results_discussions/190113summary.eps>
 
-LaTeX Warning: Float too large for page by 3.0886pt on input line 138.
+LaTeX Warning: Float too large for page by 3.0886pt on input line 137.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -505,4 +511,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  25i,12n,43p,1177b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sotsuron_master.dvi (68 pages, 193284 bytes).
+Output written on sotsuron_master.dvi (68 pages, 193008 bytes).
