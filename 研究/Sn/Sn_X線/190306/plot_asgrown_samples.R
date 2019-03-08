@@ -93,7 +93,7 @@ legend("topright", col=c("black"), legend=c("Sn on Si"),pch=c(1),cex=2,pt.cex = 
 par(new=TRUE)
 dev.off()  
 
-XLIM<-c(20.0,25.0)
+XLIM<-c(30.0,35.0)
 png("intensity_etched_Sn_on_Si2.png", width = 1000, height = 1700)  # 描画デバイスを開く
 split.screen(figs = c(6, 1))
 screen(1)
@@ -116,7 +116,7 @@ legend("topright", col=c("green"), legend=c("Si_wafer"),pch=c(1),cex=2,pt.cex = 
 par(new=TRUE)
 screen(4)
 par(mar = c(0, 6, 0, 1),oma = c(1, 1, 1, 1))
-YLIM<-c(0,500)
+YLIM<-c(0,700)
 plot(data.frame(data4[1],data4[2]),xlim=XLIM,ylim=YLIM,xlab="",ylab="cps",type="l",col="gray",cex=1,tcl=1,cex.lab=2,cex.axis=2,cex.main=2)
 legend("topright", col=c("gray"), legend=c("Sn on the polished Si"),pch=c(1),cex=2,pt.cex = 2)
 par(new=TRUE)
