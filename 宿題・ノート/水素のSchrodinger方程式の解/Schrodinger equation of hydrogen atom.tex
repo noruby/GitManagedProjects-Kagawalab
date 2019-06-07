@@ -1,0 +1,76 @@
+\documentclass[11pt,a4paper]{jsarticle}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{graphicx}
+\usepackage[top=25truemm,bottom=25truemm,left=25truemm,right=25truemm]{geometry}
+\usepackage{comment}
+\usepackage[dvipdfmx]{hyperref}
+
+\title{水素のSchrodinger方程式の解}
+\author{平松信義}
+\date{\today}
+\begin{document}
+\maketitle
+
+\section{ハミルトニアンの変形}
+価数Zの原子核とその周りを回る電子のハミルトニアンは, 
+\begin{eqnarray}
+H &=& -\frac{\hbar^2}{2m_a} \vec{\nabla}_a^2 -\frac{\hbar^2}{2m_e} \vec{\nabla}_e^2 -\frac{Z e^2}{4\pi\epsilon_0|\vec{r}_a- \vec{r}_e |}\\
+    &=& -\frac{\hbar^2}{2M} \vec{\nabla}_c^2 -\frac{\hbar^2}{2\mu} \vec{\nabla}_r^2 -\frac{Z e^2}{4\pi\epsilon_0|\vec{r}_r|}\\
+    &=& -\frac{\hbar^2}{2M} \vec{\nabla}_c^2 -\frac{E_a}{2}\vec{\nabla}'^2 -\frac{E_a}{|\vec{r'}|}\\
+    &\equiv& H_c + H'. 
+\end{eqnarray}
+
+ただし$M=m_a+m_e$は総質量, $\mu=\frac{m_a m_e}{m_a + m_e}$は換算質量, $r_c=\frac{m_a r_a+ m_e r_e}{m_a + m_e}$は重心座標, $\vec{r}_r= \vec{r}_e - \vec{r}_a$は相対座標, $\vec{r}'= \vec{r}_r/a_0$はボーア半径$a_0=\frac{4\pi\epsilon_0}{e^2} \frac{\hbar^2}{\mu}$で規格化された無次元座標, $E_a=\frac{ e^2}{4\pi\epsilon_0a_0}=(\frac{ e^2}{4\pi\epsilon_0})^2 \frac{\mu}{\hbar^2}$は1ハートリーのエネルギーである。(1)式から(2)式への展開には、以下の関係を用いた。
+
+\begin{eqnarray}
+\left( \begin{array}{cc} r_e\\ r_a\\ \end{array} \right) &&= \left(\begin{array}{cc} \frac{m_e}{m_a + m_e} & \frac{m_a}{m_a + m_e} \\ 1 & -1 \\ \end{array} \right)^{-1} \left( \begin{array}{cc} r_c\\ r_r\\ \end{array} \right)\\
+&&= \left(\begin{array}{cc} 1 & \frac{m_a}{m_a + m_e} \\ 1 & -\frac{m_e}{m_a + m_e} \\ \end{array} \right) \left( \begin{array}{cc} r_c\\ r_r\\ \end{array} \right);\\
+\left( \begin{array}{cc} \nabla_e & \nabla_a\\ \end{array} \right) &&= \left( \begin{array}{cc} \nabla_c & \nabla_r\\ \end{array} \right) \left(\begin{array}{cc} \frac{m_e}{m_a + m_e} & \frac{m_a}{m_a + m_e} \\ 1 & -1 \\ \end{array} \right) ;\\
+\left( \begin{array}{cc} \nabla_e & \nabla_a\\ \end{array} \right) \left(\begin{array}{cc} \frac{1}{m_e} &0 \\ 0 &  \frac{1}{m_a} \\ \end{array} \right) \left( \begin{array}{cc} \nabla_e \\ \nabla_a\\ \end{array} \right) &&\\= \left( \begin{array}{cc} \nabla_c & \nabla_r\\ \end{array} \right) \left(\begin{array}{cc} \frac{m_e}{m_a + m_e} & \frac{m_a}{m_a + m_e} \\ 1 & -1 \\ \end{array} \right) &&\left(\begin{array}{cc} \frac{1}{m_e} &0 \\ 0 &  \frac{1}{m_a} \\ \end{array} \right) \left(\begin{array}{cc} \frac{m_e}{m_a + m_e} & 1 \\ \frac{m_a}{m_a + m_e} & -1 \\ \end{array} \right) \left( \begin{array}{cc} \nabla_c \\ \nabla_r\\ \end{array} \right)\\
+= \left( \begin{array}{cc} \nabla_c & \nabla_r\\ \end{array} \right) \left(\begin{array}{cc} \frac{1}{M} & 0 \\ 0 & \frac{1}{\mu} \\ \end{array} \right) &&\left( \begin{array}{cc} \nabla_c \\ \nabla_r\\ \end{array} \right) ;\\
+\end{eqnarray}
+
+ハミルトニアンの$H_c = -\frac{\hbar^2}{2M} \vec{\nabla}_c^2$の項は重心運動を現し、連続スペクトルを与えるのでこれを無視する。非自明な部分は, $H'/E_a =- \frac{1}{2} \vec{\nabla}'^2 -\frac{1}{|r'|}$に比例するのでこのスペクトルを求める。
+
+ここで$\vec{\nabla}'^2$ は $\vec{\nabla}'^2= -p_r^2 -\vec{L}'^2/r'^2$を満たす。ただし無次元化した動軸方向の運動量演算子$p_r \equiv\frac{-i}{r'}\frac{\partial}{\partial r'} r'$はエルミート演算子であり自己随伴性$\int _0^\infty dr r^2 \phi^*(r) [ p_r \psi(r) ] = \int _0^\infty dr r^2 [ p_r \phi(r) ]^* \psi(r) $と交換関係$[r,p_r]=i$を明らかに満たす。また$L_i' \equiv -i \epsilon_{ijk} x_j\partial_k$は無次元化した角運動量演算子である。これは以下の計算から確かめることができる.
+
+\begin{eqnarray}
+\vec{L}'^2 &=& - \epsilon_{ijk}\epsilon_{ilm} (x_j\partial_k)(x_l\partial_m)\\
+&=& (\delta_{jm}\delta_{kl} - \delta_{jl}\delta_{km}) (x_j\partial_k)(x_l\partial_m)\\
+&=& (x_j\partial_k)(x_k\partial_j) -(x_j\partial_k)(x_j\partial_k)\\
+&=& 2 x_j\partial_j + x_j x_k \partial_j \partial_k  - x^2 \partial^2\\
+&=& x_j\partial_j + ( x_j \partial_j)( x_k \partial_k)  - x^2 \partial^2\\
+&=& ( r' \frac{\partial}{\partial r'}) + ( r' \frac{\partial}{\partial r'})( r' \frac{\partial}{\partial r'}) - r'^2 \vec{\nabla}'^2\\
+&=& r'^2 ( \frac{1}{r'} \frac{\partial}{\partial r'} r' )^2 - r'^2 \vec{\nabla}'^2
+\end{eqnarray}
+
+したがって, 
+\begin{eqnarray}
+\frac{H'}{E_a} &=& \frac{1}{2}p_r^2 - \frac{1}{r'} + \frac{1}{2 r'^2} \vec{L}'^2 
+\end{eqnarray}
+
+\section{固有状態}
+
+$H'$は回転対称なので、軌道角運動量演算子$L'_i (i=x,y,z)$に対して$[H', L'_i]=0$. これから軌道角運動量演算子の自乗$L'^2$に対しても $[H', L'^2]=0$. したがって, 演算子$H'$と$L'_z$と$L'^2$の同時固有状態がとれる.  
+
+$L'_z$と$L'^2$の固有関数である球面調和関数$Y_{lm}(\theta,\psi)$は$L'_zY_{lm}=mY_{lm}$と$L'^2Y_{lm}=l(l+1)Y_{lm}$を満たす。ただし$l \ge 0, |m|\ge l$. $\rho=\frac{2r'}{n}$とおいてハミルトニアンの固有関数を$Y_{lm}(\theta,\psi)(\frac{2r'}{n})^l e^{-\frac{r'}{n}} u_{ln}(\frac{2r'}{n})=Y_{lm}(\theta,\psi) \rho^l e^{-\frac{\rho}{2}} u_{ln}(\rho)$と変数分離すると、$u_{ln}(\rho)$は以下の方程式を満たす。
+\begin{eqnarray}
+[ \frac{E}{2E_a} &&+ \frac{1}{n \rho} - \frac{l(l+1)}{n^2 \rho^2}]u_{ln}(\rho)\rho^l e^{-\rho/2} = -\frac{1}{n^2}(\frac{1}{\rho}\frac{\partial }{\partial \rho }\rho)^2  u_{ln}(\rho)\rho^l e^{-\rho/2}\\
+&&= -\frac{1}{n^2 \rho} [\frac{\partial^2 u}{\partial \rho^2}+\frac{l(l+1)}{\rho^2}u +\frac{u}{4} +\frac{2(l+1)}{\rho}\frac{\partial u}{\partial \rho} -\frac{\partial u}{\partial \rho} -\frac{l+1}{ \rho} u] \rho^{l+1} e^{-\rho/2}\\
+\Leftrightarrow && \: [ \rho \frac{\partial^2}{\partial \rho^2} + \{ (2l+1)+1-\rho \} \frac{\partial}{\partial \rho} + (\frac{n^2 E}{2E_a} + \frac{1}{4})\rho + n-l-1] u_{ln}(\rho) =0
+\end{eqnarray}
+
+ここで$n^2=-\frac{E_a}{2E}$とおくと,$u_{ln}(\rho)$はLaguerreの陪多項式$L^{2l+1}_{n-l-1}(\rho)$で表せる。ただしLaguerreの陪多項式$L^{p}_{q}(\rho)$は以下の微分方程式(Laguerre陪方程式)を満たす多項式として定義される。
+\begin{eqnarray}
+[ \rho \frac{\partial^2}{\partial \rho^2} + ( p+1-\rho ) \frac{\partial}{\partial \rho} + q] L^{p}_{q}(\rho)=0
+\end{eqnarray}
+
+Laguerre陪方程式は$q=n-l-1$が整数でないとき$\rho \rightarrow \infty$で発散することが知られているので、物理的な解を考えたとき$n$は整数でありスペクトル$E=-\frac{E_a}{2n^2}$は離散的になる。また$q\ge0$から$n\ge l+1\ge1$. 固有関数は$Y_{lm}(\theta,\psi)(\frac{2r'}{n})^l e^{-\frac{r'}{n}} L^{2l+1}_{n-l-1}(\frac{2r'}{n})=Y_{lm}(\theta,\psi)(\frac{2r}{na_0})^l e^{-\frac{r}{na_0}} L^{2l+1}_{n-l-1}(\frac{2r}{na_0})$に比例する。
+
+
+\begin{thebibliography}{9}
+\bibitem{Muto} 武藤一雄. \href{http://www.th.phys.titech.ac.jp/~muto/lectures/QMII11/QMII11_chap15.pdf}{“第15章 中心力ポテンシャルでの束縛状態 (pdf)”}. 量子力学第二 平成23年度 学部５学期. 東京工業大学. 
+\bibitem{wiki} Wikipedia: \href{https://ja.wikipedia.org/wiki/水素原子におけるシュレーディンガー方程式の解}{水素原子におけるシュレーディンガー方程式の解} (2019年6月8日参照)
+\end{thebibliography}
+
+\end{document}
