@@ -1,0 +1,86 @@
+\documentclass[11pt,a4paper]{jsarticle}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{graphicx}
+\usepackage[top=25truemm,bottom=25truemm,left=25truemm,right=25truemm]{geometry}
+\usepackage{comment}
+\usepackage[dvipdfmx]{hyperref}
+
+\title{球面調和関数}
+\author{平松信義}
+\date{\today}
+\begin{document}
+\maketitle
+
+球面調和関数$Y_l^m(\theta,\phi)$は以下の関係を満たす(参考ノート: 極座標表示の角運動量演算子とラプラシアン)
+\begin{eqnarray}
+ l(l+1)\hbar^2 Y_l^m(\theta,\phi)  &&= L^2 Y_l^m(\theta,\phi) \nonumber \\
+ &&= -\hbar^2 [  \frac{1}{sin\theta }\partial_\theta  ( sin\theta  \partial_\theta) + \frac{1}{sin^2\theta } \partial_\phi^2  ] Y_l^m(\theta,\phi) ; \\
+  m \hbar Y_l^m(\theta,\phi)  &&= L_z Y_l^m(\theta,\phi) \nonumber \\
+ &&= -i\hbar \partial_\phi Y_l^m(\theta,\phi). 
+\end{eqnarray}
+式(2)は$Y_l^m$の$\phi$依存性が$e^{im\phi}$のようであることを意味する. 
+
+$m=l$の場合, さらに
+\begin{eqnarray}
+0 &&= L_+ Y_l^l \nonumber \\
+&&= \hbar e^{i\phi} ( \partial_\theta  + i cot\theta  \partial_\phi)Y_l^l
+\end{eqnarray}
+が成り立つ. 
+
+式(2)を式(3)に代入すると$0 =( \partial_\theta  - l cot\theta )Y_l^l$であり, $Y_l^l (\theta,\phi)= c_l e^{il\phi} sin^l \theta$. ここで$c_l=(-1)^l\sqrt{\frac{1}{2\pi B(\frac{1}{2}, l+1)}}=\frac{(-1)^l}{2^{l}l!} \sqrt{\frac{(2l+1)!}{4\pi}}$は比例定数であり, 規格化条件
+\begin{eqnarray}
+1 &&= |c_l|^2 \int_0^{2\pi}d\phi  \int_{-1}^{1} d(cos\theta) Y_l^l(\theta,\phi)^* Y_l^l(\theta,\phi)\nonumber \\
+&&= 4\pi  |c_l|^2 \int_{0}^{1} d(cos\theta) (1-cos^2\theta)^l \nonumber \\
+&&= 4\pi  |c_l|^2 \int_{0}^{1}  \frac{dt}{2}t^{-\frac{1}{2}} (1-t)^l \nonumber \\
+&&= 2\pi  |c_l|^2 B(\frac{1}{2}, l+1) \nonumber \\
+&&= 2\pi  |c_l|^2 \frac{\Gamma(\frac{1}{2})\Gamma(l+1)}{\Gamma(l+\frac{3}{2})} \nonumber \\
+&&= 2\pi  |c_l|^2 \frac{\sqrt{\pi}\:l!}{\frac{\sqrt{\pi}\:(2l+2)!}{2^{2l+2}(l+1)!}} \nonumber \\
+&&= 4\pi  |c_l|^2 \frac{(2^{l}l!)^2}{(2l+1)!} \nonumber \\
+\end{eqnarray}
+から, 符号を除いて定まる.  
+
+$m=l-1$の場合, 
+\begin{eqnarray}
+Y_l^{l-1} (\theta,\phi) &&= c^-_{ll} L_- Y_l^l(\theta,\phi) \nonumber \\
+&&=c^-_{ll} e^{-i\phi} (-\partial_\theta+icot\theta \partial_\phi)c_l e^{il\phi} sin^l \theta \nonumber \\
+&&=- 2l  c^-_{ll} c_l e^{i(l-1)\phi} cos \theta sin^{l-1} \theta. \nonumber \\
+&&\equiv c_{l-1} e^{i(l-1)\phi} cos \theta sin^{l-1} \theta. 
+\end{eqnarray}
+ただし, 比例係数$c_{l-1}=(-1)^{l-1}\sqrt{\frac{1}{2\pi B(\frac{3}{2}, l)}}$ は規格化条件
+\begin{eqnarray}
+1 &&= |c_{l-1}|^2 \int_0^{2\pi}d\phi  \int_{-1}^{1} d(cos\theta) Y_l^{l-1}(\theta,\phi)^* Y_l^{l-1}(\theta,\phi)\nonumber \\
+&&= 4\pi  |c_{l-1}|^2 \int_{0}^{1} d(cos\theta) cos^2\theta (1-cos^2\theta)^{l-1} \nonumber \\
+&&= 4\pi  |c_{l-1}|^2 \int_{0}^{1}  \frac{dt}{2}t^{\frac{1}{2}} (1-t)^{l-1} \nonumber \\
+&&= 2\pi  |c_{l-1}|^2 B(\frac{3}{2}, l) \nonumber \\
+\end{eqnarray}
+から, 符号を除いて定まる.  
+
+同様に$m\ge0$の場合, 
+\begin{eqnarray}
+Y_l^m (\theta,\phi) &&= c^-_{ll} ... c^-_{lm-1} L_-^{l-m} Y_l^l(\theta,\phi) \nonumber \\
+&&=c^-_{ll}...c^-_{lm-1} c_l  [e^{-i\phi} (-\partial_\theta+icot\theta \partial_\phi)]^{l-m} e^{il\phi} sin^l \theta. \nonumber \\
+\end{eqnarray}
+と書けるが計算は複雑である。しかし, ここで
+\begin{eqnarray}
+\partial_\theta cos^i \theta sin^j \theta &&= - i cos^{i-1} \theta sin^{j+1} \theta + j cos^{i+1} \theta sin^{j-1} \theta \nonumber \\
+&&= [ (i+j)cos^2 \theta -i  ] cos^{i-1} \theta sin^{j-1} \theta \nonumber \\
+\end{eqnarray}
+に注意すると, $Y_l^m (\theta,\phi)$は$e^{im\phi} sin^m \theta$ に $cos \theta$の$(l-m)$次の多項式がかかったものとして考えることができる。
+
+特に$m=0$の場合, $Y_l^0 (\theta,\phi)$は$cos \theta$の$l$次の多項式として考えることができる。
+$\partial_\theta= \frac{\partial( cos \theta)}{\partial \theta} \frac{\partial}{\partial( cos \theta)}= -sin\theta\frac{\partial}{\partial( cos \theta)}$に注意すると, 
+\begin{eqnarray}
+ l(l+1)\hbar^2 Y_l^0 (\theta,\phi)  &&= L^2 Y_l^0 (\theta,\phi) \nonumber \\
+ &&= -\hbar^2 \frac{1}{sin\theta }\partial_\theta  ( sin\theta  \partial_\theta)Y_l^0 (\theta,\phi) \nonumber \\
+ &&= - \hbar^2 \frac{\partial}{\partial( cos \theta)} [ ( 1- cos^2\theta) \frac{\partial}{\partial( cos \theta)} ] Y_l^0 (\theta,\phi) \nonumber \\
+\end{eqnarray}
+は変数$cos \theta$としたLegendreの微分方程式と等価であり, $Y_l^0 (\theta,\phi)$はLegendre多項式$P_l(cos\theta)$に比例する。
+
+$m\ge0$とした上述の議論を繰り返すことで,  $Y_l^{-|m|} (\theta,\phi)$ が $Y_l^{|m|}(\theta,\phi)^*$に符号の違いを除いて一致することがすぐわかる。
+
+\begin{thebibliography}{9}
+\bibitem{Sakurai} J. J. Sakurai 現代の量子力学(上) 3.6章
+\end{thebibliography}
+
+
+\end{document}

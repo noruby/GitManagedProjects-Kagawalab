@@ -1,0 +1,54 @@
+\documentclass[11pt,a4paper]{jsarticle}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{graphicx}
+\usepackage[top=25truemm,bottom=25truemm,left=25truemm,right=25truemm]{geometry}
+\usepackage{comment}
+\usepackage[dvipdfmx]{hyperref}
+
+\title{極座標表示の角運動量演算子とラプラシアン}
+\author{平松信義}
+\date{\today}
+\begin{document}
+\maketitle
+
+カーテシアン座標と極座標表示の間には以下の関係が成り立つ.
+\begin{eqnarray}
+\left( \begin{array}{ccc} x & y &z\end{array} \right) &&= \left(\begin{array}{ccc} rsin\theta cos\phi & rsin\theta  sin\phi & rcos\theta  \end{array} \right) \\
+\left( \begin{array}{ccc} dx & dy & dz \end{array} \right) &&= \left(\begin{array}{ccc} dr & d\theta & d\phi \end{array} \right)  \left(\begin{array}{ccc} sin\theta cos\phi & sin\theta sin\phi & cos\theta  \\ rcos\theta  cos\phi & r cos\theta  sin\phi & -rsin\theta  \\ -rsin\theta sin\phi & rsin\theta cos\phi & 0 \end{array} \right)
+\end{eqnarray}
+
+\begin{eqnarray}
+\left( \begin{array}{c} \partial_x \\ \partial_y \\ \partial_z \end{array} \right) &&=
+\left(\begin{array}{ccc} sin\theta cos\phi & sin\theta sin\phi & cos\theta  \\ rcos\theta  cos\phi & r cos\theta  sin\phi & -rsin\theta  \\ -rsin\theta sin\phi & rsin\theta cos\phi & 0 \end{array} \right)^{-1} \left( \begin{array}{c} \partial_r \\ \partial_\theta \\ \partial_\phi \end{array} \right) \nonumber \\
+&&=\left(\begin{array}{ccc} sin\theta cos\phi & \frac{cos\theta cos\phi}{r} &- \frac{sin\phi}{rsin\theta } \\ sin\theta sin\phi & \frac{cos\theta sin\phi}{r} & \frac{cos\phi}{rsin\theta }\\ cos\theta  & \frac{-sin\theta }{r} & 0 \end{array} \right) \left( \begin{array}{c} \partial_r \\ \partial_\theta \\ \partial_\phi \end{array} \right) 
+\end{eqnarray}
+
+以上から、角運動量演算子は, 
+\begin{eqnarray}
+&&\left( \begin{array}{c} L_x \\ L_y \\ L_z \end{array} \right) = -i\hbar \left( \begin{array}{ccc} 0&-z &y \\ z & 0&-x \\ -y &x &0\end{array} \right) \left( \begin{array}{c} \partial_x \\ \partial_y \\ \partial_z \end{array} \right) \nonumber \\
+&&= -i\hbar \left( \begin{array}{ccc} 0 & -rcos\theta  & rsin\theta sin\phi \\ rcos\theta  & 0 &-rsin\theta cos\phi \\ -rsin\theta  sin\phi &rsin\theta cos\phi &0\end{array} \right) \left(\begin{array}{ccc} sin\theta cos\phi & \frac{cos\theta cos\phi}{r} &- \frac{sin\phi}{rsin\theta } \\ sin\theta sin\phi & \frac{cos\theta sin\phi}{r} & \frac{cos\phi}{rsin\theta }\\ cos\theta  & \frac{-sin\theta }{r} & 0 \end{array} \right) \left( \begin{array}{c} \partial_r \\ \partial_\theta \\ \partial_\phi \end{array} \right) \nonumber \\
+&&= -i\hbar \left(\begin{array}{ccc} 0 & -sin\phi &- \frac{cos\phi}{tan\theta } \\ 0 & cos\phi & - \frac{sin\phi}{tan\theta }\\ 0 & 0& 1 \end{array} \right) \left( \begin{array}{c} \partial_r \\ \partial_\theta \\ \partial_\phi \end{array} \right) .
+\end{eqnarray}
+
+昇降演算子は, 
+\begin{eqnarray}
+\left( \begin{array}{c} L_+ \\ L_- \end{array} \right) &&= \left( \begin{array}{ccc} 1 & i& 0 \\ 1 &-i &0\end{array} \right) \left( \begin{array}{c} L_x \\ L_y \\ L_z \end{array} \right)\nonumber \\
+ &&= \hbar \left( \begin{array}{ccc} -i & 1 & 0 \\ -i &-1 &0\end{array} \right) \left(\begin{array}{ccc} 0 & -sin\phi &- \frac{cos\phi}{tan\theta } \\ 0 & cos\phi & - \frac{sin\phi}{tan\theta }\\ 0 & 0& 1 \end{array} \right) \left( \begin{array}{c} \partial_r \\ \partial_\theta \\ \partial_\phi \end{array} \right)\nonumber \\
+&&= \hbar \left( \begin{array}{ccc} 0 & e^{i\phi}&   \frac{ie^{i\phi}}{tan\theta } \\ 0 & -e^{-i\phi}&  \frac{ie^{-i\phi}}{tan\theta } \end{array} \right) \left( \begin{array}{c} \partial_r \\ \partial_\theta \\ \partial_\phi \end{array} \right). \nonumber \\
+\end{eqnarray}
+
+したがって角運動量演算子の自乗は, 
+\begin{eqnarray}
+L^2 &&= -\hbar^2 \left(\begin{array}{ccc} L_x & L_y & L_z \end{array} \right) \left( \begin{array}{c} L_x \\ L_y \\ L_z \end{array} \right) \nonumber \nonumber \\
+&&= -\hbar^2 \left(\begin{array}{ccc} -sin\phi\partial_\theta - \frac{cos\phi}{tan\theta } \partial_\phi, & cos\phi \partial_\theta - \frac{sin\phi}{tan\theta }\partial_\phi, & \partial_\phi \end{array} \right) \left(\begin{array}{ccc} 0 & -sin\phi &- \frac{cos\phi}{tan\theta } \\ 0 & cos\phi & - \frac{sin\phi}{tan\theta }\\ 0 & 0& 1 \end{array} \right) \left( \begin{array}{c} \partial_r \\ \partial_\theta \\ \partial_\phi \end{array} \right) \nonumber \\
+&&= -\hbar^2 [ \partial_\theta^2 + \frac{1}{tan^2\theta } \partial_\phi^2 +  \partial_\phi^2 ]  -\hbar^2 \left(\begin{array}{ccc} 0 & \frac{1}{tan\theta } & 0 \end{array} \right) \left( \begin{array}{c} \partial_r \\ \partial_\theta \\ \partial_\phi \end{array} \right)\nonumber \\
+&&= -\hbar^2 [  \frac{1}{sin\theta }\partial_\theta  ( sin\theta  \partial_\theta) + \frac{1}{sin^2\theta } \partial_\phi^2  ]. 
+\end{eqnarray}
+
+ここで関係$\nabla^2 = - p_r^2 - \frac{L^2}{\hbar^2 r^2}$を思い出すと(ノート: 水素原子のSchrodinger方程式を参照), ラプラシアンは極座標表示で
+\begin{eqnarray}
+\nabla^2 &= & (\frac{1}{r} \partial_r r)^2  + \frac{1}{r^2}[  \frac{1}{sin\theta }\partial_\theta  ( sin\theta  \partial_\theta) + \frac{1}{sin^2\theta } \partial_\phi^2  ]
+\end{eqnarray}
+
+
+\end{document}
