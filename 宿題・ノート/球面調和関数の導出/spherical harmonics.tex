@@ -11,14 +11,14 @@
 \begin{document}
 \maketitle
 
-球面調和関数$Y_l^m(\theta,\phi)$は以下の関係を満たす(参考ノート: 極座標表示の角運動量演算子とラプラシアン)
+球面調和関数$Y_l^m(\theta,\phi)$は以下の関係を満たす(参考ノート: 極座標表示の角運動量演算子とラプラシアン). 
 \begin{eqnarray}
  l(l+1)\hbar^2 Y_l^m(\theta,\phi)  &&= L^2 Y_l^m(\theta,\phi) \nonumber \\
  &&= -\hbar^2 [  \frac{1}{sin\theta }\partial_\theta  ( sin\theta  \partial_\theta) + \frac{1}{sin^2\theta } \partial_\phi^2  ] Y_l^m(\theta,\phi) ; \\
   m \hbar Y_l^m(\theta,\phi)  &&= L_z Y_l^m(\theta,\phi) \nonumber \\
  &&= -i\hbar \partial_\phi Y_l^m(\theta,\phi). 
 \end{eqnarray}
-式(2)は$Y_l^m$の$\phi$依存性が$e^{im\phi}$のようであることを意味する. 
+式(2)は$Y_l^m$の$\phi$依存性が$e^{im\phi}$であることを意味する. すなわち$Y_l^m(\theta,\phi)=y_l^m(\theta)e^{im\phi}$. 
 
 $m=l$の場合, さらに
 \begin{eqnarray}
@@ -55,7 +55,7 @@ Y_l^{l-1} (\theta,\phi) &&= c^-_{ll} L_- Y_l^l(\theta,\phi) \nonumber \\
 \end{eqnarray}
 から, 符号を除いて定まる.  
 
-同様に$m\ge0$の場合, 
+同様に一般の$m\ge0$の場合, 
 \begin{eqnarray}
 Y_l^m (\theta,\phi) &&= c^-_{ll} ... c^-_{lm-1} L_-^{l-m} Y_l^l(\theta,\phi) \nonumber \\
 &&=c^-_{ll}...c^-_{lm-1} c_l  [e^{-i\phi} (-\partial_\theta+icot\theta \partial_\phi)]^{l-m} e^{il\phi} sin^l \theta. \nonumber \\
@@ -76,7 +76,7 @@ $\partial_\theta= \frac{\partial( cos \theta)}{\partial \theta} \frac{\partial}{
 \end{eqnarray}
 は変数$cos \theta$としたLegendreの微分方程式と等価であり, $Y_l^0 (\theta,\phi)$はLegendre多項式$P_l(cos\theta)$に比例する。
 
-$m\ge0$とした上述の議論を繰り返すことで,  $Y_l^{-|m|} (\theta,\phi)$ が $Y_l^{|m|}(\theta,\phi)^*$に符号の違いを除いて一致することがすぐわかる。
+$m\le0$に関しても, $m\ge0$とした上述の議論を繰り返すことで,  $Y_l^{-|m|} (\theta,\phi)$ が $Y_l^{|m|}(\theta,\phi)^*$に符号の違いを除いて一致することがすぐわかる。
 
 \begin{thebibliography}{9}
 \bibitem{Sakurai} J. J. Sakurai 現代の量子力学(上) 3.6章
