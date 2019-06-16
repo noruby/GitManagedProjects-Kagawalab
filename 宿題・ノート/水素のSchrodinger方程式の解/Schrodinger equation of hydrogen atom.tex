@@ -32,10 +32,10 @@ H &=& -\frac{\hbar^2}{2m_a} \vec{\nabla}_a^2 -\frac{\hbar^2}{2m_e} \vec{\nabla}_
 
 ハミルトニアンの$H_c = -\frac{\hbar^2}{2M} \vec{\nabla}_c^2$の項は重心運動を現し、連続スペクトルを与えるのでこれを無視する。非自明な部分は, $H'/E_a =- \frac{1}{2} \vec{\nabla}'^2 -\frac{1}{|r'|}$に比例するのでこのスペクトルを求める。
 
-ここで$\vec{\nabla}'^2$ は $\vec{\nabla}'^2= -p_r^2 -\vec{L}'^2/r'^2$を満たす。ただし無次元化した動軸方向の運動量演算子$p_r \equiv\frac{-i}{r'}\frac{\partial}{\partial r'} r'$はエルミート演算子であり自己随伴性$\int _0^\infty dr r^2 \phi^*(r) [ p_r \psi(r) ] = \int _0^\infty dr r^2 [ p_r \phi(r) ]^* \psi(r) $と交換関係$[r,p_r]=i$を明らかに満たす。また$L_i' \equiv -i \epsilon_{ijk} x_j\partial_k$は無次元化した角運動量演算子である。これは以下の計算から確かめることができる.
+ここで$\vec{\nabla}'^2$ は $\vec{\nabla}'^2= -p_r^2 -\vec{L}'^2/r'^2$を満たす。ただし無次元化した動軸方向の運動量演算子$p_r \equiv\frac{-i}{r'}\frac{\partial}{\partial r'} r'$はエルミート演算子であり自己随伴性$\int _0^\infty dr r^2 \phi^*(r) [ p_r \psi(r) ] = \int _0^\infty dr r^2 [ p_r \phi(r) ]^* \psi(r) $と交換関係$[r,p_r]=i$を明らかに満たす。また$L_i' \equiv -\frac{i}{2\pi} \epsilon_{ijk} x_j\partial_k$は無次元化した角運動量演算子である。この関係は以下の計算から確かめることができる.
 
 \begin{eqnarray}
-\vec{L}'^2 &=& - \epsilon_{ijk}\epsilon_{ilm} (x_j\partial_k)(x_l\partial_m)\\
+(2\pi\vec{L}')^2 &=& - \epsilon_{ijk}\epsilon_{ilm} (x_j\partial_k)(x_l\partial_m)\\
 &=& (\delta_{jm}\delta_{kl} - \delta_{jl}\delta_{km}) (x_j\partial_k)(x_l\partial_m)\\
 &=& (x_j\partial_k)(x_k\partial_j) -(x_j\partial_k)(x_j\partial_k)\\
 &=& 2 x_j\partial_j + x_j x_k \partial_j \partial_k  - x^2 \partial^2\\
@@ -46,14 +46,17 @@ H &=& -\frac{\hbar^2}{2m_a} \vec{\nabla}_a^2 -\frac{\hbar^2}{2m_e} \vec{\nabla}_
 
 したがって, 
 \begin{eqnarray}
-\frac{H'}{E_a} &=& \frac{1}{2}p_r^2 - \frac{1}{r'} + \frac{1}{2 r'^2} \vec{L}'^2 
+\frac{H'}{E_a} &=& \frac{1}{2}p_r^2 - \frac{1}{r'} + \frac{1}{2 r'^2} (2\pi\vec{L}')^2 
 \end{eqnarray}
 
 \section{固有状態}
 
 $H'$は回転対称なので、軌道角運動量演算子$L'_i (i=x,y,z)$に対して$[H', L'_i]=0$. これから軌道角運動量演算子の自乗$L'^2$に対しても $[H', L'^2]=0$. したがって, 演算子$H'$と$L'_z$と$L'^2$の同時固有状態がとれる.  
 
-$L'_z$と$L'^2$の固有関数である球面調和関数$Y_{lm}(\theta,\psi)$は$L'_zY_{lm}=mY_{lm}$と$L'^2Y_{lm}=l(l+1)Y_{lm}$を満たす。ただし$l \ge 0, |m|\le l$. $\rho=\frac{2r'}{n}$とおいてハミルトニアンの固有関数を$Y_{lm}(\theta,\psi)(\frac{2r'}{n})^l e^{-\frac{r'}{n}} u_{ln}(\frac{2r'}{n})=Y_{lm}(\theta,\psi) \rho^l e^{-\frac{\rho}{2}} u_{ln}(\rho)$と変数分離すると、$u_{ln}(\rho)$は以下の方程式を満たす。
+$L'_z$と$L'^2$の固有関数である球面調和関数$<\theta,\psi|l,m>=Y_{lm}(\theta,\psi)$は$L'_zY_{lm}=mY_{lm}$と$L'^2Y_{lm}=l(l+1)Y_{lm}$を満たす。ただし$l,m$は$l \ge 0, |m|\le l$を満たす整数. 実際, $Y_{lm}(\theta,\psi)=Y_{lm}(\theta,\psi+2\pi)$の一価性から, エルミート演算子$L'_z =-\frac{i}{2\pi}\bar\partial_\phi$の固有値$m$は整数である。また$m$の最大値を$l$とすると、$0=L_-L_+|l,m=l>=(L'^2-L'^2_z-L'_z)|l,m=l>$から$[L'^2, L'_-]=0$を用いて, 任意の$m$について$L'^2$の固有値は$l(l+1)$であることがわかる。
+
+
+$\rho=\frac{2r'}{n}$とおいてハミルトニアンの固有関数を$Y_{lm}(\theta,\psi)(\frac{2r'}{n})^l e^{-\frac{r'}{n}} u_{ln}(\frac{2r'}{n})=Y_{lm}(\theta,\psi) \rho^l e^{-\frac{\rho}{2}} u_{ln}(\rho)$と変数分離すると、$u_{ln}(\rho)$は以下の方程式を満たす。
 \begin{eqnarray}
 [ \frac{E}{2E_a} &&+ \frac{1}{n \rho} - \frac{l(l+1)}{n^2 \rho^2}]u_{ln}(\rho)\rho^l e^{-\rho/2} = -\frac{1}{n^2}(\frac{1}{\rho}\frac{\partial }{\partial \rho }\rho)^2  u_{ln}(\rho)\rho^l e^{-\rho/2}\\
 &&= -\frac{1}{n^2 \rho} [\frac{\partial^2 u}{\partial \rho^2}+\frac{l(l+1)}{\rho^2}u +\frac{u}{4} +\frac{2(l+1)}{\rho}\frac{\partial u}{\partial \rho} -\frac{\partial u}{\partial \rho} -\frac{l+1}{ \rho} u] \rho^{l+1} e^{-\rho/2}\\
@@ -65,7 +68,7 @@ $L'_z$と$L'^2$の固有関数である球面調和関数$Y_{lm}(\theta,\psi)$�
 [ \rho \frac{\partial^2}{\partial \rho^2} + ( p+1-\rho ) \frac{\partial}{\partial \rho} + q] L^{p}_{q}(\rho)=0
 \end{eqnarray}
 
-Laguerre陪方程式は$q=n-l-1$が整数でないとき$\rho \rightarrow \infty$で発散することが知られているので、物理的な解を考えたとき$n$は整数でありスペクトル$E=-\frac{E_a}{2n^2}$は離散的になる。また$q\ge0$から$n\ge l+1\ge1$. 固有関数は$Y_{lm}(\theta,\psi)(\frac{2r'}{n})^l e^{-\frac{r'}{n}} L^{2l+1}_{n-l-1}(\frac{2r'}{n})=Y_{lm}(\theta,\psi)(\frac{2r}{na_0})^l e^{-\frac{r}{na_0}} L^{2l+1}_{n-l-1}(\frac{2r}{na_0})$に比例する。
+このとき$n$は整数でありスペクトル$E=-\frac{E_a}{2n^2}$は離散的になる。また$q\ge0$から$n\ge l+1\ge1$. 固有関数は$Y_{lm}(\theta,\psi)(\frac{2r'}{n})^l e^{-\frac{r'}{n}} L^{2l+1}_{n-l-1}(\frac{2r'}{n})=Y_{lm}(\theta,\psi)(\frac{2r}{na_0})^l e^{-\frac{r}{na_0}} L^{2l+1}_{n-l-1}(\frac{2r}{na_0})$に比例する。
 
 
 \begin{thebibliography}{9}

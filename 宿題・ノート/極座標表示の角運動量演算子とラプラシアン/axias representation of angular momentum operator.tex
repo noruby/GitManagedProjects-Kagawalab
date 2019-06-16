@@ -37,12 +37,13 @@
 &&= \hbar \left( \begin{array}{ccc} 0 & e^{i\phi}&   \frac{ie^{i\phi}}{tan\theta } \\ 0 & -e^{-i\phi}&  \frac{ie^{-i\phi}}{tan\theta } \end{array} \right) \left( \begin{array}{c} \partial_r \\ \partial_\theta \\ \partial_\phi \end{array} \right). \nonumber \\
 \end{eqnarray}
 
-したがって角運動量演算子の自乗は, 
+したがって角運動量演算子の自乗は, $\partial_\theta= \frac{\partial( cos \theta)}{\partial \theta} \frac{\partial}{\partial( cos \theta)}= -sin\theta\frac{\partial}{\partial( cos \theta)}$に注意すると, 
 \begin{eqnarray}
 L^2 &&= -\hbar^2 \left(\begin{array}{ccc} L_x & L_y & L_z \end{array} \right) \left( \begin{array}{c} L_x \\ L_y \\ L_z \end{array} \right) \nonumber \nonumber \\
 &&= -\hbar^2 \left(\begin{array}{ccc} -sin\phi\partial_\theta - \frac{cos\phi}{tan\theta } \partial_\phi, & cos\phi \partial_\theta - \frac{sin\phi}{tan\theta }\partial_\phi, & \partial_\phi \end{array} \right) \left(\begin{array}{ccc} 0 & -sin\phi &- \frac{cos\phi}{tan\theta } \\ 0 & cos\phi & - \frac{sin\phi}{tan\theta }\\ 0 & 0& 1 \end{array} \right) \left( \begin{array}{c} \partial_r \\ \partial_\theta \\ \partial_\phi \end{array} \right) \nonumber \\
 &&= -\hbar^2 [ \partial_\theta^2 + \frac{1}{tan^2\theta } \partial_\phi^2 +  \partial_\phi^2 ]  -\hbar^2 \left(\begin{array}{ccc} 0 & \frac{1}{tan\theta } & 0 \end{array} \right) \left( \begin{array}{c} \partial_r \\ \partial_\theta \\ \partial_\phi \end{array} \right)\nonumber \\
-&&= -\hbar^2 [  \frac{1}{sin\theta }\partial_\theta  ( sin\theta  \partial_\theta) + \frac{1}{sin^2\theta } \partial_\phi^2  ]. 
+&&= -\hbar^2 [  \frac{1}{sin\theta }\partial_\theta  ( sin\theta  \partial_\theta) + \frac{1}{sin^2\theta } \partial_\phi^2  ]\nonumber \\
+&&= -\hbar^2 [ \frac{\partial}{\partial( cos \theta)}   \frac{1}{1- cos^2\theta } \frac{\partial}{\partial( cos \theta)}+ \frac{1}{1- cos^2\theta }\partial_\phi^2  ]. 
 \end{eqnarray}
 
 ここで関係$\nabla^2 = - p_r^2 - \frac{L^2}{\hbar^2 r^2}$を思い出すと(ノート: 水素原子のSchrodinger方程式を参照), ラプラシアンは極座標表示で

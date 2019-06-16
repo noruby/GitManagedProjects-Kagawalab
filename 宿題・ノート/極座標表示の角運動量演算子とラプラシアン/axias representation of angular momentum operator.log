@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  10 JUN 2019 00:41
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.23)  16 JUN 2019 13:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -322,26 +322,26 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
  [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
 
 (./axias representation of angular momentum operator.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 54.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 55.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
 Package rerunfilecheck Info: File `"axias representation of angular momentum op
 erator".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
  5268 strings out of 493281
  78202 string characters out of 6145041
- 198383 words of memory out of 5000000
+ 199383 words of memory out of 5000000
  9189 multiletter control sequences out of 15000+600000
  11946 words of font info for 52 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  28i,13n,21p,598b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on "axias representation of angular momentum operator.dvi" (2 pa
-ges, 8880 bytes).
+ges, 9460 bytes).
