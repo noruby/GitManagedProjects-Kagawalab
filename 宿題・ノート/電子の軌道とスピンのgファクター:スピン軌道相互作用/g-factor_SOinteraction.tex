@@ -1,0 +1,60 @@
+\documentclass[11pt,a4paper]{jsarticle}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{graphicx}
+\usepackage[top=25truemm,bottom=25truemm,left=25truemm,right=25truemm]{geometry}
+\usepackage{comment}
+\usepackage[dvipdfmx]{hyperref}
+\usepackage{color}
+
+\title{Dirac方程式の非相対論的近似: g-ファクター, スピン軌道相互作用, ラーモア反磁性, シュタルク効果, 交差相関}
+\author{平松信義}
+\date{\today}
+\begin{document}
+\maketitle
+
+Dirac表示$\alpha_i=\left( \begin{array}{cc}  0 & \sigma_i \\ \sigma_i & 0 \end{array} \right), \beta=\left( \begin{array}{cc}  I &0 \\ 0& -I \end{array} \right)$のもとで, $\Psi= \left( \begin{array}{c} \Psi_1 \\ \Psi_2 \end{array} \right)$, $E'=E-mc^2$とおくと, 
+Dirac方程式$[\vec{\alpha}\cdot(c\vec{p}-e\vec{A})+\beta mc^2 + e\phi] \Psi = E \Psi$は, 以下のように書き直せる:
+\begin{eqnarray}
+\left( \begin{array}{cc}  E'-e\phi &  - \vec{\sigma}\cdot(c\vec{p}-e\vec{A})\\ -\vec{\sigma}\cdot(c\vec{p}-e\vec{A}) & E'+2mc^2-e\phi \end{array} \right)
+\left( \begin{array}{c} \Psi_1 \\ \Psi_2 \end{array} \right)
+=\left( \begin{array}{c} 0 \\ 0 \end{array} \right).
+\end{eqnarray}
+
+非相対論的近似のもとで$2mc^2$が$E'-e\phi$より十分に大きいとすれば, 上式から$cp |\Psi_1| \sim mc^2 |\Psi_2|$, すなわち$ |\Psi_2|/|\Psi_1| \sim v/c$となる。$\Psi_2$は重要でないため, 上式から$\Psi_2$を消去する。最低次までの近似で, 
+\begin{eqnarray}
+(E'-e\phi) \Psi_1 &=& [\vec{\sigma}\cdot(c\vec{p}-e\vec{A})] \frac{1}{2mc^2+E'-e\phi } [\vec{\sigma}\cdot(c\vec{p}-e\vec{A})] \Psi_1 \nonumber\\
+&\simeq& \frac{1}{2m}[\vec{\sigma}\cdot(\vec{p}-\frac{e}{c}\vec{A})][1-\frac{E'-e\phi}{2mc^2} ][\vec{\sigma}\cdot(\vec{p}-\frac{e}{c}\vec{A})] \Psi_1 \nonumber\\
+&\simeq& \frac{1}{2m}[\vec{\sigma}\cdot(\vec{p}-\frac{e}{c}\vec{A})]^2 \Psi_1 -\frac{ie\hbar}{4m^2c^2} \vec{\sigma}\cdot(\vec{\nabla}\phi)[\vec{\sigma}\cdot(\vec{p}-\frac{e}{c}\vec{A})] \Psi_1 .
+\end{eqnarray}
+
+関係$(\vec{\sigma}\cdot\vec{X})(\vec{\sigma}\cdot\vec{Y})=\vec{X}\cdot\vec{Y}+i\vec{\sigma}\cdot(\vec{X}\times\vec{Y})$を用いると, \begin{eqnarray}
+(E'-e\phi) \Psi_1 &=& \frac{1}{2m}[(\vec{p}-\frac{e}{c}\vec{A})^2 +i \vec{\sigma} \cdot \{ (\vec{p}-\frac{e}{c}\vec{A})\times(\vec{p}-\frac{e}{c}\vec{A}) \} ]\Psi_1 \nonumber\\
+ && +\frac{e\hbar}{4m^2c^2} [-i(\vec{\nabla}\phi)\cdot(\vec{p}-\frac{e}{c}\vec{A})+ \vec{\sigma}\cdot  \{(\vec{\nabla}\phi)\times(\vec{p}-\frac{e}{c}\vec{A})\}] \Psi_1 .
+\end{eqnarray}
+
+ここで$A=\frac{1}{2}\vec{B}\times\vec{x}$となるようなゲージを取ると, $(\vec{p}-\frac{e}{c}\vec{A})^2-\vec{p}^2 = \frac{i e \hbar}{2c}\epsilon_{ijk}( \partial_i B_j x_k + B_j x_k \partial_i)+\frac{e^2}{4c^2}\epsilon_{ijk}\epsilon_{ilm}B_j x_k B_l x_m= \frac{i e \hbar}{c}\epsilon_{ijk} B_j x_k \partial_i +\frac{e^2}{4c^2}(\delta_{jl}\delta_{km}-\delta_{jm}\delta_{kl})B_j x_k B_l x_m = -\frac{e}{c}\vec{B}\cdot\vec{L}+\frac{e^2}{4c^2}[B^2 x^2- (\vec{B}\cdot\vec{x})^2]=-\frac{e}{c}\vec{B}\cdot\vec{L}+\frac{e^2}{4c^2}B^2 \vec{x}_\perp^2$が分かる. ただし磁場方向に垂直な方向ベクトル$\vec{x}_\perp=\vec{x}-\frac{\vec{B}}{|B|^2}(\vec{x}\cdot\vec{B})$を定義し, 公式$\epsilon_{ijk}\epsilon_{ilm}=\delta_{jl}\delta_{km}-\delta_{jm}\delta_{kl}$を用いた. さらに球対称なポテンシャルに弱い電場$\vec{\varepsilon}$が(摂動的に)入っているとすると, $\vec{\nabla}\phi=\frac{1}{r}\frac{d\phi'}{dr}\vec{x}-\vec{\varepsilon}$であるので, 
+$(\vec{\nabla}\phi')\cdot \vec{p}= \frac{d\phi'}{dr} p_r$, 
+$(\vec{\nabla}\phi')\cdot \vec{A}= 0$, 
+$(\vec{\nabla}\phi')\times \vec{p}= \frac{1}{r} \frac{d\phi'}{dr} \vec{L}$, 
+かつ$[(\vec{\nabla}\phi')\times \vec{A}]_i=  \frac{1}{2r} \frac{d\phi'}{dr} \epsilon_{ijk}\epsilon_{klm}  x_j B_l x_m=\frac{1}{2r} \frac{d\phi'}{dr}(\delta_{il}\delta_{jm}-\delta_{im}\delta_{jl}) x_j B_l x_m= \frac{r}{2} \frac{d\phi'}{dr} \vec{B}_i - \frac{1}{2r} \frac{d\phi'}{dr} \vec{x}_i (\vec{B}\cdot\vec{x})$
+が成り立つ. ゲージによらず成り立つ関係式$(\vec{p}-\frac{e}{c}\vec{A})\times(\vec{p}-\frac{e}{c}\vec{A})=-\frac{e}{c}(\vec{p}\times\vec{A}+\vec{A}\times\vec{p})=\frac{i\hbar e}{c}(\vec{\nabla}\times\vec{A})=\frac{i\hbar e}{c}\vec{B}$に注意すると, 
+\begin{eqnarray}
+(E'-e\phi)&& \Psi_1 = \frac{1}{2m}[\vec{p}^2 -\frac{e}{c}\vec{B}\cdot\vec{L}+\frac{e^2}{4c^2}B^2 \vec{x}_\perp^2 - \frac{\hbar e}{c} \vec{B} \cdot \vec{\sigma} ]\Psi_1  \nonumber\\
+ &&  +\frac{e\hbar}{4m^2c^2} [-i\frac{d\phi'}{dr}p_r + i(\vec{\varepsilon}\cdot\vec{\sigma}) \{(\vec{p}-\frac{e}{c}\vec{A})\cdot\vec{\sigma}\}  + \frac{1}{r}\frac{d\phi'}{dr} \vec{\sigma} \cdot  \vec{L} - \frac{e}{2c} \{ r \frac{d\phi'}{dr} (\vec{B}\cdot \vec{\sigma}) - \frac{1}{r} \frac{d\phi'}{dr}  (\vec{B}\cdot\vec{x})(\vec{x}\cdot \vec{\sigma})\}  ]\Psi_1\nonumber\\
+ &&= [ \frac{\vec{p}^2}{2m} -\textcolor{red}{\underline{\textcolor{black}{\frac{e}{2mc}\vec{B}\cdot (\vec{L}+ 2\vec{S})}}} - \textcolor{green}{\underline{\textcolor{black}{\frac{e^2}{8mc^2}B^2 \vec{x}_\perp^2}}} + \frac{-ie\hbar}{4m^2c^2} \frac{d\phi'}{dr}p_r + \textcolor{yellow}{\underline{\textcolor{black}{\frac{ie}{m^2c^2\hbar} (\vec{\varepsilon}\cdot\vec{S}) \{(\vec{p}-\frac{e}{c}\vec{A})\cdot\vec{S}}}}\} \nonumber\\
+ && +  \textcolor{blue}{\underline{\textcolor{black}{\frac{e}{8m^2c^2}\frac{1}{r}\frac{d\phi'}{dr} \vec{S} \cdot  \vec{L}}}} -  \frac{e^2}{8m^2c^3}r \frac{d\phi'}{dr} \vec{B} \cdot \vec{S} -\frac{e^2}{8m^2c^3}\frac{1}{r} \frac{d\phi'}{dr}  (\vec{B}\cdot\vec{x}) (\vec{x} \cdot \vec{S}) \}] \Psi_1 .
+\end{eqnarray}
+
+最終式の\textcolor{red}{\underline{\textcolor{black}{第2項}}}はZeeman項であり、磁場と角運動量のカップリングを表し, 最低次の近似では軌道とスピンのg-ファクターが２倍違うことを示している。
+\textcolor{green}{\underline{\textcolor{black}{第3項}}}はラーモア項であり、ラーモア反磁性を記述するが、非相対論的な量子力学でも現れる。
+第4項は相対論的なクーロン補正項である。
+\textcolor{yellow}{\underline{\textcolor{black}{第5項}}}は電場と磁場の交差相関を表す。
+\textcolor{blue}{\underline{\textcolor{black}{第6項}}}はスピン・軌道相互作用項である。
+
+\begin{thebibliography}{9}
+\bibitem{Andoh} 安藤陽一 トポロジカル絶縁体入門
+\bibitem{Kanamori} 金森順次郎 磁性
+\end{thebibliography}
+
+
+\end{document}
